@@ -1,0 +1,13 @@
+D:\_testudines\_dev\testudines2k13ImagesLib\bin\Debug\clsTestudinesImages2k14Lib.dll
+D:\_testudines\_dev\testudines2k13ImagesLib\bin\Debug\clsTestudinesImages2k14Lib.pdb
+D:\_testudines\_dev\testudines2k13ImagesLib\obj\Debug\testudines.cls.Properties.Resources.resources
+D:\_testudines\_dev\testudines2k13ImagesLib\obj\Debug\clsTestudinesImages2k14Lib.dll
+D:\_testudines\_dev\testudines2k13ImagesLib\obj\Debug\clsTestudinesImages2k14Lib.pdb
+D:\_testudines\_dev\testudines2k13ImagesLib\obj\Debug\testudines2k14ImagesLib.csproj.GenerateResource.Cache
+D:\testudines\dev\www15\testudines2k13ImagesLib\bin\Debug\clsTestudinesImages2k14Lib.dll
+D:\testudines\dev\www15\testudines2k13ImagesLib\bin\Debug\clsTestudinesImages2k14Lib.pdb
+D:\testudines\dev\www15\testudines2k13ImagesLib\obj\Debug\testudines2k14ImagesLib.csprojResolveAssemblyReference.cache
+D:\testudines\dev\www15\testudines2k13ImagesLib\obj\Debug\testudines.cls.Properties.Resources.resources
+D:\testudines\dev\www15\testudines2k13ImagesLib\obj\Debug\testudines2k14ImagesLib.csproj.GenerateResource.Cache
+D:\testudines\dev\www15\testudines2k13ImagesLib\obj\Debug\clsTestudinesImages2k14Lib.dll
+D:\testudines\dev\www15\testudines2k13ImagesLib\obj\Debug\clsTestudinesImages2k14Lib.pdb

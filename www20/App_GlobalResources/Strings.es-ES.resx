@@ -1,0 +1,3110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="blindcopy" xml:space="preserve">
+    <value>Copia oculta</value>
+  </data>
+  <data name="body" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="copy" xml:space="preserve">
+    <value>Copia</value>
+  </data>
+  <data name="email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="forgot" xml:space="preserve">
+    <value>Me olvide</value>
+  </data>
+  <data name="from" xml:space="preserve">
+    <value>Desde</value>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>Entrar</value>
+  </data>
+  <data name="logotitsub" xml:space="preserve">
+    <value>Tortugas y galápagos, por el momento...</value>
+  </data>
+  <data name="name" xml:space="preserve">
+    <value>Nombre</value>
+  </data>
+  <data name="newuser" xml:space="preserve">
+    <value>Crear usuario</value>
+  </data>
+  <data name="password" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="subject" xml:space="preserve">
+    <value>Asunto</value>
+  </data>
+  <data name="to" xml:space="preserve">
+    <value>Para</value>
+  </data>
+  <data name="welcome" xml:space="preserve">
+    <value>Bienvenido</value>
+  </data>
+  <data name="scnBibliography" xml:space="preserve">
+    <value>Bibliografia</value>
+    <comment>Cache</comment>
+  </data>
+  <data name="scnDocAcknowledgements" xml:space="preserve">
+    <value>Agradecimientos</value>
+    <comment>Cache</comment>
+  </data>
+  <data name="scnDocAuthors" xml:space="preserve">
+    <value>Autores</value>
+    <comment>Cache</comment>
+  </data>
+  <data name="scnDocCountriesCode" xml:space="preserve">
+    <value>Paises relacionados</value>
+  </data>
+  <data name="scnDocDateCreation" xml:space="preserve">
+    <value>Fecha de creación</value>
+  </data>
+  <data name="scnDocDateUpdate" xml:space="preserve">
+    <value>Fecha de actualización</value>
+  </data>
+  <data name="scnDocId" xml:space="preserve">
+    <value>Doc. Id.</value>
+  </data>
+  <data name="scnDocTypeId" xml:space="preserve">
+    <value>Doc. Tipo</value>
+  </data>
+  <data name="scnDocUserIdCreator" xml:space="preserve">
+    <value>Id Creador</value>
+  </data>
+  <data name="scnDocIsActive" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="scnDocIsEditable" xml:space="preserve">
+    <value>Es Editable</value>
+  </data>
+  <data name="scnDocIsTraslatable" xml:space="preserve">
+    <value>Es traducible</value>
+  </data>
+  <data name="scnDocNotes" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="scnDocStdValHig" xml:space="preserve">
+    <value>Valoración alta</value>
+  </data>
+  <data name="scnDocStdValLow" xml:space="preserve">
+    <value>Valoraciones bajas</value>
+  </data>
+  <data name="scnDocStdValMed" xml:space="preserve">
+    <value>Valoraciones media</value>
+  </data>
+  <data name="scnDocStdVisitCount" xml:space="preserve">
+    <value>Número de visitas</value>
+  </data>
+  <data name="scnDocStdVisitLast" xml:space="preserve">
+    <value>Fecha última visita</value>
+  </data>
+  <data name="scnDocLngIdMain" xml:space="preserve">
+    <value>Language principal</value>
+  </data>
+  <data name="Master_Document" xml:space="preserve">
+    <value>Documento Maestro</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="Tracking" xml:space="preserve">
+    <value>Seguimiento</value>
+  </data>
+  <data name="Date_Creation" xml:space="preserve">
+    <value>Creación</value>
+  </data>
+  <data name="DocLngcopyright" xml:space="preserve">
+    <value>Meta Copyright</value>
+  </data>
+  <data name="DocLngMetarevisit_after" xml:space="preserve">
+    <value>Meta Revisit-after</value>
+  </data>
+  <data name="Last_Update" xml:space="preserve">
+    <value>Ultima actualización</value>
+  </data>
+  <data name="MasterLng_Metadata" xml:space="preserve">
+    <value>Metadata para cada idioma</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="scnDocLngId" xml:space="preserve">
+    <value>Doc. Idioma</value>
+  </data>
+  <data name="scnDocLngIdTit" xml:space="preserve">
+    <value>Doc. Id.</value>
+  </data>
+  <data name="scnDocLngMetaAuthor" xml:space="preserve">
+    <value>Meta Author</value>
+  </data>
+  <data name="scnDocLngMetaContent" xml:space="preserve">
+    <value>Meta Content</value>
+  </data>
+  <data name="scnDocLngMetaDescription" xml:space="preserve">
+    <value>Meta Descripcion</value>
+  </data>
+  <data name="scnDocLngMetaKeyWords" xml:space="preserve">
+    <value>Meta Claves</value>
+  </data>
+  <data name="scnDocLngMetaLanguage" xml:space="preserve">
+    <value>Meta Lenguaje</value>
+  </data>
+  <data name="scnDocLngMetaRevisit" xml:space="preserve">
+    <value>Meta revisit</value>
+  </data>
+  <data name="scnDocLngMetaRobots" xml:space="preserve">
+    <value>Meta Robots</value>
+  </data>
+  <data name="scnDocLngMetaTitle" xml:space="preserve">
+    <value>Meta Título</value>
+  </data>
+  <data name="scnDocLngMetaTranslators" xml:space="preserve">
+    <value>Meta Traductor</value>
+  </data>
+  <data name="Status_Revision" xml:space="preserve">
+    <value>Estado de revisión</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>Resumen</value>
+  </data>
+  <data name="Autoritation" xml:space="preserve">
+    <value>Autorización</value>
+  </data>
+  <data name="Content" xml:space="preserve">
+    <value>Contenido</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="CiteNameFull" xml:space="preserve">
+    <value>Como citar</value>
+  </data>
+  <data name="CiteFull" xml:space="preserve">
+    <value>Como citar en linea</value>
+  </data>
+  <data name="DocId" xml:space="preserve">
+    <value>Id Doc.</value>
+  </data>
+  <data name="UserId" xml:space="preserve">
+    <value>Id Usuario</value>
+  </data>
+  <data name="Img100" xml:space="preserve">
+    <value>Img 100px</value>
+  </data>
+  <data name="NameFull" xml:space="preserve">
+    <value>Nombre completo</value>
+  </data>
+  <data name="NameShort" xml:space="preserve">
+    <value>Nombre abreviado</value>
+  </data>
+  <data name="PubAuthors" xml:space="preserve">
+    <value>Pub. Autores</value>
+  </data>
+  <data name="PubCopyRight" xml:space="preserve">
+    <value>Pub. Copyright</value>
+  </data>
+  <data name="PubDatePublication" xml:space="preserve">
+    <value>Pub. Fecha Publicación</value>
+  </data>
+  <data name="PubDateRead" xml:space="preserve">
+    <value>Pub. Fecha de lectura</value>
+  </data>
+  <data name="PubEditor" xml:space="preserve">
+    <value>Pub. Editor</value>
+  </data>
+  <data name="PubInstitution" xml:space="preserve">
+    <value>Pub. Institución</value>
+  </data>
+  <data name="PubISBN" xml:space="preserve">
+    <value>Pub. ISBN</value>
+  </data>
+  <data name="PubLng" xml:space="preserve">
+    <value>Pub. lengua</value>
+  </data>
+  <data name="PubMediaType" xml:space="preserve">
+    <value>Pub. Tipo de medio</value>
+  </data>
+  <data name="PubTitle" xml:space="preserve">
+    <value>Pub. Título</value>
+  </data>
+  <data name="PubUrlExternal" xml:space="preserve">
+    <value>Pub. URL externa</value>
+  </data>
+  <data name="PubUrlInternal" xml:space="preserve">
+    <value>Pub. URL Interna</value>
+  </data>
+  <data name="ReferenceType" xml:space="preserve">
+    <value>Referéncia tipo</value>
+  </data>
+  <data name="ReferenceTypeSub" xml:space="preserve">
+    <value>Referéncia subtipo</value>
+  </data>
+  <data name="H2PublicationSecction" xml:space="preserve">
+    <value>Información sobre la Publicatión</value>
+  </data>
+  <data name="IsColaborator" xml:space="preserve">
+    <value>Es Colaborador:</value>
+  </data>
+  <data name="scnH2ClasificatonKeys" xml:space="preserve">
+    <value>Claves de clasificación</value>
+  </data>
+  <data name="Ref" xml:space="preserve">
+    <value>Ref.: </value>
+  </data>
+  <data name="scnH2SeoSpecialFields" xml:space="preserve">
+    <value>SEO campos especiales</value>
+  </data>
+  <data name="scnLngId" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="Document_Id" xml:space="preserve">
+    <value>Doumento Id.</value>
+  </data>
+  <data name="scnH2HowReference" xml:space="preserve">
+    <value>Como referenciar</value>
+  </data>
+  <data name="Article" xml:space="preserve">
+    <value>Artículo</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="Return" xml:space="preserve">
+    <value>Volver</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="DoYouWantDelete" xml:space="preserve">
+    <value>¿ Deseas borrar esta ficha ?</value>
+  </data>
+  <data name="Asociation" xml:space="preserve">
+    <value>Asociación</value>
+  </data>
+  <data name="book" xml:space="preserve">
+    <value>Libro</value>
+  </data>
+  <data name="breader" xml:space="preserve">
+    <value>Criador</value>
+  </data>
+  <data name="cientific_Publication" xml:space="preserve">
+    <value>Publicación científica</value>
+  </data>
+  <data name="education" xml:space="preserve">
+    <value>Educación</value>
+  </data>
+  <data name="intitucion_national_International" xml:space="preserve">
+    <value>Institcion nacional o internacional (Gov)</value>
+  </data>
+  <data name="mutimedia" xml:space="preserve">
+    <value>Multimedia</value>
+  </data>
+  <data name="nature_conservation" xml:space="preserve">
+    <value>Conservación de la naturaleza</value>
+  </data>
+  <data name="other" xml:space="preserve">
+    <value>Otra</value>
+  </data>
+  <data name="paper_publication" xml:space="preserve">
+    <value>Publicación en papel</value>
+  </data>
+  <data name="people" xml:space="preserve">
+    <value>Persona</value>
+  </data>
+  <data name="publication" xml:space="preserve">
+    <value>Publicación</value>
+  </data>
+  <data name="specialist" xml:space="preserve">
+    <value>Especialista</value>
+  </data>
+  <data name="veterinary_biologe" xml:space="preserve">
+    <value>Veterinario o Biologo</value>
+  </data>
+  <data name="website" xml:space="preserve">
+    <value>website</value>
+  </data>
+  <data name="zoo" xml:space="preserve">
+    <value>Zoo</value>
+  </data>
+  <data name="add_new" xml:space="preserve">
+    <value>Añadir nueva</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="clear_selecction" xml:space="preserve">
+    <value>Limpiar selección</value>
+  </data>
+  <data name="clearfilter" xml:space="preserve">
+    <value>Limpiar filtro</value>
+  </data>
+  <data name="filter" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="Search_options" xml:space="preserve">
+    <value>Opciones de busqueda</value>
+  </data>
+  <data name="Go" xml:space="preserve">
+    <value>Ir a</value>
+  </data>
+  <data name="CiteName" xml:space="preserve">
+    <value>Como citar</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="References_system_selecction_tool" xml:space="preserve">
+    <value>Herramienta de selección de referéncias</value>
+  </data>
+  <data name="AddNew" xml:space="preserve">
+    <value>Agregar Nuevo</value>
+  </data>
+  <data name="ArticleType" xml:space="preserve">
+    <value>Artículo tipo</value>
+  </data>
+  <data name="ArticleTypeSub" xml:space="preserve">
+    <value>Artículo subtipo</value>
+  </data>
+  <data name="Type" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="TypeSub" xml:space="preserve">
+    <value>Subtipo</value>
+  </data>
+  <data name="Acknowledgements" xml:space="preserve">
+    <value>Agradecimientos</value>
+  </data>
+  <data name="Authors" xml:space="preserve">
+    <value>Autores</value>
+  </data>
+  <data name="Bibliography" xml:space="preserve">
+    <value>Bibiografia</value>
+  </data>
+  <data name="Updated" xml:space="preserve">
+    <value>Actualizado</value>
+  </data>
+  <data name="Meta_List_Care_of_Turtles_description" xml:space="preserve">
+    <value>Guias para el cuidado de tortugas y glapagos, terrrios, acuarios, alimentacion,  recintos al aire libre, enfermedae outdoor enclosures, feeding, disease</value>
+  </data>
+  <data name="Meta_List_Care_of_Turtles_Keywords" xml:space="preserve">
+    <value>Cuidados de las tortugas, cuidados de los galapagos, enfermedades tortugas</value>
+  </data>
+  <data name="Meta_List_Care_of_Turtles_title" xml:space="preserve">
+    <value>Cuidados de las tortugas y galapagos</value>
+  </data>
+  <data name="available_in" xml:space="preserve">
+    <value>Disponible en:</value>
+  </data>
+  <data name="Administration" xml:space="preserve">
+    <value>Administracion</value>
+  </data>
+  <data name="Articles_clasifiated_list" xml:space="preserve">
+    <value>Listado clasificado de artículos</value>
+  </data>
+  <data name="Articles_list" xml:space="preserve">
+    <value>Listado de artículos</value>
+  </data>
+  <data name="Articles" xml:space="preserve">
+    <value>Artículos</value>
+  </data>
+  <data name="ArticlesAbout" xml:space="preserve">
+    <value>Galápagos y torutgas: Cuidados, enfermedades, alimentos, habitat...</value>
+  </data>
+  <data name="Im_Sorry_Document_Not_Availave" xml:space="preserve">
+    <value>Lo sentimos documento no disponible</value>
+  </data>
+  <data name="shortcuts" xml:space="preserve">
+    <value>Atajos</value>
+  </data>
+  <data name="Articles_managment" xml:space="preserve">
+    <value>Administracion de Articulos</value>
+  </data>
+  <data name="Click_Search_options" xml:space="preserve">
+    <value>Click. Opciones de filtrado y busqueda</value>
+  </data>
+  <data name="readmore" xml:space="preserve">
+    <value>Leer más</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="Species_Catalog" xml:space="preserve">
+    <value>Catálogo de tortugas</value>
+  </data>
+  <data name="Care_sheets" xml:space="preserve">
+    <value>Cuidados</value>
+  </data>
+  <data name="Tortoise_family" xml:space="preserve">
+    <value>Familias de tortugas</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="Edit_Metas" xml:space="preserve">
+    <value>Editar Metas Lng</value>
+  </data>
+  <data name="Edit_Root" xml:space="preserve">
+    <value>Editar raiz</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="Preview" xml:space="preserve">
+    <value>Previsualizar</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="SiteMetaDescription" xml:space="preserve">
+    <value>Catalogo de tortugas, sus habitats, proyectos de conservacion, cuidados, criadores</value>
+  </data>
+  <data name="SiteMetaKeyword" xml:space="preserve">
+    <value>testudines, chelonians, turtles, tortoises</value>
+  </data>
+  <data name="SiteMetaTitle" xml:space="preserve">
+    <value>Testudines.org, tortugas y galapagos, sus habitats, cuidados y conservacion</value>
+  </data>
+  <data name="SiteMetaTitleSub" xml:space="preserve">
+    <value>Bienvenido a  testudines.org version 2014 (Test)</value>
+  </data>
+  <data name="you_are_in_textsite" xml:space="preserve">
+    <value>Estas en el sitio Test</value>
+  </data>
+  <data name="msg_Im_sorry_havenotdocs" xml:space="preserve">
+    <value>Lo siento, no existen documentos relativos a su seleccion</value>
+  </data>
+  <data name="News" xml:space="preserve">
+    <value>Notícias</value>
+  </data>
+  <data name="News_list" xml:space="preserve">
+    <value>Listado de Notícias</value>
+  </data>
+  <data name="News_managment" xml:space="preserve">
+    <value>Administración Notícias</value>
+  </data>
+  <data name="NewsSubTitle" xml:space="preserve">
+    <value>Conservación de tortugas, galápagos y sus habitats</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="Date_publication" xml:space="preserve">
+    <value>Fecha publicación</value>
+  </data>
+  <data name="Notices" xml:space="preserve">
+    <value>Notícias</value>
+  </data>
+  <data name="NoticesAbout" xml:space="preserve">
+    <value>Notícias sobre tortugas y galápagos</value>
+  </data>
+  <data name="NoticiesLast" xml:space="preserve">
+    <value>Ultimas noticias</value>
+  </data>
+  <data name="scnDocLngUrlId" xml:space="preserve">
+    <value>Url para Sitemap</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Cerrada</value>
+  </data>
+  <data name="DateClose" xml:space="preserve">
+    <value>Fecha de cierre</value>
+  </data>
+  <data name="DateOpen" xml:space="preserve">
+    <value>Fecha apertura</value>
+  </data>
+  <data name="Open" xml:space="preserve">
+    <value>Abierta</value>
+  </data>
+  <data name="Pending" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="Started" xml:space="preserve">
+    <value>Iniciada</value>
+  </data>
+  <data name="Todo" xml:space="preserve">
+    <value>Tareas</value>
+  </data>
+  <data name="TodoSubTitle" xml:space="preserve">
+    <value>To do list</value>
+  </data>
+  <data name="Asigned" xml:space="preserve">
+    <value>Asignada</value>
+  </data>
+  <data name="Todo_List" xml:space="preserve">
+    <value>Lista de Tareas</value>
+  </data>
+  <data name="TodoType" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="TodoTypeSub" xml:space="preserve">
+    <value>Prioridad</value>
+  </data>
+  <data name="Todo_managment" xml:space="preserve">
+    <value>Admistracion de tareas</value>
+  </data>
+  <data name="URL" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="CopyRight" xml:space="preserve">
+    <value>Copy Right</value>
+  </data>
+  <data name="Editor" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="Institution" xml:space="preserve">
+    <value>Institución</value>
+  </data>
+  <data name="ISBN" xml:space="preserve">
+    <value>ISBN</value>
+  </data>
+  <data name="Reference" xml:space="preserve">
+    <value>Referéncia</value>
+  </data>
+  <data name="of" xml:space="preserve">
+    <value>de</value>
+  </data>
+  <data name="Image" xml:space="preserve">
+    <value>Imagen</value>
+  </data>
+  <data name="Path" xml:space="preserve">
+    <value>Ruta</value>
+  </data>
+  <data name="calculate" xml:space="preserve">
+    <value>Calcular</value>
+  </data>
+  <data name="concentration" xml:space="preserve">
+    <value>Concentración</value>
+  </data>
+  <data name="dose_mgkg" xml:space="preserve">
+    <value>Dosis Mg/Kg</value>
+  </data>
+  <data name="panacur_calculator" xml:space="preserve">
+    <value>Calculadora Panacur</value>
+  </data>
+  <data name="dose_miligrams" xml:space="preserve">
+    <value>Dosis&lt;br/&gt; miligramos</value>
+  </data>
+  <data name="dose_mililitres" xml:space="preserve">
+    <value>Dosis&lt;br/&gt; mililitros</value>
+  </data>
+  <data name="dose_weight_grams" xml:space="preserve">
+    <value>Peso&lt;br/&gt; gramos</value>
+  </data>
+  <data name="avatar" xml:space="preserve">
+    <value>Avatar</value>
+  </data>
+  <data name="can_mail_from_user" xml:space="preserve">
+    <value>¿Recibir mail de usuarios?</value>
+  </data>
+  <data name="date_last_login" xml:space="preserve">
+    <value>Ultimo Login</value>
+  </data>
+  <data name="date_last_update" xml:space="preserve">
+    <value>Ultima actualización</value>
+  </data>
+  <data name="description" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="email_repite" xml:space="preserve">
+    <value>Email repite</value>
+  </data>
+  <data name="from_ip" xml:space="preserve">
+    <value>Desde Ip</value>
+  </data>
+  <data name="full_name" xml:space="preserve">
+    <value>Nombre completo</value>
+  </data>
+  <data name="Identificator" xml:space="preserve">
+    <value>Identificador</value>
+  </data>
+  <data name="is_active" xml:space="preserve">
+    <value>Esta activo?</value>
+  </data>
+  <data name="is_admin" xml:space="preserve">
+    <value>Es administrador?</value>
+  </data>
+  <data name="is_editor" xml:space="preserve">
+    <value>Es editor?</value>
+  </data>
+  <data name="is_translator" xml:space="preserve">
+    <value>Es traductor?</value>
+  </data>
+  <data name="log" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="Name_Id" xml:space="preserve">
+    <value>Id. Nombre</value>
+  </data>
+  <data name="organitation" xml:space="preserve">
+    <value>Organización</value>
+  </data>
+  <data name="password_repeat" xml:space="preserve">
+    <value>Pasword repite</value>
+  </data>
+  <data name="prefered_language" xml:space="preserve">
+    <value>Idiomas preferidos</value>
+  </data>
+  <data name="security" xml:space="preserve">
+    <value>Seguridad</value>
+  </data>
+  <data name="name_repeat" xml:space="preserve">
+    <value>Nombre repite</value>
+  </data>
+  <data name="how_many" xml:space="preserve">
+    <value>Cuanto son ?</value>
+  </data>
+  <data name="send" xml:space="preserve">
+    <value>enviar</value>
+  </data>
+  <data name="update_profile" xml:space="preserve">
+    <value>Actualizar tu perfil</value>
+  </data>
+  <data name="code_koppen" xml:space="preserve">
+    <value>Codigo  Köppen</value>
+  </data>
+  <data name="order_list" xml:space="preserve">
+    <value>Ordenen listas</value>
+  </data>
+  <data name="code_ecozone" xml:space="preserve">
+    <value>Codigo de Ecozona</value>
+  </data>
+  <data name="graphic_climate" xml:space="preserve">
+    <value>Gráfico de clima 200x279px</value>
+  </data>
+  <data name="TaxonType" xml:space="preserve">
+    <value>Taxón tipo</value>
+  </data>
+  <data name="TaxonTypeSub" xml:space="preserve">
+    <value>Taxón subtipo</value>
+  </data>
+  <data name="Hight" xml:space="preserve">
+    <value>Alta</value>
+  </data>
+  <data name="Low" xml:space="preserve">
+    <value>Baja</value>
+  </data>
+  <data name="Medium" xml:space="preserve">
+    <value>Media</value>
+  </data>
+  <data name="Please_Could_you_vote" xml:space="preserve">
+    <value>Por favor valore la ficha:</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Gracías</value>
+  </data>
+  <data name="About_Turtles_and_tortoises" xml:space="preserve">
+    <value>Acerca de tortugas y galapagos</value>
+  </data>
+  <data name="Opps_NoData" xml:space="preserve">
+    <value>Opps!Sin datos para esta selección</value>
+  </data>
+  <data name="species_title" xml:space="preserve">
+    <value>Catálogo de especies</value>
+  </data>
+  <data name="species_titlesub" xml:space="preserve">
+    <value>Decripci´pn de especies y grupos de taxones</value>
+  </data>
+  <data name="shortcutsAdmin" xml:space="preserve">
+    <value>Atajos Admin</value>
+  </data>
+  <data name="SearchOtherSites" xml:space="preserve">
+    <value>Buscar en otras Webs</value>
+  </data>
+  <data name="Filter_Taxon_Species" xml:space="preserve">
+    <value>(Sinonimos y nombres vulgares)</value>
+  </data>
+  <data name="NoticeType" xml:space="preserve">
+    <value>Noticia tipo</value>
+  </data>
+  <data name="NoticeTypeSub" xml:space="preserve">
+    <value>Noticia subtipo</value>
+  </data>
+  <data name="CopyForHelpTranlation" xml:space="preserve">
+    <value>Nueva hoja, Copiada para facilitar la traduccion</value>
+  </data>
+  <data name="priority" xml:space="preserve">
+    <value>Prioridad</value>
+  </data>
+  <data name="status" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="scnDocSiteMapChangefreqTit" xml:space="preserve">
+    <value>Mpg_Site Map ChangeFreq</value>
+  </data>
+  <data name="scnSiteMapPriorityTit" xml:space="preserve">
+    <value>Mpg_Site Map Priority</value>
+  </data>
+  <data name="View" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="ListView" xml:space="preserve">
+    <value>Listado</value>
+  </data>
+  <data name="Foods" xml:space="preserve">
+    <value>Alimentos</value>
+  </data>
+  <data name="FoodsAbout" xml:space="preserve">
+    <value>Alimentos para tortugas y galápagos</value>
+  </data>
+  <data name="Foods_clasifiated_list" xml:space="preserve">
+    <value>Alimentos, suplementos y medicinas</value>
+  </data>
+  <data name="Last_Update_Articles" xml:space="preserve">
+    <value>Articulos actualizados</value>
+  </data>
+  <data name="Last_Update_Foods" xml:space="preserve">
+    <value>Alimentos actualizados</value>
+  </data>
+  <data name="Last_Update_Notices" xml:space="preserve">
+    <value>Noticias recientes</value>
+  </data>
+  <data name="Last_Update_taxons" xml:space="preserve">
+    <value>Taxones actualizados</value>
+  </data>
+  <data name="Food" xml:space="preserve">
+    <value>Alimento</value>
+  </data>
+  <data name="FoodType" xml:space="preserve">
+    <value>Tipo de alimento</value>
+  </data>
+  <data name="FoodTypeSub" xml:space="preserve">
+    <value>Subtipo  de alimento</value>
+  </data>
+  <data name="Foods_title" xml:space="preserve">
+    <value>Alimentos</value>
+  </data>
+  <data name="Foods_titlesub" xml:space="preserve">
+    <value>Alimentos para tortugas (vegetal, animal, manufacturados, suplementos...)</value>
+  </data>
+  <data name="FoodGroup" xml:space="preserve">
+    <value>Alimentos por grupos</value>
+  </data>
+  <data name="Keys" xml:space="preserve">
+    <value>Claves</value>
+  </data>
+  <data name="Duplicate" xml:space="preserve">
+    <value>Duplicar</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="Documents" xml:space="preserve">
+    <value>Documentos</value>
+  </data>
+  <data name="ExusemeRelationDocuments" xml:space="preserve">
+    <value>Excuseme, la relacion de documentos con las personas que los han aportado no esta totalmente concluida</value>
+    <comment>Excuse me, the relationship documents with people who have provided is not fully completed</comment>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Siguiente</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Anterior</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>Primero</value>
+  </data>
+  <data name="Last" xml:space="preserve">
+    <value>Ultimo</value>
+  </data>
+  <data name="NoImagenInthisAlbumBody" xml:space="preserve">
+    <value>Lo siento, en este momento no disponemos de imagenes en este album.</value>
+  </data>
+  <data name="NoImagenInthisAlbumTitle" xml:space="preserve">
+    <value>Oops! No hay imagenes en este album</value>
+  </data>
+  <data name="readfullartilcle" xml:space="preserve">
+    <value>Leer articulo completo</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>Contacte</value>
+  </data>
+  <data name="remenberlogin" xml:space="preserve">
+    <value>Recordar Login</value>
+  </data>
+  <data name="okyourareloged" xml:space="preserve">
+    <value>OK, Tu estas acreditado</value>
+  </data>
+  <data name="MailContact_SendedMessage" xml:space="preserve">
+    <value>OK!&lt;br/&gt;Tu menaje ha sido enviado, Te contestare tan pronto como me sea posible&lt;br/&gt;Gracias.</value>
+  </data>
+  <data name="noimage" xml:space="preserve">
+    <value>Necesitamos imagenes para mejorar esta seccion. Si puedes ayudar, Por favor rellena el formuario de contacto.</value>
+  </data>
+  <data name="internetcomunities" xml:space="preserve">
+    <value>Comunidades Internet</value>
+  </data>
+  <data name="ATaxGrpL2283Year" xml:space="preserve">
+    <value>Taxon Id Año</value>
+  </data>
+  <data name="ATaxLevel" xml:space="preserve">
+    <value>Taxon Id Nivel de Agrupación</value>
+  </data>
+  <data name="TaxIdAuthority" xml:space="preserve">
+    <value>Taxon Id Autoridad</value>
+  </data>
+  <data name="TaxIdName" xml:space="preserve">
+    <value>Taxon Id Nombre</value>
+  </data>
+  <data name="scnAtaxIdNameParent" xml:space="preserve">
+    <value>Taxon Id Nombre del Pariente</value>
+  </data>
+  <data name="taxongroupsType" xml:space="preserve">
+    <value>Tipo de grupo taxonómico</value>
+  </data>
+  <data name="taxongroupsTypeSub" xml:space="preserve">
+    <value>Tipo  de subgrupo taxonómico</value>
+  </data>
+  <data name="Last_Update_tortoise_group" xml:space="preserve">
+    <value>Ultimas actualizaciones de Grupos taxonómicos</value>
+  </data>
+  <data name="CacheRebuild" xml:space="preserve">
+    <value>Rehacer cache</value>
+  </data>
+  <data name="DescriptionShort" xml:space="preserve">
+    <value>Descripcion abreviada</value>
+  </data>
+  <data name="specie" xml:space="preserve">
+    <value>Especie</value>
+  </data>
+  <data name="Click_ReadFullArticle" xml:space="preserve">
+    <value>Click for read full article</value>
+  </data>
+  <data name="scniTISTaxonomic_Serial_No" xml:space="preserve">
+    <value>ITIS Nº Serie taxonomico.:</value>
+  </data>
+  <data name="readmoreaboutof" xml:space="preserve">
+    <value>Leer mas acerca de </value>
+  </data>
+  <data name="ReturnAdmin" xml:space="preserve">
+    <value>Ltdo. Admin. </value>
+  </data>
+  <data name="Taxon_keys" xml:space="preserve">
+    <value>Claves taxonomicas</value>
+  </data>
+  <data name="others" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="SourcesUsuallyConsulted" xml:space="preserve">
+    <value>Fuentes usualmente consultadas</value>
+  </data>
+  <data name="TechnicalResouces" xml:space="preserve">
+    <value>Recursos técnicos</value>
+  </data>
+  <data name="Ecozone" xml:space="preserve">
+    <value>Ecozona</value>
+  </data>
+  <data name="chapters" xml:space="preserve">
+    <value>Índice de Capítulos</value>
+  </data>
+  <data name="scnNameVulgarTit" xml:space="preserve">
+    <value>Nombres vulgares</value>
+  </data>
+  <data name="listspeciessheetofgroup" xml:space="preserve">
+    <value>Lista de fichas de especies del grupo</value>
+  </data>
+  <data name="Taxon" xml:space="preserve">
+    <value>Taxon</value>
+  </data>
+  <data name="Taxon_keys_mng" xml:space="preserve">
+    <value>Taxon claves administracion</value>
+  </data>
+  <data name="Key" xml:space="preserve">
+    <value>Clave</value>
+  </data>
+  <data name="Listofdocumentscollaborates" xml:space="preserve">
+    <value>Lista de documentos en los que colabora:</value>
+    <comment>List of documents in which collaborates</comment>
+  </data>
+  <data name="Tortoise" xml:space="preserve">
+    <value>Tortuga</value>
+  </data>
+  <data name="Do" xml:space="preserve">
+    <value>Hacer</value>
+  </data>
+  <data name="searchfilter" xml:space="preserve">
+    <value>Opciones de filtrado y busqueda</value>
+  </data>
+  <data name="readed" xml:space="preserve">
+    <value>Leído: </value>
+  </data>
+  <data name="ind_Index" xml:space="preserve">
+    <value>Indice</value>
+  </data>
+  <data name="MSG_about_image_or_document" xml:space="preserve">
+    <value>Mensaje  sobre la imagen o documento</value>
+  </data>
+  <data name="MSG_repeatemail" xml:space="preserve">
+    <value>Repite el email</value>
+  </data>
+  <data name="MSG_Your_email" xml:space="preserve">
+    <value>Tu email</value>
+  </data>
+  <data name="MSG_Mensage_to_admins" xml:space="preserve">
+    <value>Mensaje a los administradores</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Mensaje</value>
+  </data>
+  <data name="MSG_write_your_message" xml:space="preserve">
+    <value>Por favor, Introduce tu mensaje...</value>
+  </data>
+  <data name="The_verification_sum_not_match" xml:space="preserve">
+    <value>La suma de verificacion incorrecta, intenta de nuevo</value>
+  </data>
+  <data name="IsTaxa2014Tit" xml:space="preserve">
+    <value>¿ Revisado ITIS 2014 ?</value>
+  </data>
+  <data name="scnIsOkTit" xml:space="preserve">
+    <value>¿ Corregido ?</value>
+  </data>
+  <data name="Notice" xml:space="preserve">
+    <value>Noticia</value>
+  </data>
+  <data name="othersAbout" xml:space="preserve">
+    <value>Acerca de otros</value>
+  </data>
+  <data name="otherType" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="IsAuthorizeAll" xml:space="preserve">
+    <value>Autoriza todas las imagenes</value>
+  </data>
+  <data name="AAbsDesImg" xml:space="preserve">
+    <value>Descripción</value>
+    <comment>Decription</comment>
+  </data>
+  <data name="AAbsLiveImg" xml:space="preserve">
+    <value>Hábitat y Modo de vida</value>
+    <comment>Habitat live</comment>
+  </data>
+  <data name="AAbsRngImg" xml:space="preserve">
+    <value>Rango</value>
+    <comment>Range</comment>
+  </data>
+  <data name="Abstract1" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="Acknowledgements1" xml:space="preserve">
+    <value>Agradecimientos</value>
+    <comment>Acknowledgements</comment>
+  </data>
+  <data name="ADesImg_BabyDorsal" xml:space="preserve">
+    <value>Juvenil, visa dorsal</value>
+    <comment>Baby dorsal view</comment>
+  </data>
+  <data name="ADesImg_BabyVentral" xml:space="preserve">
+    <value>Juvenil, vista ventral</value>
+    <comment>Baby ventral view</comment>
+  </data>
+  <data name="ADesImg_Bridge" xml:space="preserve">
+    <value>Vista del puente</value>
+    <comment>Bridge view</comment>
+  </data>
+  <data name="ADesImg_Diferentiation" xml:space="preserve">
+    <value>Diferenciación</value>
+    <comment>Diferentiation</comment>
+  </data>
+  <data name="ADesImg_Dimorphism" xml:space="preserve">
+    <value>Dimorfismo</value>
+    <comment>Dimorphism</comment>
+  </data>
+  <data name="ADesImg_Dorsal" xml:space="preserve">
+    <value>Vista dorsal</value>
+    <comment>Dorsal view</comment>
+  </data>
+  <data name="ADesImg_Forelegs" xml:space="preserve">
+    <value>Vista patas anteriores</value>
+    <comment>Forelegs view</comment>
+  </data>
+  <data name="ADesImg_Frontal" xml:space="preserve">
+    <value>Vista frontal</value>
+    <comment>Frontal view</comment>
+  </data>
+  <data name="ADesImg_HeadDorsal" xml:space="preserve">
+    <value>Vista dorsal de la cabeza</value>
+    <comment>Head dorsal view</comment>
+  </data>
+  <data name="ADesImg_Headlateral" xml:space="preserve">
+    <value>Vista lateral de la cabeza</value>
+    <comment>Head lateral view</comment>
+  </data>
+  <data name="ADesImg_Hindlegs" xml:space="preserve">
+    <value>Vista patas posteriores</value>
+    <comment>Hindlegs view</comment>
+  </data>
+  <data name="ADesImg_Intro" xml:space="preserve">
+    <value>Vista tipo</value>
+    <comment>Tipical view</comment>
+  </data>
+  <data name="ADesImg_Lateral" xml:space="preserve">
+    <value>Vista lateral</value>
+    <comment>Lateral view</comment>
+  </data>
+  <data name="ADesImg_Rear" xml:space="preserve">
+    <value>Vista posterior</value>
+    <comment>Rear view</comment>
+  </data>
+  <data name="ADesImg_Tail" xml:space="preserve">
+    <value>Vista de cola</value>
+    <comment>Cue detaill view</comment>
+  </data>
+  <data name="ADesImg_Ventral" xml:space="preserve">
+    <value>Vista ventral</value>
+    <comment>Ventral view</comment>
+  </data>
+  <data name="ADesMeasureLenghtCm" xml:space="preserve">
+    <value>Medida longitud cm. (LRP)</value>
+    <comment>Measure Lenght Ctm.</comment>
+  </data>
+  <data name="ADesMeasureWeightGrm" xml:space="preserve">
+    <value>Medida peso gr.</value>
+    <comment>Measure Weight Gr.</comment>
+  </data>
+  <data name="AGeoEcozoneClimateKey" xml:space="preserve">
+    <value>Clima general de la ecozona</value>
+    <comment>Ecozone Climate General</comment>
+  </data>
+  <data name="AGeoContinentCountry_" xml:space="preserve">
+    <value>Distribución por paises</value>
+    <comment>Range countries</comment>
+  </data>
+  <data name="AGeoKeyContinent" xml:space="preserve">
+    <value>Continente (Clave)</value>
+    <comment>Continent Key</comment>
+  </data>
+  <data name="AGeoKeyCountries" xml:space="preserve">
+    <value>Paises  (Clave)</value>
+    <comment>Biogeographic Region Key</comment>
+  </data>
+  <data name="AGeoEcoBiogeographicRegionKey" xml:space="preserve">
+    <value>Region Biogeográfica (Clave)</value>
+  </data>
+  <data name="AGeoImg_AGeoImg_GeoRangeMapStandardWorldFul" xml:space="preserve">
+    <value>Mapa de distribuicion en detalle</value>
+  </data>
+  <data name="AGeoImg_GeoRangeMapStandardWorldFul" xml:space="preserve">
+    <value>Mapa de distribucion mundial</value>
+  </data>
+  <data name="AGeoLocLatitudMax" xml:space="preserve">
+    <value>Max.</value>
+  </data>
+  <data name="AGeoLocLatitudMin" xml:space="preserve">
+    <value>Min.</value>
+  </data>
+  <data name="AGeoLocLatitud_" xml:space="preserve">
+    <value>Latitud geográfica</value>
+    <comment>Geographic Latitud</comment>
+  </data>
+  <data name="ALiveBreadingKey" xml:space="preserve">
+    <value>Reproduccion (Clave)</value>
+  </data>
+  <data name="ALiveFoodKey" xml:space="preserve">
+    <value>Alimentación (Clave)</value>
+    <comment>Food key</comment>
+  </data>
+  <data name="ALiveMediaKey" xml:space="preserve">
+    <value>Medio (Clave)</value>
+    <comment>Media key</comment>
+  </data>
+  <data name="AKeyNaturalBreeding" xml:space="preserve">
+    <value>Tipo de reproduccion</value>
+  </data>
+  <data name="AKeyNaturalFood" xml:space="preserve">
+    <value>Tipo de Alimentacion</value>
+  </data>
+  <data name="AKeyNaturalMedia" xml:space="preserve">
+    <value>Tipo de Medio</value>
+  </data>
+  <data name="ATaxAgrupation_" xml:space="preserve">
+    <value>Grupos taxonómicos</value>
+    <comment>Taxon groups</comment>
+  </data>
+  <data name="ATaxFulName_" xml:space="preserve">
+    <value>Nombre cientifico recomendado</value>
+    <comment>Tax name recomended</comment>
+  </data>
+  <data name="ATaxGrpL2210Order" xml:space="preserve">
+    <value>Orden</value>
+    <comment>Order</comment>
+  </data>
+  <data name="ATaxGrpL2220SubOrder" xml:space="preserve">
+    <value>Suborden</value>
+    <comment>Suborder</comment>
+  </data>
+  <data name="ATaxGrpL2230SupFamily" xml:space="preserve">
+    <value>Superfamilia</value>
+    <comment>Superfamily</comment>
+  </data>
+  <data name="ATaxGrpL2240Family" xml:space="preserve">
+    <value>Familia</value>
+    <comment>Family</comment>
+  </data>
+  <data name="ATaxGrpL2250SubFamily" xml:space="preserve">
+    <value>Subfamila</value>
+    <comment>Subfamily</comment>
+  </data>
+  <data name="ATaxGrpL2260SupGenus" xml:space="preserve">
+    <value>Supergenero</value>
+    <comment>Supergenus</comment>
+  </data>
+  <data name="ATaxGrpL2270Genus" xml:space="preserve">
+    <value>Género</value>
+    <comment>Genus</comment>
+  </data>
+  <data name="ATaxGrpL2280Specie" xml:space="preserve">
+    <value>Epíteto</value>
+    <comment>Epitet</comment>
+  </data>
+  <data name="ATaxGrpL2281SubSpecie" xml:space="preserve">
+    <value>Subespecie</value>
+  </data>
+  <data name="ATaxGrpL2282Authority" xml:space="preserve">
+    <value>Autoridad</value>
+    <comment>Autorithy</comment>
+  </data>
+  <data name="ATaxGrpL2283Year1" xml:space="preserve">
+    <value>Año</value>
+    <comment>Year</comment>
+  </data>
+  <data name="ATaxNameVulgarEN" xml:space="preserve">
+    <value>Nombre vulgar en Ingles</value>
+    <comment>Vulgar name in english</comment>
+  </data>
+  <data name="ATaxNameVulgarOthers" xml:space="preserve">
+    <value>Lista de nombres vulgares</value>
+    <comment>Vulgar Names list</comment>
+  </data>
+  <data name="ATaxSinonimous" xml:space="preserve">
+    <value>Sinónimos</value>
+    <comment>Sinonims</comment>
+  </data>
+  <data name="ATaxVulgar_" xml:space="preserve">
+    <value>Nombres vulgares</value>
+    <comment>Vulgar names</comment>
+  </data>
+  <data name="bibliography1" xml:space="preserve">
+    <value>Bibliography</value>
+  </data>
+  <data name="care" xml:space="preserve">
+    <value>Cuidados</value>
+  </data>
+  <data name="carnivore" xml:space="preserve">
+    <value>Carnívora</value>
+    <comment>carnivore</comment>
+  </data>
+  <data name="Chapter" xml:space="preserve">
+    <value>Capítulo</value>
+  </data>
+  <data name="Climate" xml:space="preserve">
+    <value>Clima</value>
+    <comment>Climate</comment>
+  </data>
+  <data name="description1" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="distribution" xml:space="preserve">
+    <value>Distribución</value>
+  </data>
+  <data name="distributionof" xml:space="preserve">
+    <value>Distribución de</value>
+  </data>
+  <data name="ecology" xml:space="preserve">
+    <value>Ecología</value>
+  </data>
+  <data name="eNearSpecies" xml:space="preserve">
+    <value>Especies próximas</value>
+    <comment>Near species</comment>
+  </data>
+  <data name="eOld" xml:space="preserve">
+    <value>Ficha Antigua</value>
+  </data>
+  <data name="eTabAbstract" xml:space="preserve">
+    <value>Abstract</value>
+    <comment>Abstract</comment>
+  </data>
+  <data name="eTabBiblography" xml:space="preserve">
+    <value>Bibliografia y agradecimientos</value>
+    <comment>Bibliography &amp; Acknowledgements</comment>
+  </data>
+  <data name="eTabCare" xml:space="preserve">
+    <value>Hoja de cuidados</value>
+    <comment>Care Sheet</comment>
+  </data>
+  <data name="eTabDescription" xml:space="preserve">
+    <value>Descripción</value>
+    <comment>Description</comment>
+  </data>
+  <data name="eTabDistribution" xml:space="preserve">
+    <value>Distribución</value>
+    <comment>Habitat  Range</comment>
+  </data>
+  <data name="eTabEcology" xml:space="preserve">
+    <value>Ecología &amp; Clima</value>
+  </data>
+  <data name="eTabGallery" xml:space="preserve">
+    <value>Galeria</value>
+    <comment>Gallery</comment>
+  </data>
+  <data name="eTabNatural_History" xml:space="preserve">
+    <value>Historia natural</value>
+    <comment>Natural History</comment>
+  </data>
+  <data name="eTabNotes" xml:space="preserve">
+    <value>Notas</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="eTabTaxonomy" xml:space="preserve">
+    <value>Taxonomía &amp; Nombres vulgares</value>
+    <comment>Taxonomy &amp; Vulgar Names</comment>
+  </data>
+  <data name="eToDo" xml:space="preserve">
+    <value>Pendiente</value>
+    <comment>To Do</comment>
+  </data>
+  <data name="ExpandhelpSection" xml:space="preserve">
+    <value>Muestra o oculta las las imagenes de ayuda  en las secciones</value>
+  </data>
+  <data name="Experimental_developing_page" xml:space="preserve">
+    <value>&lt;p style="color:red"&gt;&lt;b&gt;Atencion:&lt;/b&gt;  Pagina expiremental en desarrollo, disculpe las molestais&lt;/p&gt;</value>
+  </data>
+  <data name="freshwater" xml:space="preserve">
+    <value>Acuática</value>
+    <comment>Freshwater</comment>
+  </data>
+  <data name="images" xml:space="preserve">
+    <value>Galeria de imagenes.</value>
+  </data>
+  <data name="GenusList" xml:space="preserve">
+    <value>Lista de Géneros</value>
+  </data>
+  <data name="gotop" xml:space="preserve">
+    <value>Ir arriba</value>
+  </data>
+  <data name="herbivore" xml:space="preserve">
+    <value>Herbívora</value>
+    <comment>herbivore</comment>
+  </data>
+  <data name="identificationkeys" xml:space="preserve">
+    <value>árbol de ayuda para una identificacion basica</value>
+  </data>
+  <data name="ind_Chapter01_00Abs" xml:space="preserve">
+    <value>01 - Resumen</value>
+  </data>
+  <data name="ind_Chapter01_01AbsDes" xml:space="preserve">
+    <value>01.01 - Resumen de la  Descripción</value>
+  </data>
+  <data name="ind_Chapter01_02AbsNat" xml:space="preserve">
+    <value>01.02  -Resumen de la Historia Natural</value>
+  </data>
+  <data name="ind_Chapter01_03AbsRng" xml:space="preserve">
+    <value>01.03 - Resumen de la Distribución y Habitat </value>
+  </data>
+  <data name="ind_Chapter01_04AbsTax" xml:space="preserve">
+    <value>01.04 - Taxonomía y Nombres</value>
+  </data>
+  <data name="ind_Chapter01_04AbsTax_subspecies" xml:space="preserve">
+    <value>Lista de subespecies</value>
+  </data>
+  <data name="ind_Chapter01_05AbsNear" xml:space="preserve">
+    <value>01.05 -  Especies próximas</value>
+  </data>
+  <data name="ind_Chapter01_06AbsGal" xml:space="preserve">
+    <value>01.06 - Galería de Imágenes</value>
+  </data>
+  <data name="ind_Chapter01_10absGalIntro" xml:space="preserve">
+    <value>&lt;p&gt;La galeria de imagenes de la especie #specie# contiene aproximadamente #999# imagenes referidas a la especie, su habitat, ditribucion, etc. &lt;/p&gt;&lt;p&gt;Aqui ve solo una muestra, accede a la  #imageslink# para ver la galeria completa&lt;/p&gt;</value>
+  </data>
+  <data name="ind_Chapter02_00Des" xml:space="preserve">
+    <value>02 -  Descripción</value>
+  </data>
+  <data name="ind_Chapter02_01desAbs" xml:space="preserve">
+    <value>02.01 - Descripción Abstract</value>
+  </data>
+  <data name="ind_Chapter02_02DesDors" xml:space="preserve">
+    <value>02.02 - Descripción vista dorsal</value>
+  </data>
+  <data name="ind_Chapter02_03DesFrontal" xml:space="preserve">
+    <value>02.03 - Descripción vista frontal</value>
+  </data>
+  <data name="ind_Chapter02_04DesLateral" xml:space="preserve">
+    <value>02.04 - Descripción vista lateral </value>
+  </data>
+  <data name="ind_Chapter02_05DesRear" xml:space="preserve">
+    <value>02.05 - Descripción vista posterior</value>
+  </data>
+  <data name="ind_Chapter02_06DesVentralBridge" xml:space="preserve">
+    <value>02.06.- Descripción vista ventral  y puente</value>
+  </data>
+  <data name="ind_Chapter02_08DesLegsTail" xml:space="preserve">
+    <value>02.09 - Descripción patas ycola</value>
+  </data>
+  <data name="ind_Chapter02_09DesBabies" xml:space="preserve">
+    <value>02.11 - Descripción de crias y juveniles</value>
+  </data>
+  <data name="ind_Chapter02_10DesDimor" xml:space="preserve">
+    <value>02.12 - Descripción dimorfismo sexual</value>
+  </data>
+  <data name="ind_Chapter02_11DesDifer" xml:space="preserve">
+    <value>02.13 - Descripción diferenciacion de especies similares</value>
+  </data>
+  <data name="ind_Chapter02_12DesHoloty" xml:space="preserve">
+    <value>02.14 - Descripción holotipos</value>
+  </data>
+  <data name="ind_Chapter02_13DesNotes" xml:space="preserve">
+    <value>02.15 - Descripción notas</value>
+  </data>
+  <data name="ind_Chapter02_78DesHeadNeck" xml:space="preserve">
+    <value>02.08 - Descripción cabeza y cuello</value>
+  </data>
+  <data name="ind_Chapter05_00RngEco" xml:space="preserve">
+    <value>05 - Clima</value>
+  </data>
+  <data name="ind_Chapter05_01RngEcoAbs" xml:space="preserve">
+    <value>05.01 - Distribuci,on geográfica y ecológica</value>
+  </data>
+  <data name="ind_Chapter04_02_01_AGeoKeyBiogeographicRealms" xml:space="preserve">
+    <value>05.02 - Biotopo -Ecología</value>
+  </data>
+  <data name="ind_Chapter05_03RngEcoCliType" xml:space="preserve">
+    <value>05.03 - Tipo de clima</value>
+  </data>
+  <data name="ind_Chapter04_04_04_xx_AGeoTableTemp" xml:space="preserve">
+    <value>05.04 - Temperturas tipo mensuales</value>
+  </data>
+  <data name="ind_Chapter04_04_04_xx_GeoTableRainML" xml:space="preserve">
+    <value>05.05 - Precipitaciones tipo mensuales</value>
+  </data>
+  <data name="ind_Chapter04_04_04_xx_GeoTableSun" xml:space="preserve">
+    <value>05.06 - Horas de sol tipo mensuales</value>
+  </data>
+  <data name="ind_Chapter05_07RngEcoCliBioRegKey" xml:space="preserve">
+    <value>05.07 - Claves región biogeográfica</value>
+  </data>
+  <data name="ind_Chapter06_00Car" xml:space="preserve">
+    <value>06 -  Guia de Cuidados</value>
+  </data>
+  <data name="ind_Chapter06_01CarIntro" xml:space="preserve">
+    <value>06.01- Introduccion a los cuidados</value>
+  </data>
+  <data name="ind_Chapter06_02CarValues" xml:space="preserve">
+    <value>06.02 - Valores standard temperatura, luz...</value>
+  </data>
+  <data name="ind_Chapter06_03CarFoods" xml:space="preserve">
+    <value>06.03 - Alimentacion y suplementos</value>
+  </data>
+  <data name="ind_Chapter06_04CarBreeding" xml:space="preserve">
+    <value>06.04 - Reproduccion en cautividad</value>
+  </data>
+  <data name="ind_Chapter06_05CarVivariumIndoor" xml:space="preserve">
+    <value>06.05 - Instalaciones interiores: terarios, acuaterrarios....</value>
+  </data>
+  <data name="ind_Chapter06_06CarVivariuminOut" xml:space="preserve">
+    <value>06.06 - Instalaciones exteriores</value>
+  </data>
+  <data name="ind_Chapter06_07CarNotes" xml:space="preserve">
+    <value>06.07 - Notas: hibernacion, enfermededes....</value>
+  </data>
+  <data name="ind_Chapter06_08CarSpecialists" xml:space="preserve">
+    <value>06.08 - Especialistas</value>
+  </data>
+  <data name="ind_Chapter07_00Tax" xml:space="preserve">
+    <value>07 - Taxonomía y Nombres vulgares</value>
+  </data>
+  <data name="ind_Chapter07_00TaxIndex" xml:space="preserve">
+    <value>07.00.2 - Grupos taxonomicos de</value>
+  </data>
+  <data name="ind_Chapter07_01TaxGroup" xml:space="preserve">
+    <value>07 01 - Clasificación taxonómica</value>
+  </data>
+  <data name="ind_Chapter07_02TaxSubes" xml:space="preserve">
+    <value>07.02 - Subespecies</value>
+  </data>
+  <data name="ind_Chapter07_03TaxEtim" xml:space="preserve">
+    <value>07.03 - Etimologia y justificacion del nombre</value>
+  </data>
+  <data name="ind_Chapter07_04TaxSinon" xml:space="preserve">
+    <value>07.04 - Sinónimos</value>
+  </data>
+  <data name="ind_Chapter07_05TaxVulg" xml:space="preserve">
+    <value>07.05 - Nombres vulgares</value>
+  </data>
+  <data name="ind_Chapter07_06TaxNote" xml:space="preserve">
+    <value>07.06 - Notas sobre la clasificación</value>
+  </data>
+  <data name="ind_Chapter08_00IdeKey" xml:space="preserve">
+    <value>08 - Claves de Identificación</value>
+  </data>
+  <data name="ind_Chapter08_01IdeKey" xml:space="preserve">
+    <value>08.01 - Árbol de Claves de Indentificación</value>
+  </data>
+  <data name="ind_Chapter09_00Near" xml:space="preserve">
+    <value>09 - Especies próximas</value>
+  </data>
+  <data name="ind_Chapter09_01NearGenus" xml:space="preserve">
+    <value>09.01 - Tortugas del género</value>
+  </data>
+  <data name="ind_Chapter09_02NearFamily" xml:space="preserve">
+    <value>09.02 - Tortugas de la familia</value>
+  </data>
+  <data name="ind_Chapter10_00Gal" xml:space="preserve">
+    <value>10 - Galeria de Imágenes</value>
+  </data>
+  <data name="ind_Chapter11_00Bib" xml:space="preserve">
+    <value>11 - Agradecimientos y Bibiografía</value>
+  </data>
+  <data name="ind_Chapter11_01BibAck" xml:space="preserve">
+    <value>11.01 - Agradecimientos</value>
+  </data>
+  <data name="ind_Chapter11_02BibBib" xml:space="preserve">
+    <value>11.02 - Bibibliografia</value>
+  </data>
+  <data name="ind_Chapter11_03BibLinks" xml:space="preserve">
+    <value>11.03 - Busquedas en Otras Web</value>
+  </data>
+  <data name="ind_Chapter12_00Notes" xml:space="preserve">
+    <value>12- Notas</value>
+  </data>
+  <data name="ind_Chapter_readfularticle" xml:space="preserve">
+    <value>Lea el articulo completo:</value>
+  </data>
+  <data name="LAbsRng" xml:space="preserve">
+    <value>Abstract rango de distribución</value>
+    <comment>Abstract range distribution</comment>
+  </data>
+  <data name="LCareBreeding" xml:space="preserve">
+    <value>Reproduccíon en cautividad</value>
+    <comment>Breeding in cautivity</comment>
+  </data>
+  <data name="LCareEspecialist" xml:space="preserve">
+    <value>Especialistas en sus cuidados</value>
+    <comment>Care Especialist</comment>
+  </data>
+  <data name="LCareFood" xml:space="preserve">
+    <value>Alimentos y suplementos</value>
+    <comment>Foods and suplements</comment>
+  </data>
+  <data name="LCareIntro" xml:space="preserve">
+    <value>Cuidados de la tortuga </value>
+    <comment>Care Introduction</comment>
+  </data>
+  <data name="LCareIntroEnd" xml:space="preserve">
+    <value>Introducción</value>
+  </data>
+  <data name="LCareNotes" xml:space="preserve">
+    <value>Observaciones generales de sus cuidados</value>
+    <comment>Care general observations</comment>
+  </data>
+  <data name="LCareValues" xml:space="preserve">
+    <value>Valores para sus cuidados</value>
+    <comment>Care values</comment>
+  </data>
+  <data name="LCareVivariumIndoor" xml:space="preserve">
+    <value>Vivarium interior</value>
+    <comment>Vivarium indoor</comment>
+  </data>
+  <data name="LCareVivariumOutdoor" xml:space="preserve">
+    <value>Vivarium exterior</value>
+    <comment>Vivarium outdoor</comment>
+  </data>
+  <data name="LDesBabys" xml:space="preserve">
+    <value>Decripción de juveniles y neonatos</value>
+    <comment>Juvenil and Babys Description</comment>
+  </data>
+  <data name="LDesDiferentiation" xml:space="preserve">
+    <value>Diferenciacíon</value>
+    <comment>Diferentiation</comment>
+  </data>
+  <data name="LDesDimorphism" xml:space="preserve">
+    <value>Dimorfismo sexual</value>
+    <comment>Sexual Dimorphism</comment>
+  </data>
+  <data name="LDesInternal" xml:space="preserve">
+    <value>Descripción interna, huesos...</value>
+    <comment>Internal  Description, bones...</comment>
+  </data>
+  <data name="LDesKeys" xml:space="preserve">
+    <value>Claves de indentificación</value>
+    <comment>Identication Keys</comment>
+  </data>
+  <data name="LDesNotes" xml:space="preserve">
+    <value>Otras notas descriptivas</value>
+    <comment>Other Description Notes</comment>
+  </data>
+  <data name="LDesViewBridge" xml:space="preserve">
+    <value>Vista del puente</value>
+    <comment>Bridge view</comment>
+  </data>
+  <data name="LDesViewCue" xml:space="preserve">
+    <value>Cola</value>
+    <comment>Cue</comment>
+  </data>
+  <data name="LDesViewDorsal" xml:space="preserve">
+    <value>Vista dorsal</value>
+    <comment>Dorsal view</comment>
+  </data>
+  <data name="LDesViewFrontal" xml:space="preserve">
+    <value>Vista frontal</value>
+    <comment>Frontal view</comment>
+  </data>
+  <data name="LDesViewHeadNeck" xml:space="preserve">
+    <value>Vista de cabeza y cuello</value>
+    <comment>Head and neck view</comment>
+  </data>
+  <data name="LDesViewIntro" xml:space="preserve">
+    <value>Descripción general</value>
+    <comment>General description</comment>
+  </data>
+  <data name="LDesViewLateral" xml:space="preserve">
+    <value>Vista lateral</value>
+    <comment>Lateral view</comment>
+  </data>
+  <data name="LDesViewLegs" xml:space="preserve">
+    <value>Vista de las patas</value>
+    <comment>Legs view</comment>
+  </data>
+  <data name="LDesViewRear" xml:space="preserve">
+    <value>Vista posterior</value>
+    <comment>Rear view</comment>
+  </data>
+  <data name="LDesViewVentral" xml:space="preserve">
+    <value>Vista ventral, plastrón</value>
+    <comment>Ventral view, Plastron</comment>
+  </data>
+  <data name="LGeoClimate" xml:space="preserve">
+    <value>Clima lluvia, temperatura</value>
+    <comment>Climate Wheather</comment>
+  </data>
+  <data name="LHabEcozone" xml:space="preserve">
+    <value>Resumen de la ecozona</value>
+    <comment>Ecozone brief</comment>
+  </data>
+  <data name="LHabGeoCountryNotes" xml:space="preserve">
+    <value>Notas sobre su rango de distribucion</value>
+    <comment>Range notes</comment>
+  </data>
+  <data name="LHabGeoEcoBiogeographicRegion" xml:space="preserve">
+    <value>Region biogeográfica</value>
+    <comment>Biogeographic region</comment>
+  </data>
+  <data name="LNatuBreeding" xml:space="preserve">
+    <value>Reproducción</value>
+    <comment>Breeding</comment>
+  </data>
+  <data name="LNatuDangers" xml:space="preserve">
+    <value>Notas sobre peligros</value>
+    <comment>Danger Notes</comment>
+  </data>
+  <data name="LNatuProAction" xml:space="preserve">
+    <value>Acciones de protección</value>
+    <comment>Danger protections actions</comment>
+  </data>
+  <data name="LNatuFoodChain" xml:space="preserve">
+    <value>Alimentación</value>
+    <comment>Foods</comment>
+  </data>
+  <data name="LNatuKeys" xml:space="preserve">
+    <value>Decripcion claves</value>
+  </data>
+  <data name="LNatuLifestyles" xml:space="preserve">
+    <value>Habitos de vida</value>
+  </data>
+  <data name="LNatuMediaType" xml:space="preserve">
+    <value>Tipo de medio</value>
+    <comment>Media type</comment>
+  </data>
+  <data name="LNatuNaturalHistory" xml:space="preserve">
+    <value>History natural</value>
+  </data>
+  <data name="LNatuNotes" xml:space="preserve">
+    <value>Notas sobre su estilo de vida</value>
+    <comment>Live Notes</comment>
+  </data>
+  <data name="LTaxEtimology" xml:space="preserve">
+    <value>Etimología</value>
+    <comment>Ethimology</comment>
+  </data>
+  <data name="LTaxNameVulgar" xml:space="preserve">
+    <value>Nombre vulgar en</value>
+    <comment>Vulgar name in</comment>
+  </data>
+  <data name="LTaxNotes" xml:space="preserve">
+    <value>Notas</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="mn_abstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="mn_care_sheet" xml:space="preserve">
+    <value>Cuidados</value>
+  </data>
+  <data name="mn_description" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="mn_distribution" xml:space="preserve">
+    <value>Distribución</value>
+  </data>
+  <data name="mn_ecology" xml:space="preserve">
+    <value>Ecología</value>
+  </data>
+  <data name="mn_images" xml:space="preserve">
+    <value>Galeria</value>
+  </data>
+  <data name="mn_identificationkeys" xml:space="preserve">
+    <value>Claves de identificación del taxón</value>
+  </data>
+  <data name="mn_natural_history" xml:space="preserve">
+    <value>Historia Natural</value>
+  </data>
+  <data name="mn_near_species" xml:space="preserve">
+    <value>Especies próximas</value>
+  </data>
+  <data name="mn_notes" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="mn_old" xml:space="preserve">
+    <value>Antigua</value>
+  </data>
+  <data name="mn_taxonony_names" xml:space="preserve">
+    <value>Taxonomy</value>
+  </data>
+  <data name="mn_todo" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="natural_history" xml:space="preserve">
+    <value>Historia natural</value>
+  </data>
+  <data name="nearspecies" xml:space="preserve">
+    <value>Especies proximas</value>
+  </data>
+  <data name="NoDataSoFar" xml:space="preserve">
+    <value>Lo siento, &lt;br /&gt;No tengo datos por el momento</value>
+    <comment>Lo siento &lt;br/&gt;Sin datos por el momento</comment>
+  </data>
+  <data name="notes1" xml:space="preserve">
+    <value>Notas</value>
+  </data>
+  <data name="no_select" xml:space="preserve">
+    <value>No Select</value>
+  </data>
+  <data name="OfFamily" xml:space="preserve">
+    <value>de la Familia</value>
+  </data>
+  <data name="old" xml:space="preserve">
+    <value>Viejo</value>
+  </data>
+  <data name="omnivore" xml:space="preserve">
+    <value>Omnívora</value>
+    <comment>omnivore</comment>
+  </data>
+  <data name="omnivore_dominant_hervivore" xml:space="preserve">
+    <value>Omnivora dominantemente herbivora</value>
+  </data>
+  <data name="omnivore__dominant_carnivore" xml:space="preserve">
+    <value>Omnivora domiantemente carnivora</value>
+  </data>
+  <data name="Opps_Nodata1" xml:space="preserve">
+    <value>Opps! &lt;br/&gt; No tenemos una buena descripción para este apartados &lt;br/&gt; ¿Nos puede ayudar a completar esta seccion, Por favor, rellene formulario de contacto, gracias a</value>
+    <comment>Opps!&lt;br/&gt; we don't have a good description for this secction.&lt;br/&gt;Can you help us to complete this,  Please fill contac form, Thank's</comment>
+  </data>
+  <data name="ovipare" xml:space="preserve">
+    <value>Ovipara</value>
+  </data>
+  <data name="scnAAbsDesImgTit" xml:space="preserve">
+    <value>Imgenes tipo: Adulto (Dorsal, plastral, lateral), clima y rango</value>
+  </data>
+  <data name="scnAAbsDesTit" xml:space="preserve">
+    <value>Asbstract de descripcion fisica,(Caparazon duro, abombada, color, patas...)</value>
+    <comment>Abstract phisical description (Hard shell, Domed, color, legs..)</comment>
+  </data>
+  <data name="scnAAbsDesTitS" xml:space="preserve">
+    <value>Abstract descripción</value>
+    <comment>Abstract Description</comment>
+  </data>
+  <data name="scnAAbsEcozoneTit" xml:space="preserve">
+    <value>Abstract Ecozona (Selva,desierto, clima mediterraneo... temperatura)</value>
+    <comment>Abstract Ecozone (Forest, desert, mediterranean temperature)</comment>
+  </data>
+  <data name="scnAAbsEcozoneTitS" xml:space="preserve">
+    <value>Abstract ecozona</value>
+    <comment>Abstract Ecozone</comment>
+  </data>
+  <data name="scnAAbsEcozone_BtnOverWrite" xml:space="preserve">
+    <value>Sobrescribir texto por defecto</value>
+    <comment>Overwrite default text</comment>
+  </data>
+  <data name="scnAAbsLiveTit" xml:space="preserve">
+    <value>Abstract Historia natual (acuatica, dominantemente acuatica,rios, carnivora...) </value>
+    <comment>Abstract Natural history (Freswater, dominant Acuatic, ribers, carnivorous)</comment>
+  </data>
+  <data name="scnAAbsLiveTitS" xml:space="preserve">
+    <value>Abstract de historia natural</value>
+    <comment>Abstract Natural History</comment>
+  </data>
+  <data name="scnAAbsRngTit" xml:space="preserve">
+    <value>Abstract rango de distribución, (Contienente, paises)</value>
+    <comment>Abstract Range distribution (Continent, countries)</comment>
+  </data>
+  <data name="scnAAbsRngTitS" xml:space="preserve">
+    <value>Resumén Rango de distribución</value>
+    <comment>Abstract Range Distribution</comment>
+  </data>
+  <data name="scnAbsDesTit" xml:space="preserve">
+    <value>Abstract completo de la especie</value>
+  </data>
+  <data name="scnAbsHisNatTit" xml:space="preserve">
+    <value>Historia Natural (Resumen)</value>
+  </data>
+  <data name="scnAbsRngHabTit" xml:space="preserve">
+    <value>Distribución geográfica y Hábitat</value>
+  </data>
+  <data name="scnAbsTit" xml:space="preserve">
+    <value>Resumen Forma,medio,dieta, Continente, Historia natural ,distribucion)</value>
+  </data>
+  <data name="scnADateUpdateTit" xml:space="preserve">
+    <value>Actualizada</value>
+    <comment>Updated</comment>
+  </data>
+  <data name="scnADesImgDimorphismTit" xml:space="preserve">
+    <value>Dimorfismo sexual</value>
+    <comment>Sex dimorphism</comment>
+  </data>
+  <data name="scnADesImg_BabyDorsal" xml:space="preserve">
+    <value>Vista dorsal de crias</value>
+  </data>
+  <data name="scnADesImg_BabyVentral" xml:space="preserve">
+    <value>Vista ventral de crias</value>
+  </data>
+  <data name="scnADesImg_BridgeTit" xml:space="preserve">
+    <value>Vista de puente (Escudos inguinales y axilares)</value>
+    <comment>Bridge view (Inguinal, Axilar)</comment>
+  </data>
+  <data name="scnADesImg_DiferentiationTit" xml:space="preserve">
+    <value>Diferenciación de otras especies similares</value>
+    <comment>Diferentiation from other species</comment>
+  </data>
+  <data name="scnADesImg_frontalTit" xml:space="preserve">
+    <value>Descripción frontal</value>
+    <comment>Frontal body description</comment>
+  </data>
+  <data name="scnADesImg_Holotype" xml:space="preserve">
+    <value>Holotipo</value>
+  </data>
+  <data name="scnADesImg_lateralTit" xml:space="preserve">
+    <value>Descripcion lateral</value>
+    <comment>Lateral body description</comment>
+  </data>
+  <data name="scnADesImg_TailTit" xml:space="preserve">
+    <value>Descripción de la cola</value>
+    <comment>Description of cue</comment>
+  </data>
+  <data name="scnADesind_deskeys" xml:space="preserve">
+    <value>Sumario de claves de identificacion</value>
+  </data>
+  <data name="scnADesMeasureLenghtCmTit" xml:space="preserve">
+    <value>Longitud cm. (LRC)</value>
+    <comment>Lenght Ctms (LRS)</comment>
+  </data>
+  <data name="scnADesMeasureWeightGrmTit" xml:space="preserve">
+    <value>Peso en gramos</value>
+    <comment>Weight Grams</comment>
+  </data>
+  <data name="scnADesViewHeadNeckTit" xml:space="preserve">
+    <value>Vista del cuello y cabeza</value>
+    <comment>Head and Neck view</comment>
+  </data>
+  <data name="scnADesViewLegsTit" xml:space="preserve">
+    <value>Descripción de patas anteriores  y posteriores</value>
+    <comment>Description of forelegs and  hindlegs</comment>
+  </data>
+  <data name="scnADesViewVentralTit" xml:space="preserve">
+    <value>Descripción de vista ventral</value>
+    <comment>Ventral body description</comment>
+  </data>
+  <data name="scnADngLevelCitesTit" xml:space="preserve">
+    <value>CITES Apéndice</value>
+    <comment>CITES Apendic</comment>
+  </data>
+  <data name="scnADngLevelRedListTit" xml:space="preserve">
+    <value>IUCN Lista Roja</value>
+    <comment>IUCN Red List</comment>
+  </data>
+  <data name="scnAUrlImagesTit" xml:space="preserve">
+    <value>Link a nuestra galeria</value>
+    <comment>Our Gallery link Url</comment>
+  </data>
+  <data name="scnAGeoClimateWeatherImgTit" xml:space="preserve">
+    <value>Img especifica del clima 600px widith</value>
+  </data>
+  <data name="scnAGeoClimateWeatherImgTit1" xml:space="preserve">
+    <value>Imagenes del clima tipo</value>
+  </data>
+  <data name="scnAGeoClimateWeatherImg_btn" xml:space="preserve">
+    <value>Seleccionar image de temperatura y lluvias  (600px)</value>
+    <comment>Get Image wheather temp and rainful (600px)</comment>
+  </data>
+  <data name="scnAGeoClimateWheatherBiomeImg" xml:space="preserve">
+    <value>Bioma tipo</value>
+    <comment>Biome type</comment>
+  </data>
+  <data name="scnAGeoClimateWheatherLocation" xml:space="preserve">
+    <value>Clima localizacion tipo</value>
+    <comment>Weather Location type</comment>
+  </data>
+  <data name="scnAGeoClimateLocationTypeTit" xml:space="preserve">
+    <value>Localizacion del tipo de clima</value>
+  </data>
+  <data name="scnAGeoClimateWheatherRainImg" xml:space="preserve">
+    <value>Lluvia tipo</value>
+    <comment>Rain type</comment>
+  </data>
+  <data name="scnAGeoClimateWheatherSectionTit" xml:space="preserve">
+    <value>CLima tipo</value>
+  </data>
+  <data name="scnAGeoClimateWheatherSunImg" xml:space="preserve">
+    <value>Horas de sol</value>
+    <comment>Sun hours</comment>
+  </data>
+  <data name="scnAGeoClimateWheatherTmpImgTit" xml:space="preserve">
+    <value>Temperatura tipo</value>
+    <comment>Temperature type</comment>
+  </data>
+  <data name="scnAGeoKeyContinentTit" xml:space="preserve">
+    <value>Continente</value>
+    <comment>Continent</comment>
+  </data>
+  <data name="scnAGeoKeyCountriesTit" xml:space="preserve">
+    <value>Paises</value>
+    <comment>Countries</comment>
+  </data>
+  <data name="scnAGeoEcoBiogeographicRegionTit" xml:space="preserve">
+    <value>Región Biogeográfica</value>
+    <comment>Biogeographic region</comment>
+  </data>
+  <data name="scnAGeoEcoZonesClimateKeyTit" xml:space="preserve">
+    <value>Selcción de zona climática (Clave)</value>
+    <comment>Select Ecological climate key</comment>
+  </data>
+  <data name="scnAGeoRangeImgTit" xml:space="preserve">
+    <value>Imagen del rago de distribución</value>
+    <comment>Distribution range image</comment>
+  </data>
+  <data name="scnAGeoRangeImg_btn" xml:space="preserve">
+    <value>Selecciona la imagen de rango de distribucion(600px)</value>
+    <comment>Get Image range distribution (600px)</comment>
+  </data>
+  <data name="scnAGeoRangeMapImgTit" xml:space="preserve">
+    <value>Mapa del rango de distribución</value>
+    <comment>Range Distribution Map</comment>
+  </data>
+  <data name="scnAGeoImg_AGeoImg_GeoRangeMapStandardWorldFulTit" xml:space="preserve">
+    <value>Mapa de detalle del rango natural de distribucion (600px)</value>
+  </data>
+  <data name="scnAGeoImg_GeoRangeMapStandardWorldFulTit" xml:space="preserve">
+    <value>Mapamundi del rango natrual de distribucion  (600px)</value>
+  </data>
+  <data name="scnAGeoLatidudGeographic" xml:space="preserve">
+    <value>Latidud geografica (Negativa para el hemiferio sur)</value>
+    <comment>Geographic latitud (Negative  in south hemisphere)</comment>
+  </data>
+  <data name="scnAGeoLocLatitudMaxTit" xml:space="preserve">
+    <value>Habita Latitud ºMax</value>
+    <comment>Live Latitud ºMax</comment>
+  </data>
+  <data name="scnAGeoLocLatitudMinTit" xml:space="preserve">
+    <value>Habita en  Latitud ºMin</value>
+    <comment>Live Latitud ºMin</comment>
+  </data>
+  <data name="scnALinkOtherTit" xml:space="preserve">
+    <value>Otros enlaces importantes</value>
+    <comment>Other Important Links</comment>
+  </data>
+  <data name="scnALiveFoodKeyNotesTit" xml:space="preserve">
+    <value>Lista de alimentos y notas</value>
+    <comment>Food list and notes</comment>
+  </data>
+  <data name="scnALiveFoodKeyTit" xml:space="preserve">
+    <value>Alimentacion (Clave)</value>
+    <comment>Food Key</comment>
+  </data>
+  <data name="scnALiveMediaTypeNotesTit" xml:space="preserve">
+    <value>Notas sobre el tipo de medio</value>
+    <comment>Media type notes</comment>
+  </data>
+  <data name="scnALiveMediaTypeTit" xml:space="preserve">
+    <value>Tipo de medio (Clave)</value>
+    <comment>Media type key</comment>
+  </data>
+  <data name="scnALnk2000Tit" xml:space="preserve">
+    <value>Species 2000</value>
+    <comment>Species 2000</comment>
+  </data>
+  <data name="scnALnkCitesDocTit" xml:space="preserve">
+    <value>Cites Doc.</value>
+    <comment>Cites Doc.</comment>
+  </data>
+  <data name="scnATax_ItisTsnTit" xml:space="preserve">
+    <value>ITIS</value>
+    <comment>ITIS</comment>
+  </data>
+  <data name="scnALnkIUCNTit" xml:space="preserve">
+    <value>IUCN</value>
+    <comment>IUCN</comment>
+  </data>
+  <data name="scnALnkReptileDataBase" xml:space="preserve">
+    <value>Reptile database</value>
+    <comment>Reptile database</comment>
+  </data>
+  <data name="scnALnkTurtlesOfTheWorldTit" xml:space="preserve">
+    <value>Turtles of the World</value>
+    <comment>Turtles of the World</comment>
+  </data>
+  <data name="scnAKeyNaturalBreedingTit" xml:space="preserve">
+    <value>Tipo de reproducción</value>
+  </data>
+  <data name="scnATabAbstract" xml:space="preserve">
+    <value>Resumen</value>
+  </data>
+  <data name="scnATabDescription" xml:space="preserve">
+    <value>Descripción física</value>
+    <comment>Physical description</comment>
+  </data>
+  <data name="scnATaxAuthorityTit" xml:space="preserve">
+    <value>Autoridad</value>
+    <comment>Authority</comment>
+  </data>
+  <data name="scnATaxEpitetTit" xml:space="preserve">
+    <value>Epíteto</value>
+    <comment>Epitet</comment>
+  </data>
+  <data name="scnATaxGenusTit" xml:space="preserve">
+    <value>Género</value>
+    <comment>Genus</comment>
+  </data>
+  <data name="scnATaxGrpL2000ClassTit" xml:space="preserve">
+    <value>Clase (Reptilia- Sauropsida)</value>
+    <comment>CLass (Like Sauropsida)</comment>
+  </data>
+  <data name="scnATaxGrpL200SubClassTit" xml:space="preserve">
+    <value>Subclase (Ejem. Anapsida)</value>
+    <comment>Subclass (Like Anapsida)</comment>
+  </data>
+  <data name="scnATaxGrpL2210OrderTit" xml:space="preserve">
+    <value>Orden (Ejem. Testudines)</value>
+    <comment>Order (Like Testudines)</comment>
+  </data>
+  <data name="scnATaxGrpL2220SubOrderTit" xml:space="preserve">
+    <value>Suborden (Ejem. Cryptodira)</value>
+    <comment>Suborder (Like Cryptodira)</comment>
+  </data>
+  <data name="scnATaxGrpL2230SupFamilyTit" xml:space="preserve">
+    <value>Superfamilia (Ejem. Testudinoidea)</value>
+    <comment>Superfamily  (Like Testudinoidea)</comment>
+  </data>
+  <data name="scnATaxGrpL2240FamilyTit" xml:space="preserve">
+    <value>Familia (Like Testudinidae)</value>
+    <comment>Family (Like Testudinidae)</comment>
+  </data>
+  <data name="scnATaxGrpL2250SubFamilyTit" xml:space="preserve">
+    <value>Subfamila (Not usual)</value>
+    <comment>Subfamily (Not usual)</comment>
+  </data>
+  <data name="scnATaxGrpL2260SupGenusTit" xml:space="preserve">
+    <value>Supergenus (Not Usua)</value>
+    <comment>Supergenus</comment>
+  </data>
+  <data name="scnATaxGrpL2281SubSpecieTit" xml:space="preserve">
+    <value>Subspecies</value>
+  </data>
+  <data name="scnATaxNameVulgarENTit" xml:space="preserve">
+    <value>Nombre vulgar  Ingles</value>
+    <comment>Ing English</comment>
+  </data>
+  <data name="scnATaxGrpL0001lNameFullRecomededTit" xml:space="preserve">
+    <value>Nombre cientifico recomendado</value>
+    <comment>Taxon Full Name Recomended</comment>
+  </data>
+  <data name="scnATaxNameVulgar" xml:space="preserve">
+    <value>Nombres vulgares</value>
+    <comment>Vulgar Names</comment>
+  </data>
+  <data name="scnATaxNameVulgarOthersTit" xml:space="preserve">
+    <value>Nombres vulgares en todos los idiomas</value>
+    <comment>Vulgar names list in all languages</comment>
+  </data>
+  <data name="scnATaxSinominsTit" xml:space="preserve">
+    <value>Sinonimos taxonómicos</value>
+    <comment>Synonyms</comment>
+  </data>
+  <data name="scnATaxYearTit" xml:space="preserve">
+    <value>Year</value>
+    <comment>Year</comment>
+  </data>
+  <data name="scnBtnCacheRebuild" xml:space="preserve">
+    <value>Rehacer Cache</value>
+  </data>
+  <data name="scnBtnHabClimateBldGraph" xml:space="preserve">
+    <value>Guardar y graficas</value>
+  </data>
+  <data name="scnDngLevelCitesItem_I" xml:space="preserve">
+    <value>Apéndice I</value>
+    <comment>Appendix II</comment>
+  </data>
+  <data name="scnDngLevelCitesItem_II" xml:space="preserve">
+    <value>Apéndice II</value>
+    <comment>Appendix II</comment>
+  </data>
+  <data name="scnDngLevelCitesItem_III" xml:space="preserve">
+    <value>Appendix III</value>
+    <comment>Appendix II</comment>
+  </data>
+  <data name="scnDngLevelCitesItem_no" xml:space="preserve">
+    <value>No incluida</value>
+    <comment>Not Included</comment>
+  </data>
+  <data name="scnHabClimateWeatherTit" xml:space="preserve">
+    <value>Clima atmosférico</value>
+    <comment>Climate Weather</comment>
+  </data>
+  <data name="scnHabitatNotesTit" xml:space="preserve">
+    <value>Notas sobre su hábitat</value>
+    <comment>Habitat notes</comment>
+  </data>
+  <data name="scnImgHisHabitatTit" xml:space="preserve">
+    <value>Imagen en su habitat o habitat</value>
+  </data>
+  <data name="scnLAbsCareTit" xml:space="preserve">
+    <value>Introducción a sus cuidados</value>
+    <comment>Care introduction</comment>
+  </data>
+  <data name="scnLCareBreedingTit" xml:space="preserve">
+    <value>Cuidados para su reproducción</value>
+    <comment>Care Breeding</comment>
+  </data>
+  <data name="scnLCareEspecialistTit" xml:space="preserve">
+    <value>Especialistas en sus cuidados</value>
+    <comment>Care Especialist</comment>
+  </data>
+  <data name="scnLCareFoodTit" xml:space="preserve">
+    <value>Cuidados en su alimentación</value>
+    <comment>Care Foods</comment>
+  </data>
+  <data name="scnLCareNotesTit" xml:space="preserve">
+    <value>Otras notas sobre sus cuidados</value>
+    <comment>Care Notes</comment>
+  </data>
+  <data name="scnLCareValuesTit" xml:space="preserve">
+    <value>Valores para sus cuidados</value>
+  </data>
+  <data name="scnLCareVivariumIndoorTit" xml:space="preserve">
+    <value>Intalación de vivarios interiores</value>
+    <comment>Instalation Vivarium Indoor</comment>
+  </data>
+  <data name="scnLCareVivariumOutdoorTit" xml:space="preserve">
+    <value>Instalación de vivarios exteriores</value>
+    <comment>Instalation Vivarium outdoor</comment>
+  </data>
+  <data name="scnLDangerProActionsTit" xml:space="preserve">
+    <value>Acciones para su protección</value>
+    <comment>Protection actions</comment>
+  </data>
+  <data name="scnLDesBabysTit" xml:space="preserve">
+    <value>Descripcion de juveniles</value>
+    <comment>Descripcion Babys</comment>
+  </data>
+  <data name="scnLDesAbstractTit" xml:space="preserve">
+    <value>Datos generales y tamaños</value>
+  </data>
+  <data name="scnLDesImg_dorsalTit" xml:space="preserve">
+    <value>Descripción de su vista dorsal</value>
+    <comment>Dorsal body description</comment>
+  </data>
+  <data name="scnLDesInternalTit" xml:space="preserve">
+    <value>Descripción interna</value>
+    <comment>Description internal</comment>
+  </data>
+  <data name="scnLDesKeysTit" xml:space="preserve">
+    <value>Claves para su identificación</value>
+    <comment>Indentifiction Keys</comment>
+  </data>
+  <data name="scnLDesNotesTit" xml:space="preserve">
+    <value>Notas</value>
+    <comment>Notes</comment>
+  </data>
+  <data name="scnLDesViewIntroTit" xml:space="preserve">
+    <value>Descripción general (Caparaxon duro, abombada, plana, patas, aletas, color)</value>
+    <comment>Descripcion general (Hard, shell, domed, flat, legs flaps, color)</comment>
+  </data>
+  <data name="scnLDesViewRearTit" xml:space="preserve">
+    <value>Descripcion de la vista posterior</value>
+    <comment>Rear body view</comment>
+  </data>
+  <data name="scnLDngDangerNotesTit" xml:space="preserve">
+    <value>Peligros mas importantes</value>
+    <comment>Most important dangers</comment>
+  </data>
+  <data name="scnLDnglProActionsTit" xml:space="preserve">
+    <value>Acciones para su protección</value>
+    <comment>Protections acctions</comment>
+  </data>
+  <data name="scnLHabClimateEcozoneTit" xml:space="preserve">
+    <value>Descripción del clima de  la ecozona</value>
+    <comment>Climate ecozone description</comment>
+  </data>
+  <data name="scnLHabClimateTit" xml:space="preserve">
+    <value>Clima</value>
+    <comment>Climate</comment>
+  </data>
+  <data name="scnLHabEcozoneTit" xml:space="preserve">
+    <value>Descripción de la ecozona, vegetacion, orografia, paisaje</value>
+    <comment>Ecozone description</comment>
+  </data>
+  <data name="scnLHabGeoCountyNotesTit" xml:space="preserve">
+    <value>Notas sobre los paises</value>
+    <comment>Countries Notes</comment>
+  </data>
+  <data name="scnLHabGeoEcoRegionTit" xml:space="preserve">
+    <value>Región biogeográfica  - Walace</value>
+    <comment>Biogeographic Region - Walace</comment>
+  </data>
+  <data name="scnLiveNotesTit" xml:space="preserve">
+    <value>Notas sobre su estilo de vida</value>
+    <comment>Lifestyle Notes</comment>
+  </data>
+  <data name="scnLNatuBreedingTit" xml:space="preserve">
+    <value>Reproducción</value>
+    <comment>Care Breeding</comment>
+  </data>
+  <data name="scnLNatuLifestylesTit" xml:space="preserve">
+    <value>Estilo de vida</value>
+    <comment>Lifestyles</comment>
+  </data>
+  <data name="scnLNatuPredatorsTit" xml:space="preserve">
+    <value>Predadores</value>
+    <comment>Predators</comment>
+  </data>
+  <data name="scnLNatuReproduccionTit" xml:space="preserve">
+    <value>Reproduccion</value>
+    <comment>Reproduction</comment>
+  </data>
+  <data name="scnLTaxEtimologyTit" xml:space="preserve">
+    <value>Etimología</value>
+    <comment>Etymology</comment>
+  </data>
+  <data name="scnLTaxNameVulgarTit" xml:space="preserve">
+    <value>En este idioma</value>
+    <comment>In this language</comment>
+  </data>
+  <data name="scnLTaxNotesTit" xml:space="preserve">
+    <value>Notas taxonómicas</value>
+    <comment>Taxonomic notes</comment>
+  </data>
+  <data name="scnLTaxSinonimsTit" xml:space="preserve">
+    <value>Sinononimos</value>
+  </data>
+  <data name="scnMaxLenght_250" xml:space="preserve">
+    <value>Longitud maxima 250</value>
+    <comment>Max Lenght 250</comment>
+  </data>
+  <data name="scnMaxLenght_500" xml:space="preserve">
+    <value>Longitud maxima 500</value>
+    <comment>Max Lenght  500</comment>
+  </data>
+  <data name="scnSectionDngProt" xml:space="preserve">
+    <value>Proteccion y peligros</value>
+  </data>
+  <data name="scnSectionOtherSpeciesSameGenus" xml:space="preserve">
+    <value>Otras especies del genero</value>
+  </data>
+  <data name="scnSectionTitClimateType" xml:space="preserve">
+    <value>Clima tipo</value>
+    <comment>Climate type</comment>
+  </data>
+  <data name="scnSectionTitClimateTypeBiome" xml:space="preserve">
+    <value>Bioma tipo</value>
+    <comment>Biome type</comment>
+  </data>
+  <data name="scnSectionTitClimateTypeRain" xml:space="preserve">
+    <value>Lluvias del clima tipo</value>
+    <comment>Climate Rain type</comment>
+  </data>
+  <data name="scnSectionTitClimateTypeSun" xml:space="preserve">
+    <value>Horas de sol tipo</value>
+    <comment>Climate sun hours type</comment>
+  </data>
+  <data name="scnSectionTitClimateTypeTemperature" xml:space="preserve">
+    <value>Climate temperature type</value>
+    <comment>Climate temperature type</comment>
+  </data>
+  <data name="scnTabCareSheet" xml:space="preserve">
+    <value>Hoja de cuidados</value>
+  </data>
+  <data name="scnTabClimate" xml:space="preserve">
+    <value>Clima</value>
+    <comment>Climate</comment>
+  </data>
+  <data name="scnTabDngProt" xml:space="preserve">
+    <value>Peligros y Proteccion</value>
+    <comment>Danger y Top Links</comment>
+  </data>
+  <data name="scnTabHabitatClimate" xml:space="preserve">
+    <value>Ecol. Clima</value>
+  </data>
+  <data name="scnTabHabitatEcology" xml:space="preserve">
+    <value>Ecol. Habitat</value>
+  </data>
+  <data name="scnTabHabitatRange" xml:space="preserve">
+    <value>Distribución</value>
+  </data>
+  <data name="scnTabPnLNatu" xml:space="preserve">
+    <value>Historia natural</value>
+    <comment>Natural history</comment>
+  </data>
+  <data name="scnTabTaxonomyNames" xml:space="preserve">
+    <value>Taxonomy &amp; Names</value>
+  </data>
+  <data name="scnTabToDo" xml:space="preserve">
+    <value>Pendiente</value>
+  </data>
+  <data name="scnTitleTit" xml:space="preserve">
+    <value>Título</value>
+    <comment>Title</comment>
+  </data>
+  <data name="scnTypeSubTit" xml:space="preserve">
+    <value>Taxón subtipo</value>
+    <comment>Taxon Subtype</comment>
+  </data>
+  <data name="scnTypeTit" xml:space="preserve">
+    <value>Taxón tipo</value>
+    <comment>Taxon Type</comment>
+  </data>
+  <data name="sea" xml:space="preserve">
+    <value>Marina</value>
+    <comment>Sea</comment>
+  </data>
+  <data name="sncBtnGetImage" xml:space="preserve">
+    <value>Seleciona imagen</value>
+    <comment>Get Image</comment>
+  </data>
+  <data name="sncBtnGetImage2" xml:space="preserve">
+    <value>Secciona imagen 2</value>
+    <comment>Get image 2</comment>
+  </data>
+  <data name="sncPnlAbs" xml:space="preserve">
+    <value>Abstract</value>
+    <comment>Abstract</comment>
+  </data>
+  <data name="specie1" xml:space="preserve">
+    <value>especie</value>
+  </data>
+  <data name="species" xml:space="preserve">
+    <value>especies</value>
+  </data>
+  <data name="Summary" xml:space="preserve">
+    <value>Resumen</value>
+  </data>
+  <data name="taxATaxonGroupTit" xml:space="preserve">
+    <value>Clasificación grupos taxonómicos</value>
+    <comment>Taxon Group keys</comment>
+  </data>
+  <data name="TaxonIdentificationKey" xml:space="preserve">
+    <value>Taxon: Clave de Identificacion</value>
+  </data>
+  <data name="TaxonIdentificationPath" xml:space="preserve">
+    <value>Identificacion Path</value>
+  </data>
+  <data name="TaxonIdetificationGoTOW" xml:space="preserve">
+    <value>Go Turtles of the world</value>
+  </data>
+  <data name="TaxonIdetificationParentNode" xml:space="preserve">
+    <value>Nodo pariente</value>
+  </data>
+  <data name="taxonony" xml:space="preserve">
+    <value>Taxonomía</value>
+  </data>
+  <data name="Taxons_Keys" xml:space="preserve">
+    <value>Tortugas y galapagos, claves de identificación</value>
+  </data>
+  <data name="Taxons_Keys_Management" xml:space="preserve">
+    <value>Administracion</value>
+  </data>
+  <data name="terrestrial" xml:space="preserve">
+    <value>Terrestre</value>
+    <comment>Terrestrial</comment>
+  </data>
+  <data name="todo1" xml:space="preserve">
+    <value>Pdte</value>
+  </data>
+  <data name="unknown" xml:space="preserve">
+    <value>Desconocido</value>
+    <comment>Unknown</comment>
+  </data>
+  <data name="VulgarNames" xml:space="preserve">
+    <value>Nombres vulgares</value>
+    <comment>Vulgar names</comment>
+  </data>
+  <data name="with" xml:space="preserve">
+    <value>con</value>
+  </data>
+  <data name="pageOtherTitle" xml:space="preserve">
+    <value>Otras</value>
+  </data>
+  <data name="pageOtherTitleSub" xml:space="preserve">
+    <value>Paginas que no tratan de tortugas</value>
+  </data>
+  <data name="scnIsRewrited" xml:space="preserve">
+    <value>Reescrita desde  2015?</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Todos</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Resetear</value>
+  </data>
+  <data name="Authors_full" xml:space="preserve">
+    <value>Autores completos</value>
+  </data>
+  <data name="CiteAutorYearABC" xml:space="preserve">
+    <value>Cite Autor Year ABC</value>
+  </data>
+  <data name="Date_page" xml:space="preserve">
+    <value>Fecha de página</value>
+  </data>
+  <data name="Full_cite" xml:space="preserve">
+    <value>Full cite</value>
+  </data>
+  <data name="Id_Parent" xml:space="preserve">
+    <value>ID pariente</value>
+  </data>
+  <data name="PublicationReaded" xml:space="preserve">
+    <value>Publicacion leida fecha</value>
+  </data>
+  <data name="URLocalDownload" xml:space="preserve">
+    <value>UR Local  descargas</value>
+  </data>
+  <data name="URPublication" xml:space="preserve">
+    <value>UR Publicacion</value>
+  </data>
+  <data name="Publication_Date_page" xml:space="preserve">
+    <value>Publ.Fecha, Pag.</value>
+  </data>
+  <data name="Publication_Name" xml:space="preserve">
+    <value>Publ. Name</value>
+  </data>
+  <data name="KeyParent" xml:space="preserve">
+    <value>Clave anterior</value>
+  </data>
+  <data name="scnMapStandardKoppen" xml:space="preserve">
+    <value>Pon mapa Koppen - tamaño medio para esta especiee</value>
+  </data>
+  <data name="scnTitEcologic" xml:space="preserve">
+    <value>Distribución ecológica</value>
+  </data>
+  <data name="scnTitImgInHabitat" xml:space="preserve">
+    <value>Imagenes en su habitat</value>
+  </data>
+  <data name="scnTitMapDetail" xml:space="preserve">
+    <value>Pon la image de mapa detalle tamaño med</value>
+  </data>
+  <data name="CitedOn" xml:space="preserve">
+    <value>Citado en</value>
+  </data>
+  <data name="mnAbout" xml:space="preserve">
+    <value>Acerca de...</value>
+  </data>
+  <data name="mnArticles" xml:space="preserve">
+    <value>Articulos</value>
+  </data>
+  <data name="mnContact" xml:space="preserve">
+    <value>Contacte</value>
+  </data>
+  <data name="mnHome" xml:space="preserve">
+    <value>Inicio</value>
+  </data>
+  <data name="mnNotices" xml:space="preserve">
+    <value>Noticias</value>
+  </data>
+  <data name="mnRefereces" xml:space="preserve">
+    <value>Referencias</value>
+  </data>
+  <data name="Others_clasificated_list" xml:space="preserve">
+    <value>Otros clasificados</value>
+  </data>
+  <data name="Others_clasifiated_list" xml:space="preserve">
+    <value>Otras cosas, Miscelanea</value>
+  </data>
+  <data name="mnAcknoelegment" xml:space="preserve">
+    <value>Agradecimientos</value>
+  </data>
+  <data name="mnBibliography" xml:space="preserve">
+    <value>Bibilografia</value>
+  </data>
+  <data name="mnOthers" xml:space="preserve">
+    <value>Otros</value>
+  </data>
+  <data name="mnReferences" xml:space="preserve">
+    <value>Referencias</value>
+  </data>
+  <data name="Taxa_TreeTaxonomiy" xml:space="preserve">
+    <value>Lista taxonómica  tortugas y galapagos</value>
+  </data>
+  <data name="taxa_full_list" xml:space="preserve">
+    <value>Lista completa de tortugas</value>
+  </data>
+  <data name="goback" xml:space="preserve">
+    <value>Ir Atras</value>
+  </data>
+  <data name="You_are" xml:space="preserve">
+    <value>Estas en</value>
+  </data>
+  <data name="notfound" xml:space="preserve">
+    <value>No encontrado</value>
+  </data>
+  <data name="ind_Chapter" xml:space="preserve">
+    <value>Capítulo</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>Acerca de...</value>
+  </data>
+  <data name="mnArticlesArtsSociety" xml:space="preserve">
+    <value>Arte y sociedad</value>
+  </data>
+  <data name="mnArticlesBiology" xml:space="preserve">
+    <value>Biologia de las tortugas</value>
+  </data>
+  <data name="mnArticlesCare" xml:space="preserve">
+    <value>Guia de cuidados de las tortugas</value>
+  </data>
+  <data name="mnArticlesConservationProjects" xml:space="preserve">
+    <value>Proyectos de conservacion</value>
+  </data>
+  <data name="mnArticlesDiseases" xml:space="preserve">
+    <value>Enfermedades de las tortugas</value>
+  </data>
+  <data name="mnArticlesFoods" xml:space="preserve">
+    <value>Alimenacion</value>
+  </data>
+  <data name="mnArticlesList" xml:space="preserve">
+    <value>All Articles list</value>
+  </data>
+  <data name="mnExperimental" xml:space="preserve">
+    <value>Experimental</value>
+  </data>
+  <data name="nnArticlesOthers" xml:space="preserve">
+    <value>Others </value>
+  </data>
+  <data name="mnAboutAcknowledgements" xml:space="preserve">
+    <value>Agradecimientos</value>
+  </data>
+  <data name="mnAboutProyect" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="mnMultimedia" xml:space="preserve">
+    <value>Multimedia</value>
+  </data>
+  <data name="mail_BoxTitle" xml:space="preserve">
+    <value>Please, Fill eMail form.</value>
+  </data>
+  <data name="mail_ContactAsk" xml:space="preserve">
+    <value>Ask?</value>
+  </data>
+  <data name="mail_ContactSend" xml:space="preserve">
+    <value>Sended</value>
+  </data>
+  <data name="mail_message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="mail_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="mail_your_email" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="mail_your_emailRepite" xml:space="preserve">
+    <value>Repite email</value>
+  </data>
+  <data name="mnArticlesAll" xml:space="preserve">
+    <value>Todos los articulos</value>
+  </data>
+  <data name="readDescription" xml:space="preserve">
+    <value>Leer ficha</value>
+  </data>
+  <data name="ArticlesList" xml:space="preserve">
+    <value>Lista de articulos</value>
+  </data>
+  <data name="mnTortoises" xml:space="preserve">
+    <value>Tortugas</value>
+  </data>
+  <data name="mnTortoises_Taxa_Tortoises" xml:space="preserve">
+    <value>Fichas de tortugas</value>
+  </data>
+  <data name="mnTortoises_Taxa_TortoisesImages" xml:space="preserve">
+    <value>Torrtoises images</value>
+  </data>
+  <data name="mnTortoises_Taxa_TortoisesList" xml:space="preserve">
+    <value>Lista alfabetica de tortugas</value>
+  </data>
+  <data name="mnTortoises_Taxa_TortoisesTaxonomy" xml:space="preserve">
+    <value>Arbol Taxonómico de testudines</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>Taxa</value>
+  </data>
+  <data name="Tortoises" xml:space="preserve">
+    <value>Tortugas</value>
+  </data>
+  <data name="Tortoises_List" xml:space="preserve">
+    <value>Lista de tortugas</value>
+  </data>
+  <data name="SearchTortoise" xml:space="preserve">
+    <value>Buscar tortuga o galapago</value>
+  </data>
+  <data name="SearchTortoiseHelp" xml:space="preserve">
+    <value>Busca solamente en las fichas de especies, por nombre cientifico, y nombres vulgares en ingle y español</value>
+  </data>
+  <data name="Opps_Images" xml:space="preserve">
+    <value>Excuse me.  No tenemos imagenes de esta especie por el momento, 
+Si usted pudiera enviarnos imagenes de esta o otra especie le estariamos muy agradacidos si no las enviara con el fin de ayudarnos a completar el catalogo</value>
+  </data>
+  <data name="CantRead" xml:space="preserve">
+    <value>No puedo leer</value>
+  </data>
+  <data name="Collaborate_on" xml:space="preserve">
+    <value>Colabora en la descripcion de</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="your_ip" xml:space="preserve">
+    <value>Su dirección IP</value>
+  </data>
+  <data name="mnAcknowledgement" xml:space="preserve">
+    <value>Agradecimiento</value>
+  </data>
+  <data name="mnAcknowledgements" xml:space="preserve">
+    <value>Agradecimientos</value>
+  </data>
+  <data name="mn_Acknowledgement_mng" xml:space="preserve">
+    <value>Adm. Agradecimiento</value>
+  </data>
+  <data name="mnAcknowledgement_mng_list" xml:space="preserve">
+    <value>Adm. Agradecimientos</value>
+  </data>
+  <data name="Last_Updates" xml:space="preserve">
+    <value>Ultimas actualizaciones</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="mnArticles_mng_list" xml:space="preserve">
+    <value>Adm. Articulos</value>
+  </data>
+  <data name="mnArticless_mng_Edit" xml:space="preserve">
+    <value>Edicion de articulo</value>
+  </data>
+  <data name="mnArticless_mng_list" xml:space="preserve">
+    <value>Admin Articulos</value>
+  </data>
+  <data name="mnNotices_mng_edit" xml:space="preserve">
+    <value>Edt. Noticia</value>
+  </data>
+  <data name="mnNotices_mng_list" xml:space="preserve">
+    <value>Adm. Noticias</value>
+  </data>
+  <data name="mnTortoises_groups_mng_edit" xml:space="preserve">
+    <value>Edicion: Grupo tortugas</value>
+  </data>
+  <data name="mnTortoises_groups_mng_list" xml:space="preserve">
+    <value>Grupos de tortugas</value>
+  </data>
+  <data name="mnTortoises_keys_mng_edit" xml:space="preserve">
+    <value>Edicion clave ident.</value>
+  </data>
+  <data name="mnTortoises_keys_mng_list" xml:space="preserve">
+    <value>Claves de identificacion</value>
+  </data>
+  <data name="mnTortoises_taxa_mng_edit" xml:space="preserve">
+    <value>Edicion ficha tortuga</value>
+  </data>
+  <data name="mnTortoises_taxa_mng_list" xml:space="preserve">
+    <value>Adm. fichas de  tortugas</value>
+  </data>
+  <data name="btn_list" xml:space="preserve">
+    <value>Listado</value>
+  </data>
+  <data name="btn_list_mng" xml:space="preserve">
+    <value>Listado Adm.</value>
+  </data>
+  <data name="btn_new" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="btn_save" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="btn_show" xml:space="preserve">
+    <value>Ver</value>
+  </data>
+  <data name="btn_Rebuld_Cache_EN" xml:space="preserve">
+    <value>Rebuild Cache</value>
+  </data>
+  <data name="btn_Rebuld_Cache_ES" xml:space="preserve">
+    <value>Rehacer Cache</value>
+  </data>
+  <data name="btn_save_EN" xml:space="preserve">
+    <value>Save English</value>
+  </data>
+  <data name="btn_save_ES" xml:space="preserve">
+    <value>Guardar  Español</value>
+  </data>
+  <data name="E_NoticeType_nolect" xml:space="preserve">
+    <value>No Select</value>
+  </data>
+  <data name="E_NoticeType_specie" xml:space="preserve">
+    <value>Noticia tipo</value>
+  </data>
+  <data name="Foods_Gallery" xml:space="preserve">
+    <value>Imagenes de aimentos  para totugas</value>
+  </data>
+  <data name="Foods_last_updates" xml:space="preserve">
+    <value>Alimentos, ultimas acutalizaciones</value>
+  </data>
+  <data name="mnToroises_foods_food_list" xml:space="preserve">
+    <value>Lista de alimentos para tortugas</value>
+  </data>
+  <data name="mnToroises_foods_food_mng_edit" xml:space="preserve">
+    <value>Editar Alimento</value>
+  </data>
+  <data name="mnTortoises_foods_food" xml:space="preserve">
+    <value>Alimentos suplementos y medicinas</value>
+  </data>
+  <data name="mnTortoises_foods_foods_mng_list" xml:space="preserve">
+    <value>Adm. Alimentos</value>
+  </data>
+  <data name="mnTortoises_foods_List" xml:space="preserve">
+    <value>Fichas de alimentos para tortugas</value>
+  </data>
+  <data name="mnTortoises_groups_list" xml:space="preserve">
+    <value>Grupos taxonomicos de tortugas</value>
+  </data>
+  <data name="mnTortoises_keys_list" xml:space="preserve">
+    <value>Guia de intentificacion de tortugas</value>
+  </data>
+  <data name="mnTortoises_mmedia" xml:space="preserve">
+    <value>Galeria de Imagenes</value>
+  </data>
+  <data name="mnTortoises_taxa_List" xml:space="preserve">
+    <value>Fichero de especies de tortugas</value>
+  </data>
+  <data name="mnTortoises_appendixes_appendixes_mng_list" xml:space="preserve">
+    <value>Adm. apéndices</value>
+  </data>
+  <data name="mnTortoises_appendixes" xml:space="preserve">
+    <value>Apéndices</value>
+  </data>
+  <data name="appendixesList" xml:space="preserve">
+    <value>Listado de apéndices</value>
+  </data>
+  <data name="appendixes_clasifiated_list" xml:space="preserve">
+    <value>Listado de apéndices clasificado</value>
+  </data>
+  <data name="AppendixType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="AppendixTypeSub" xml:space="preserve">
+    <value>Subtype</value>
+  </data>
+  <data name="mnTortoises_appendix" xml:space="preserve">
+    <value>Apéndice</value>
+  </data>
+  <data name="Ecozones" xml:space="preserve">
+    <value>Ecozonas</value>
+  </data>
+  <data name="EcozoneType" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="EcozoneTypeSub" xml:space="preserve">
+    <value>Subtypo</value>
+  </data>
+  <data name="tortoise_datasheet" xml:space="preserve">
+    <value>Ficha</value>
+  </data>
+  <data name="mnTortoises_groups_groups_list" xml:space="preserve">
+    <value>Grupos taxonomicos</value>
+  </data>
+  <data name="mnTortoises_group" xml:space="preserve">
+    <value>Grupo taxonómico</value>
+  </data>
+  <data name="mnTortoises_keys_groups_list" xml:space="preserve">
+    <value>Claves de identificacion de tortugas</value>
+  </data>
+  <data name="TaxonDocId" xml:space="preserve">
+    <value>Doc. Id</value>
+  </data>
+  <data name="TOWNodeParentId" xml:space="preserve">
+    <value>TOW Nodo pariente</value>
+  </data>
+  <data name="TOWNodeParentIdList" xml:space="preserve">
+    <value>TOW Ruta de Nodos</value>
+  </data>
+  <data name="TOWTaxaGroupLevel" xml:space="preserve">
+    <value>TOW Taxa Nivel Grupo</value>
+  </data>
+  <data name="TOWTaxaGroupName" xml:space="preserve">
+    <value>TOW Taxa Nombre grupo</value>
+  </data>
+  <data name="mnToroises_keys_mng_list" xml:space="preserve">
+    <value>Adm. Claves de tortugas</value>
+  </data>
+  <data name="PageTitle_Home" xml:space="preserve">
+    <value>Catálogo sobre Tortugas y galápagos </value>
+  </data>
+  <data name="mnOthers_Acknowledgements_Acknoelegment" xml:space="preserve">
+    <value>Agradecimiento</value>
+  </data>
+  <data name="mnOthers_Acknowledgements_Acknoelegments_list" xml:space="preserve">
+    <value>Lista de agradecimeintos</value>
+  </data>
+  <data name="mnOthers_Acknowledgements_Acknoelegment_mng_edit" xml:space="preserve">
+    <value>Agradecmientos</value>
+  </data>
+  <data name="mnOthers_Acknowledgements_Acknoelegment_mng_list" xml:space="preserve">
+    <value>Adm. Agradecimimientos</value>
+  </data>
+  <data name="mnOthers_Apendix" xml:space="preserve">
+    <value>Apendix</value>
+  </data>
+  <data name="mnOthers_Bibliographys" xml:space="preserve">
+    <value>Listado de bibliografia</value>
+  </data>
+  <data name="mnOthers_ecogeography" xml:space="preserve">
+    <value>Ecogeografia</value>
+  </data>
+  <data name="mnOthers_ecozone" xml:space="preserve">
+    <value>Ecozona</value>
+  </data>
+  <data name="mnOthers_Ecozones" xml:space="preserve">
+    <value>Ecozones</value>
+  </data>
+  <data name="mnOthers_ecozones_list" xml:space="preserve">
+    <value>Ecozonas</value>
+  </data>
+  <data name="mnOthers_ecozones_mng_list" xml:space="preserve">
+    <value>Adm. Ecozonas</value>
+  </data>
+  <data name="mnOthers_ecozone_mng_Edit" xml:space="preserve">
+    <value>Adm. Ecozonas</value>
+  </data>
+  <data name="mnOthers_iucn" xml:space="preserve">
+    <value>IUCN RedList </value>
+  </data>
+  <data name="mnOthers_iucn_list" xml:space="preserve">
+    <value>IUCN RedList Lista de claves</value>
+  </data>
+  <data name="mnOthers_iucn_mng_edit" xml:space="preserve">
+    <value>Ed.  IUCN Key</value>
+  </data>
+  <data name="mnOthers_iucn_mng_list" xml:space="preserve">
+    <value>Adm. IUCN Keys</value>
+  </data>
+  <data name="mnothers_others_list" xml:space="preserve">
+    <value>Otros </value>
+  </data>
+  <data name="mnOthers_Others_mng_edit" xml:space="preserve">
+    <value>Edt. No relacionado con tortugas</value>
+  </data>
+  <data name="mnothers_others_mng_list" xml:space="preserve">
+    <value>Adm. Others</value>
+  </data>
+  <data name="mnOthers_OthesNoChelonians" xml:space="preserve">
+    <value>Otros no de tortugas</value>
+  </data>
+  <data name="mnOthers_Tools" xml:space="preserve">
+    <value>Herramientas</value>
+  </data>
+  <data name="mnOthers_ToosSi" xml:space="preserve">
+    <value>Sistema internacional de medidas</value>
+  </data>
+  <data name="mnOther_ToolsSunHours" xml:space="preserve">
+    <value>Caluculadora de horas solares</value>
+  </data>
+  <data name="ATaxGroupTit" xml:space="preserve">
+    <value>Grupos taxonomicos</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>scnATaxGenusTit</value>
+  </data>
+  <data name="scnATaxTaxonomy" xml:space="preserve">
+    <value>Taxonomia</value>
+  </data>
+  <data name="scnATaxNameVulgarESTit" xml:space="preserve">
+    <value>Nombre vulgar español</value>
+  </data>
+  <data name="Taxonxomic_clasification" xml:space="preserve">
+    <value>Clasificacion taxonómica</value>
+  </data>
+  <data name="scnLHabGeoEcoBiogeographicRegion" xml:space="preserve">
+    <value>Region Ecobiografica</value>
+  </data>
+  <data name="mnTortoises_taxonomy_list" xml:space="preserve">
+    <value>Arbol taxonómico</value>
+  </data>
+  <data name="others_last_updates" xml:space="preserve">
+    <value>Miscelanea. Ultimas actualizacones</value>
+  </data>
+  <data name="orderby" xml:space="preserve">
+    <value>Ordenado por</value>
+  </data>
+  <data name="lng_uiCultureEnglish" xml:space="preserve">
+    <value>Ingles</value>
+  </data>
+  <data name="lng_uiCultureSpanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="habitat" xml:space="preserve">
+    <value>Habitat</value>
+  </data>
+  <data name="sice_centimeters" xml:space="preserve">
+    <value>Centimetros</value>
+  </data>
+  <data name="size_centimetresLDR" xml:space="preserve">
+    <value>Centimetros longitud recta del espaldar</value>
+  </data>
+  <data name="size_grames" xml:space="preserve">
+    <value>Gramos</value>
+  </data>
+  <data name="ind_Chapter02_02DesDorsColor" xml:space="preserve">
+    <value>Coloracion dorsal</value>
+  </data>
+  <data name="ind_Chapter02_02DesDorsShape" xml:space="preserve">
+    <value>Forma dorsal </value>
+  </data>
+  <data name="ind_Chapter02_02DesDorsShields" xml:space="preserve">
+    <value>Escudos dorsales</value>
+  </data>
+  <data name="ind_Chapter02_06DesVentralBridgeColor" xml:space="preserve">
+    <value>Coloracion ventral</value>
+  </data>
+  <data name="ind_Chapter02_06DesVentralBridgeShape" xml:space="preserve">
+    <value>Forma ventral</value>
+  </data>
+  <data name="ind_Chapter02_06DesVentralBridgeShiedls" xml:space="preserve">
+    <value>Escudos ventrales</value>
+  </data>
+  <data name="ind_Chapter02_07DesHeadNeckColor" xml:space="preserve">
+    <value>02 07.2  Coloración de cabaeza y cuello</value>
+  </data>
+  <data name="ind_Chapter02_07DesHeadNeckShape" xml:space="preserve">
+    <value>02 07.1 Forma de Cabeza y Cuello</value>
+  </data>
+  <data name="ind_Chapter02_08DesLegsTailColor" xml:space="preserve">
+    <value>02.08.02 Coloracion patas y cola</value>
+  </data>
+  <data name="ind_Chapter02_08DesLegsTailShape" xml:space="preserve">
+    <value>02.08.01 Forma patas y cola</value>
+  </data>
+  <data name="ind_Chapter02_09DesBabiesColor" xml:space="preserve">
+    <value>02.09.02 Coloracion del las crias</value>
+  </data>
+  <data name="ind_Chapter02_09DesBabiesShape" xml:space="preserve">
+    <value>02.09.01 Forma de las crias</value>
+  </data>
+  <data name="ind_Chapter02_12DesKeys" xml:space="preserve">
+    <value>02.12 Claves de identificacion</value>
+  </data>
+  <data name="ind_Chapter03_00Nat" xml:space="preserve">
+    <value>03.00 Historia Natural</value>
+  </data>
+  <data name="ind_Chapter03_01NatLiveStyles" xml:space="preserve">
+    <value>03.01 Estilo de Vida</value>
+  </data>
+  <data name="ind_Chapter03_02NatMediaType" xml:space="preserve">
+    <value>03.02 Tipo de Medio</value>
+  </data>
+  <data name="ind_Chapter03_03LNatFoodChain" xml:space="preserve">
+    <value>03.03 Cadena Alimentaria</value>
+  </data>
+  <data name="ind_Chapter03_04NatBreeding" xml:space="preserve">
+    <value>03.04 Reproduccion</value>
+  </data>
+  <data name="ind_Chapter03_05NatDanger" xml:space="preserve">
+    <value>03.05 Peligros</value>
+  </data>
+  <data name="ind_Chapter03_06NatProActions" xml:space="preserve">
+    <value>0305 Acciones de proteccion</value>
+  </data>
+  <data name="ind_Chapter03_07NatNotes" xml:space="preserve">
+    <value>0307 Historia natural notas</value>
+  </data>
+  <data name="ind_Chapter04_00_00_Geo" xml:space="preserve">
+    <value>Biogeografia</value>
+  </data>
+  <data name="ind_Chapter04_01_00_AGeoCountries" xml:space="preserve">
+    <value>Distribucion </value>
+  </data>
+  <data name="ind_Chapter04_01_01_AGeoKeyContinent" xml:space="preserve">
+    <value>Continentes</value>
+  </data>
+  <data name="ind_Chapter04_01_02_AGeoKeyCountries" xml:space="preserve">
+    <value>Claves paises</value>
+  </data>
+  <data name="ind_Chapter04_01_03_AGeoLocationType" xml:space="preserve">
+    <value>Localidad tipo</value>
+  </data>
+  <data name="ind_Chapter04_01_04_AGeoLocAltitudMax" xml:space="preserve">
+    <value>Max (msnm)</value>
+  </data>
+  <data name="ind_Chapter04_01_04_AGeoLocAltitudMin" xml:space="preserve">
+    <value>Max (msnm)</value>
+  </data>
+  <data name="ind_Chapter04_01_05_AGeoLocLatitudMax" xml:space="preserve">
+    <value>Latidud Maxima</value>
+  </data>
+  <data name="ind_Chapter04_01_05_AGeoLocLatitudMin" xml:space="preserve">
+    <value>Longitud Min</value>
+  </data>
+  <data name="ind_Chapter04_02_00_AGeoKeyBiogeographicRegion" xml:space="preserve">
+    <value>ind_Chapter04_02_00_AGeoKeyBiogeographicRegion</value>
+  </data>
+  <data name="ind_Chapter04_03_00_GeoEcozone" xml:space="preserve">
+    <value>ind_Chapter04_02_00_GeoEcozone</value>
+  </data>
+  <data name="ind_Chapter04_04_00_GeoNotes" xml:space="preserve">
+    <value>ind_Chapter04_02_02_GeoNotes</value>
+  </data>
+  <data name="Avg" xml:space="preserve">
+    <value>Med</value>
+  </data>
+  <data name="Max" xml:space="preserve">
+    <value>Max</value>
+  </data>
+  <data name="Min" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="geography_distribution" xml:space="preserve">
+    <value>Distribucion geografica</value>
+  </data>
+</root>

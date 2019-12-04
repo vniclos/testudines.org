@@ -1,0 +1,91 @@
+﻿.embed-responsive-16by9 {
+    padding-bottom: 56.25%;
+}
+
+.embed-responsive-4by3 {
+    padding-bottom: 75%;
+}
+
+.embed-responsive-210by297 {
+    padding-bottom: 141.42%;
+}
+.embed-responsive-a4h {
+    padding-bottom: 70.70%;
+}
+
+
+.ico-hlp:after {
+    content: '';
+    height: 16px; /*height of icon */
+    width: 16px; /*width of icon */
+    padding-right: 16px;
+    padding-left:16px;
+    /*where to replace the icon */
+    /*background */
+    background: #ffffff url('/a_img/a_site/ico16/arrowd16-n.gif') no-repeat 0px 0px;
+}
+
+
+.fld-boxId {
+    background-color: #eee;
+    border: 2px solid #aaa;
+    padding: 2px;
+    margin-left:auto;
+    margin-right:0;
+    margin: 0;
+    border-radius: 5px;
+    display:inline-block;
+
+    font-size:0.825rem !important;
+}
+.ctl_imgfld {
+display:inline-block; margin-right:5px;}
+
+.fld-radio input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 1px;
+}
+.fld-title-inline200 {
+    font-weight: bold;
+    min-width: 200px;
+    display: block;
+    display: inline-block;
+}
+.field-title-inline {
+    margin-top: 1rem;
+    font-weight: bold !important;
+    display: inline-block;
+}
+.fld-title {
+    margin-top: 1rem;
+    font-weight: bold !important;
+    display: inline-block;
+    min-width: 100px;
+    overflow: hidden;
+}
+.fld-textbox, .taxfield {
+    display: block;
+    margin-right: 0.5rem;
+    padding: 0px;
+    border: 1;
+}
+.alert-box {font-size:0.825rem; width:100%; padding:2px; color:#fff; border: solid 1px #333;  border-radius:3px;}
+
+.alert {
+    background-color: darkred;
+    color: #fff;
+    padding: 3px;
+}
+.success {
+    background-color: darkgreen;
+    color: #fff;
+    padding: 3px;
+}
+.warning {
+    background-color: darkgoldenrod;
+    color: #fff;
+    padding: 3px;
+} 
+.td-top{vertical-align:top;}
+.td-row>tr {padding :10px;  border-bottom:solid 1px #222;
+}

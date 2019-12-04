@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="referencetypesub_breader" xml:space="preserve">
+    <value>Breader</value>
+  </data>
+  <data name="referencetypesub_cientific" xml:space="preserve">
+    <value>Cientific</value>
+  </data>
+  <data name="referencetypesub_conservationgroup" xml:space="preserve">
+    <value>Conservation Group</value>
+  </data>
+  <data name="referencetypesub_education" xml:space="preserve">
+    <value>Education</value>
+  </data>
+  <data name="referencetypesub_goverment" xml:space="preserve">
+    <value>goverment</value>
+  </data>
+  <data name="referencetypesub_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="referencetypesub_zoo" xml:space="preserve">
+    <value>Zoo</value>
+  </data>
+  <data name="referencetype_agrupation" xml:space="preserve">
+    <value>Agrupation</value>
+  </data>
+  <data name="referencetype_comerce" xml:space="preserve">
+    <value>Comerce</value>
+  </data>
+  <data name="referencetype_institution" xml:space="preserve">
+    <value>Institution</value>
+  </data>
+  <data name="referencetype_mutimedia" xml:space="preserve">
+    <value>Mutimedia</value>
+  </data>
+  <data name="referencetype_NaturalReserve" xml:space="preserve">
+    <value>Natural reserve</value>
+  </data>
+  <data name="referencetype_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="referencetype_people" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="referencetype_publication" xml:space="preserve">
+    <value>Publication</value>
+  </data>
+  <data name="referencetype_website" xml:space="preserve">
+    <value>Website</value>
+  </data>
+  <data name="referencetype_veterinary" xml:space="preserve">
+    <value>Veterinary</value>
+  </data>
+  <data name="E_ArticleTypesub_basic" xml:space="preserve">
+    <value>basic</value>
+  </data>
+  <data name="E_ArticleTypesub_expert" xml:space="preserve">
+    <value>expert</value>
+  </data>
+  <data name="E_ArticleTypesub_hightrecomendable" xml:space="preserve">
+    <value>Hight recomendable</value>
+  </data>
+  <data name="E_ArticleType_caresheet" xml:space="preserve">
+    <value>Care Sheet</value>
+  </data>
+  <data name="E_ArticleType_conservancy_project" xml:space="preserve">
+    <value>Conservancy project</value>
+  </data>
+  <data name="E_ArticleType_biology" xml:space="preserve">
+    <value>Biology</value>
+  </data>
+  <data name="E_ArticleType_foods" xml:space="preserve">
+    <value>Foods</value>
+  </data>
+  <data name="E_ArticleType_diseases" xml:space="preserve">
+    <value>Diseases</value>
+  </data>
+  <data name="E_ArticleType_other" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="E_ArticleType_people" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="E_ArticleType_tools" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="E_ArticleType_vocabulary" xml:space="preserve">
+    <value>people</value>
+  </data>
+  <data name="E_ArticleType_art_society" xml:space="preserve">
+    <value>Art and Society</value>
+  </data>
+  <data name="E_NoticeType_conservancy_project" xml:space="preserve">
+    <value>Conservancy project</value>
+  </data>
+  <data name="E_NoticeType_law" xml:space="preserve">
+    <value>Law</value>
+  </data>
+  <data name="E_NoticeType_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="E_NoticeType_society" xml:space="preserve">
+    <value>Society</value>
+  </data>
+  <data name="E_TodoType_noselect" xml:space="preserve">
+    <value>No select</value>
+  </data>
+  <data name="E_TodoType_waiting" xml:space="preserve">
+    <value>Waiting</value>
+  </data>
+  <data name="E_TodoType_doing" xml:space="preserve">
+    <value>Doing</value>
+  </data>
+  <data name="E_TodoType_done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+  <data name="E_TodoType_cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="eAcknowledgementsub_articles" xml:space="preserve">
+    <value>Articles</value>
+  </data>
+  <data name="eAcknowledgementsub_both" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="eAcknowledgementsub_noselect" xml:space="preserve">
+    <value>No Select</value>
+  </data>
+  <data name="eAcknowledgementsub_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="eAcknowledgementsub_pictures" xml:space="preserve">
+    <value>Pictures</value>
+  </data>
+  <data name="eAgreetment_noselect" xml:space="preserve">
+    <value>No Select</value>
+  </data>
+  <data name="eAgreetment_organitatiton" xml:space="preserve">
+    <value>Organitatiton</value>
+  </data>
+  <data name="eAgreetment_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="eAgreetment_people" xml:space="preserve">
+    <value>People</value>
+  </data>
+  <data name="E_MediaGalTypeSub_files" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="E_MediaGalType_Gallery" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="E_EcozoneTypesub_ecozone" xml:space="preserve">
+    <value>Ecozone</value>
+  </data>
+  <data name="E_EcozoneType_description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="E_TaxonTypeSub_error" xml:space="preserve">
+    <value>Description error</value>
+  </data>
+  <data name="E_TaxonTypeSub_extinct" xml:space="preserve">
+    <value>Extint recent</value>
+  </data>
+  <data name="E_TaxonTypeSub_extinct_fossil" xml:space="preserve">
+    <value>Extinct only fosils</value>
+  </data>
+  <data name="E_TaxonTypeSub_extinct_wild" xml:space="preserve">
+    <value>Extinct in wild</value>
+  </data>
+  <data name="E_TaxonTypeSub_live" xml:space="preserve">
+    <value>Live in wild</value>
+  </data>
+  <data name="E_TaxonTypeSub_noselect" xml:space="preserve">
+    <value>No select</value>
+  </data>
+  <data name="E_TaxonType_class_" xml:space="preserve">
+    <value>Clase</value>
+  </data>
+  <data name="E_TaxonType_family" xml:space="preserve">
+    <value>Family</value>
+  </data>
+  <data name="E_TaxonType_genus" xml:space="preserve">
+    <value>Genus</value>
+  </data>
+  <data name="E_TaxonType_noselect" xml:space="preserve">
+    <value>No select</value>
+  </data>
+  <data name="E_TaxonType_order" xml:space="preserve">
+    <value>Order</value>
+  </data>
+  <data name="E_TaxonType_specie" xml:space="preserve">
+    <value>Specie</value>
+  </data>
+  <data name="E_TaxonType_subclass" xml:space="preserve">
+    <value>Subclase</value>
+  </data>
+  <data name="E_TaxonType_suborder" xml:space="preserve">
+    <value>Suborder</value>
+  </data>
+  <data name="E_TaxonType_superfamily" xml:space="preserve">
+    <value>Superfamily</value>
+  </data>
+  <data name="eContinent_africa" xml:space="preserve">
+    <value>Africa</value>
+  </data>
+  <data name="eContinent_america_north" xml:space="preserve">
+    <value>America North</value>
+  </data>
+  <data name="eContinent_america_south" xml:space="preserve">
+    <value>America South</value>
+  </data>
+  <data name="eContinent_asia_east" xml:space="preserve">
+    <value>Asia east</value>
+  </data>
+  <data name="eContinent_asia_oest" xml:space="preserve">
+    <value>Asia oest</value>
+  </data>
+  <data name="eContinent_australia" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="eContinent_europe" xml:space="preserve">
+    <value>Europe</value>
+  </data>
+  <data name="eContinent_ocean" xml:space="preserve">
+    <value>Ocean</value>
+  </data>
+  <data name="eContinent_remote_islands" xml:space="preserve">
+    <value>Remote Island</value>
+  </data>
+  <data name="E_AppendixesTypeSub_anathomy" xml:space="preserve">
+    <value>Anathomy</value>
+  </data>
+  <data name="E_AppendixesTypeSub_botanic" xml:space="preserve">
+    <value>Botanic</value>
+  </data>
+  <data name="E_AppendixesTypeSub_ecology" xml:space="preserve">
+    <value>Ecology</value>
+  </data>
+  <data name="E_AppendixesTypeSub_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="E_AppendixesTypeSub_zoology" xml:space="preserve">
+    <value>Zoology</value>
+  </data>
+  <data name="E_AppendixesType_biology" xml:space="preserve">
+    <value>Biology</value>
+  </data>
+  <data name="E_AppendixesType_chemist" xml:space="preserve">
+    <value>Chemist</value>
+  </data>
+  <data name="E_AppendixesType_ethimology" xml:space="preserve">
+    <value>Ethimology</value>
+  </data>
+  <data name="E_AppendixesType_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="E_AppendixesType_noselect" xml:space="preserve">
+    <value>No select</value>
+  </data>
+  <data name="E_ArticleTypesub_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="E_TodoTypesub_hight" xml:space="preserve">
+    <value>Hight</value>
+  </data>
+  <data name="E_TodoTypesub_low" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="E_TodoTypesub_medium" xml:space="preserve">
+    <value>Medium</value>
+  </data>
+  <data name="E_TodoTypesub_noselect" xml:space="preserve">
+    <value>No select</value>
+  </data>
+  <data name="E_TodoTypesub_nothing" xml:space="preserve">
+    <value>Nothing</value>
+  </data>
+  <data name="E_FoodTypeSub_bad" xml:space="preserve">
+    <value>Bad</value>
+  </data>
+  <data name="E_FoodTypeSub_good" xml:space="preserve">
+    <value>Good</value>
+  </data>
+  <data name="E_FoodTypeSub_prohibited" xml:space="preserve">
+    <value>Prohibited</value>
+  </data>
+  <data name="E_FoodTypeSub_very_good" xml:space="preserve">
+    <value>Very good</value>
+  </data>
+  <data name="E_FoodTypeSub_very_occasionally" xml:space="preserve">
+    <value>Occasionally</value>
+  </data>
+  <data name="E_FoodType_animal" xml:space="preserve">
+    <value>Animal</value>
+  </data>
+  <data name="E_FoodType_manufactured" xml:space="preserve">
+    <value>Manufactured</value>
+  </data>
+  <data name="E_FoodType_medicines" xml:space="preserve">
+    <value>Medicines</value>
+  </data>
+  <data name="E_FoodType_supplements" xml:space="preserve">
+    <value>Supplements</value>
+  </data>
+  <data name="E_FoodType_vegetable" xml:space="preserve">
+    <value>Vegetable</value>
+  </data>
+  <data name="E_FoodTypeSub_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="E_FoodType_other" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="E_AppendixesTypeSub_chemist" xml:space="preserve">
+    <value>Chemist</value>
+  </data>
+  <data name="E_AppendixesTypeSub_ethimology" xml:space="preserve">
+    <value>Ethimology</value>
+  </data>
+  <data name="E_AppendixesType_botanic" xml:space="preserve">
+    <value>Botanic</value>
+  </data>
+  <data name="E_AppendixesType_ecology" xml:space="preserve">
+    <value>Ecology</value>
+  </data>
+  <data name="E_AppendixesType_zoology" xml:space="preserve">
+    <value>Zoology</value>
+  </data>
+  <data name="E_TaxonType_subfamily" xml:space="preserve">
+    <value>Subfamily</value>
+  </data>
+  <data name="E_NoticeType_nolect" xml:space="preserve">
+    <value>No Select</value>
+  </data>
+  <data name="E_NoticeType_specie" xml:space="preserve">
+    <value />
+  </data>
+</root>

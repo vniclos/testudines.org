@@ -1,0 +1,76 @@
+﻿/**/
+https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=106727
+https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=testudo+graeca
+// lista de registros que no estan en taxon
+
+
+SELECT T.DocId, I.tsn,  I.unit_name1, I.unit_name2,T.ATaxGrpL2280Specie ,T.ATaxGrpL2270Genus ,h.hierarchy_string, I.usage
+FROM testudines20.tdoclng_testudines_taxa_all AS T
+RIGHT JOIN `itis_2018`.taxonomic_units AS I
+ON T.ATaxGrpL2270Genus = I.unit_name1 AND  T.ATaxGrpL2280Specie = I.unit_name2
+join  itis_2018.hierarchy as h  on h.tsn =i.tsn
+ WHERE (T.DocId IS NULL OR  I.tsn IS NULL)  and hierarchy_string like '%948936%'
+
+
+
+
+/* LISTA DE REGISTRO RELACIONADOS CON UNA ESPECIE coincidente itis taxos */
+WITH RECURSIVE ancestors AS(SELECT* FROM hierarchy WHERE TSN= 551866 or parent_tsn = 551866 UNION SELECT f.* FROM hierarchy AS f, ancestors AS a WHERE f.TSN = a.Parent_TSN)
+ SELECT ancestors.Parent_TSN, ancestors.tsn, ancestors.hierarchy_string,
+ taxonomic_units.complete_name, taxonomic_units.rank_id, taxon_unit_types.rank_name, taxonomic_units.complete_name,
+ CASE WHEN taxon_authors_lkp.taxon_author IS NOT NULL THEN concat (' (', taxon_authors_lkp.taxon_author,')')ELSE ""END AS Author,  
+ unit_name1,unit_name2, unit_name3,  taxonomic_units.`usage`,  taxonomic_units.`unaccept_reason`,  taxonomic_units.`credibility_rtng`,  taxonomic_units.`currency_rating`, 
+ taxonomic_units.taxon_author_id,taxonomic_units.kingdom_id, taxonomic_units.update_date
+ FROM ancestors LEFT JOIN taxonomic_units ON taxonomic_units.tsn = ancestors.tsn
+ LEFT JOIN taxon_unit_types ON taxonomic_units.kingdom_id = taxon_unit_types.kingdom_id and taxonomic_units.rank_id = taxon_unit_types.rank_id
+ LEFT JOIN taxon_authors_lkp ON taxonomic_units.taxon_author_id = taxon_authors_lkp.taxon_author_id
+ LEFT JOIN geographic_div ON taxonomic_units.tsn = geographic_div.tsn order by taxonomic_units.rank_id, taxonomic_units.unit_name3 ;
+
+/* No coindentes itis tanxons */
+select `t`.`DocId` AS `DocId`,`i`.`tsn` AS `tsn`,`t`.`ATaxGrpL2270Genus` AS `ATaxGrpL2270Genus`,`i`.`unit_name1` AS `unit_name1`,`t`.`ATaxGrpL2280Specie` AS `ATaxGrpL2280Specie`,`i`.`unit_name2` AS `unit_name2` 
+from(`testudines20`.`tdoclng_testudines_taxa_all` `t` 
+left join `itis-2018`.`taxonomic_units` `i` 
+on(`t`.`ATaxGrpL2270Genus` = `i`.`unit_name1` 
+and `t`.`ATaxGrpL2280Specie` = `i`.`unit_name2`)) 
+where `t`.`DocId` is null or `i`.`tsn` is null 
+union
+select `t`.`DocId` AS `DocId`,`i`.`tsn` AS `tsn`,`t`.`ATaxGrpL2270Genus` AS `ATaxGrpL2270Genus`,`i`.`unit_name1` AS `unit_name1`,`t`.`ATaxGrpL2280Specie` AS `ATaxGrpL2280Specie`,`i`.`unit_name2` AS `unit_name2` 
+from(`itis-2018`.`taxonomic_units` `i` 
+left join `testudines20`.`tdoclng_testudines_taxa_all` `t` 
+on(`t`.`ATaxGrpL2270Genus` = `i`.`unit_name1` 
+and `t`.`ATaxGrpL2280Specie` = `i`.`unit_name2`)) 
+where `t`.`DocId` is null or `i`.`tsn` is null;
+
+
+
+// lista itis que no estan en taxon
+
+select T.DocId, h.tsn, h.hierarchy_string, i.unit_name1, i.unit_name2, i.unit_name3, i.rank_id, i.usage
+from  itis_2018.hierarchy as h 
+left join  itis_2018.taxonomic_units as i on h.TSN= i.tsn
+left join testudines20.tdoclng_testudines_taxa_all as T on  T.ATaxGrpL2270Genus = i.unit_name1 AND  T.ATaxGrpL2280Specie = i.unit_name2
+where hierarchy_string like '%948936%' and T.DocId is null
+order by h.hierarchy_string
+
+// lista de los que estan
+SELECT T.DocId, I.tsn, T.ATaxGrpL2270Genus , I.unit_name1,T.ATaxGrpL2280Specie , I.unit_name2, h.hierarchy_string
+FROM testudines20.tdoclng_testudines_taxa_all AS T
+LEFT JOIN `itis_2018`.taxonomic_units AS I ON T.ATaxGrpL2270Genus = I.unit_name1 AND  T.ATaxGrpL2280Specie = I.unit_name2
+join  itis_2018.hierarchy as h  on h.tsn =i.tsn
+ WHERE h.hierarchy_string like '%948936%' 
+ 
+ //  union buncando incoherencias
+SELECT T.DocId, I.tsn, T.ATaxGrpL2270Genus , I.unit_name1,T.ATaxGrpL2280Specie , I.unit_name2, h.hierarchy_string, I.usage
+FROM testudines20.tdoclng_testudines_taxa_all AS T
+LEFT JOIN `itis_2018`.taxonomic_units AS I ON T.ATaxGrpL2270Genus = I.unit_name1 AND  T.ATaxGrpL2280Specie = I.unit_name2
+join  itis_2018.hierarchy as h on  h.tsn =i.tsn
+ WHERE (T.DocId IS NULL OR  I.tsn IS NULL and h.hierarchy_string like '%948936%') and hierarchy_string like '%948936%'
+ 
+UNION
+
+SELECT T.DocId, I.tsn, T.ATaxGrpL2270Genus , I.unit_name1,T.ATaxGrpL2280Specie , I.unit_name2,h.hierarchy_string, I.usage
+FROM testudines20.tdoclng_testudines_taxa_all AS T
+RIGHT JOIN `itis_2018`.taxonomic_units AS I
+ON T.ATaxGrpL2270Genus = I.unit_name1 AND  T.ATaxGrpL2280Specie = I.unit_name2
+join  itis_2018.hierarchy as h  on h.tsn =i.tsn
+ WHERE (T.DocId IS NULL OR  I.tsn IS NULL)  and hierarchy_string like '%948936%'

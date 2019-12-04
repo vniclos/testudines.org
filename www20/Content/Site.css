@@ -1,0 +1,916 @@
+﻿
+html, body {
+    min-height: 100%;
+}
+.border-1{border: solid 1px #999;}
+html {
+    background-color: #aaa;
+}
+
+.back-gray { background-color:#ddd;
+}
+.btn-sm {font-size:10px !important; pading 1px;margin: 2px; 
+}
+
+
+.btn-tiny {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 2px 4px 2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+    .btn-tiny:hover {
+    color:white; background-color:#666; text-decoration:none;}
+.btn {margin-left:4px;
+    height: 19px;
+}
+.right{float:right;}
+
+
+.white {
+color:#fff !important;}
+
+    .btn-group .btn {
+    border-right: solid 2px #fff;
+    border-radius:5px;
+    padding: 0px 10px 0px 10px;
+font-size:0.825rem;
+}
+    body {
+    max-width: 1100px;
+    background-color: #fff;
+    margin: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    min-height: 100vh; /* Try removing this.. */
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    float: none;
+}
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*                  TYPOGRAFIA                   */
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*------------------------------------------*/
+/*
+
+12px	0.75rem
+13px	0.8125rem
+14px	0.875rem ************
+15px	0.9375rem *************
+16px	1rem  ******************
+17px	1.0625rem
+18px	1.125rem
+19px	1.1875rem
+20px	1.25rem        H2
+21px	1.3125rem
+22px	1.375rem
+23px	1.4375rem
+24px	1.5rem           H1
+25px	1.5625rem
+26px	1.625rem
+27px	1.6875rem
+28px	1.75rem
+29px	1.8125rem
+30px	1.875rem
+31px	1.9375rem
+32px	2rem
+*/
+
+ :root {
+    font-size: 16px;
+}
+
+
+.pannel {
+    border: #aaa solid 1px;
+    border-radius: 5px;
+    background-color: #ddd;
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 1rem;
+    width: 100%;
+    height: auto;
+    margin:1rem 0 1rem 0;
+}
+
+hr {
+    border-bottom: 1px solid;
+}
+
+.card {
+    padding: 1rem;
+    background-color: #ddd;
+}
+
+.breadcrumb {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #003505;
+    display: block;
+    float: none;
+    font-size: 0.8rem;
+    padding: 3px;
+    margin: 0 0 1.5rem 0;
+}
+
+.search-text {
+    width: 200px;
+    float: left;
+   
+    font-size: 0.7rem !important;
+    margin-right: 10px;
+}
+
+.scnSearcHelp {
+    font-size: 0.7rem !important;
+    color: #000;
+}
+
+.btn-xs {
+    padding: 0 10px 0 10px;
+    font-size: 0.8rem !important;
+    line-height: 0;
+}
+
+.search-btn {
+    background: url('/Content/img/seach-tt.svg') no-repeat;
+    background-size: 22px;
+    background-position: 2px;
+    font-size: 0.8rem !important;
+    padding: 3px 28px 5px;
+    border: #aaa solid 1px;
+    display: inline-block;
+    width: 80px;
+    color: #fff;
+    background-color: #0275d8;
+    border-color: #0275d8;
+    border-radius: 3px;
+    font-size: 0.8rem !important;
+}
+
+.scnSearcHelp {
+    float: none;
+    font-size: 0.7rem;
+}
+
+.divboxAbstract {
+    background-color: #efefef;
+    border-radius: 5px;
+    display: block;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.text-mini {
+    font-size: 0.8rem !important;
+    border: 0;
+    margin: 0;
+    padding: 3px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.imgleft {
+    float: left;
+    margin-right: 2rem;
+    
+}
+
+.imgright {
+    float: right;
+    margin-left: 2rem;
+  
+}
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], input[type="select"] {
+    max-width: 280px;
+}
+
+@media screen and (max-width:768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    body {
+        padding: 2px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+.logo {
+    margin: 5px 15px 5px 5px;
+    float: left;
+ 
+}
+
+.logotext {
+    font-size: 1.03rem;
+    font-weight: bold;
+    color: #003015;
+    min-height: 100%;
+    border: 0;
+    float: left;
+    letter-spacing: 2px;
+    line-height: 1.2rem;
+}
+
+.logotext-min {
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+    margin-top:10px;
+    border: 0;
+    line-height: 0.3rem;
+    letter-spacing: 1px;
+}
+
+.visible-xxs {
+    display: none;
+}
+
+.cse .gsc-search-button input.gsc-search-button-v2, input.gsc-search-button-v2 {
+    height: 26px !important;
+    margin-top: 0 !important;
+    min-width: 13px !important;
+    padding: 5px 26px !important;
+    width: 68px !important;
+}
+
+.fancybox-slide--iframe .fancybox-content {
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 80%;
+    margin: 0;
+}
+
+.fancybox-image-wrap .fancybox-image {
+    background-color: #fff !important;
+    padding: 15px;
+    border-width: 3px !important;
+    border-color: #fff;
+    border-radius: 5px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    float: none;
+    padding: 0;
+}
+
+.btn-dlg-close {
+    color: #ffffff;
+    background-color: #990000;
+    border-color: #330000;
+    float: left;
+}
+
+.pagination-ys {
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+a .glyphicon {
+    color: darkslategrey;
+    }
+
+.pagination-ys table > tbody > tr > td {
+    display: inline;
+}
+
+    .pagination-ys table > tbody > tr > td > a, .pagination-ys table > tbody > tr > td > span {
+        position: relative;
+        float: left;
+        padding: 1px 4px;
+        line-height: 1.42857143;
+        text-decoration: none;
+        color: black;
+        background-color: #ffffff;
+        border: #dddddd solid 1px;
+        margin-left: 0.5rem;
+    }
+
+    .pagination-ys table > tbody > tr > td > span {
+        position: relative;
+        float: left;
+        padding: 1px 4px;
+        line-height: 1.42857143;
+        text-decoration: none;
+        margin-left: -1px;
+        z-index: 2;
+        color: white;
+        background-color: #11AEA3;
+        border-color: #dddddd;
+        cursor: default;
+    }
+
+    .pagination-ys table > tbody > tr > td:first-child > a, .pagination-ys table > tbody > tr > td:first-child > span {
+        margin-left: 0;
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+    }
+
+    .pagination-ys table > tbody > tr > td:last-child > a, .pagination-ys table > tbody > tr > td:last-child > span {
+        border-bottom-right-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+
+    .pagination-ys table > tbody > tr > td > a:hover, .pagination-ys table > tbody > tr > td > span:hover, .pagination-ys table > tbody > tr > td > a:focus, .pagination-ys table > tbody > tr > td > span:focus {
+        color: black;
+        background-color: #eeeeee;
+        border-color: #dddddd;
+    }
+
+.pagination {
+    margin-right: auto;
+    margin-left: auto;
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    font-size: 0.8rem;
+}
+
+    .pagination a, .pagination .current {
+        color: black;
+        float: left;
+        padding: 4px 8px;
+        text-decoration: none;
+        transition: background-color 0.3s;
+        border: #ddd solid 1px;
+        margin-left: 5px;
+    }
+
+    .pagination .current {
+        background-color: darkslategrey;
+        color: white;
+    }
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*                  TYPOGRAFIA                   */
+/*-----------------------------------------------*/
+/*-----------------------------------------------*/
+/*/*
+    12px	0.75rem
+13px	0.8125rem
+14px	0.875rem ************
+15px	0.9375rem *************
+16px	1rem  ******************
+17px	1.0625rem
+18px	1.125rem
+19px	1.1875rem
+20px	1.25rem        H2
+21px	1.3125rem
+22px	1.375rem
+23px	1.4375rem
+24px	1.5rem           H1
+25px	1.5625rem
+26px	1.625rem
+27px	1.6875rem
+28px	1.75rem
+29px	1.8125rem
+30px	1.875rem
+31px	1.9375rem
+32px	2rem
+
+*/
+.font-norl {
+    font-size: 0.875rem !important;
+}
+font-big {
+    font-size: 1.1875rem !important;
+}
+.font-min {
+    font-size: 0.8125rem !important;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+    color: darkslategrey;
+    font-size: 1.125rem;
+    float:none;width:100%;
+    margin-top:2rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 {
+    font-size: 1.15rem;
+}
+
+.h2_reverse {
+    border-radius: 0 10px 0 0;
+    border: #0f2401 solid 1px;
+    background-color: #333333;
+    background-color: darkslategrey;
+    color: white;
+    margin-top: 1rem;
+    padding: 3px;
+}
+
+.taxa {
+    font-style: italic;
+}
+
+    .taxa bottom-min h3 {
+        font-size: 1.1rem !important;
+    }
+
+p, div, dl, ul, li, dl, dd, dt {
+    font-size: 0.9375rem !important;
+    line-height: 1.5em;
+}
+
+.litaxorder, .litaxsuborder, .litaxsuperfamily, .litaxfamily, .litaxgenus, .litaxspecie {
+    font-size: 0.814rem;
+    border-width: 0;
+    color: #000000;
+    border-color: #333333;
+    margin: 0;
+    padding: 0;
+    border-style: none;
+    list-style: none;
+    list-style-image: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.litaxFontMin {
+    font-size: 0.7rem;
+    font-style: normal;
+}
+
+.litaxorder ul, .litaxsuborder ul, .litaxsuperfamily ul, .litaxfamily ul, .litaxgenus ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.814rem;
+    padding-bottom: 0.814rem;
+    list-style-type: none;
+    margin-left: 5px;
+}
+
+.litaxorder, .litaxsuborder, .litaxsuperfamily, .litaxfamily, .litaxgenus {
+    margin: 0;
+    margin-top: 0.814rem;
+    padding-left: 1px;
+    margin-left: 0;
+    border-left: 3px solid;
+    border-bottom: 2px solid;
+    padding-left: 5px;
+}
+
+.litaxorder {
+    border-color: #333333;
+}
+.litaxorder {
+    margin: 0;
+    border-width: 1px;
+    border-color: #D8D8D8;
+    background-color: #f2f2f2;
+    padding: 4px;
+}
+
+
+.litaxsuborder {
+    border-color: #077867;
+}
+
+.litaxsuperfamily {
+    border-color: #0AA08A;
+}
+
+.litaxfamily {
+    border-color: #0DC8AC;
+}
+
+.litaxgenus {
+    margin-bottom: 0.5rem;
+    border-color: #0FF0CE;
+}
+
+.litaxspecie {
+    margin: 0;
+    padding: 1px;
+    border: 0;
+    display: block;
+    font-style: normal;
+    line-height: 1.5rem;
+    font-weight: normal;
+    font-size: 875rem;
+}
+
+li {
+    height: auto;
+}
+
+.litax_ImgFlag {
+    display: contents;
+    border: 0;
+    margin: 0;
+    padding-left: 0.5rem;
+}
+
+
+.index {
+    background-color: #fdfdfd;
+    border-radius: 10px 10px 10px 10px;
+    border: #bbbbbb solid 1px;
+    padding: 10px 10px 10px 19px;
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+    .index ul {
+        float: left;
+        margin: 0;
+        padding: 0;
+    }
+
+    .index h2 {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    .index ul > li {
+        font-family: verdana, 'Times New Roman', Times, serif;
+        margin: 0;
+        font-size: 0.814rem;
+        line-height: 1.2em;
+        padding-bottom: 2px;
+        padding-top: 0;
+        list-style: none;
+        list-style-position: inside;
+    }
+
+    .index ul li a {
+        display: block;
+        color: #333333;
+        padding: 0.02rem 5px 0.02rem 1.5rem;
+        width: 100%;
+    }
+
+    .index ul li.selected a {
+        font-weight: normal !important;
+        color: #000000;
+        left: 0;
+        top: 0;
+        background: url(/App_Themes/default/img/chk18.png) left center no-repeat #dfdfdf;
+    }
+
+    .index ul li a:hover {
+        color: white;
+        background-color: #333333;
+    }
+
+.taxTitleFullName {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.taxTitleTax, .taxTitlevulgar {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 0.9rem;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.thumbnail {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    border: #aaa solid 1px;
+    border-radius: 5px;
+}
+
+.images {
+    text-align: center;
+    width: 100%;
+}
+
+.imgBoxMeddiv {
+    display: block;
+    margin: 2rem auto 3rem auto;
+    padding: 1rem;
+    border: #aaa solid 1px;
+    background-color: #eaeaea;
+    border-radius: 8px;
+    width: auto;
+    text-align: center;
+}
+
+    .imgBoxMeddiv img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+
+
+.imgBoxMeddiv .icoMsgfoot {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    width: 24px;
+}
+
+.xClose {
+    color: white;
+    background-color: darkred;
+    float: right;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.dlgMsgRound {
+    background-color: white;
+    border: #aaa solid 1px;
+    background-color: #eaeaea;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+/* nav tabs */
+.nav-tabs {
+    background-color: #efefef;
+    margin-top:1.5rem;
+}
+
+.tab-content {
+
+
+    padding: 5px;
+    border: solid 1px #ddd;
+}
+
+.nav-tabs > li > a {
+    border: solid none;
+    padding: 3px 10px 3px 10px;
+    font-size: 0.875rem;
+}
+.nav-tabs .nav-item {
+    border:solid 1px #999;
+     border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.nav-tabs > li > a:hover {
+    background-color: #ddd !important;
+   
+}
+
+/* CSSTerm.com Simple CSS menu */
+
+.menu_simple {
+    background-color: red;
+    border: solid 1px #aaa;
+    border-radius: 3px;
+    background-color: #fafafa;
+    padding: 3px;
+    margin-bottom: 2rem;
+}
+.menu_simple ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        list-style-type: none;
+        font-size: 0.825rem;
+     
+}
+.menu_simple ul li {
+    margin-bottom:2px;}
+        .menu_simple ul li a {
+            text-decoration: none;
+            color: black;
+            padding: 2px 5px 2px 15px;
+            background-color: #dfdfdf;
+            display: block;
+        }
+
+.menu_simple ul li a:visited {
+            color: black;
+        }
+
+.menu_simple ul li a:hover, .menu_simple ul li .current {
+                color: black;
+                background-color: #efefef;
+                
+            }
+   
+.separator {width:100%; background-color:#ddd; height:1px; display:block;
+}
+
+/* Absolute Center Spinner */
+/* Use
+    In Form
+      <asp:Label ID="scnLoading" runat="server" CssClass="loading" Text="Loading&#8230;" style="display:none;" ClientIDMode="Static"></asp:Label>
+
+      <asp:button id="scnBtnTaxonomy" runat="server" CssClass="btn btn-sm" Text="Taxonomy tree"   OnClientClick="FncMsgWaitShow();" OnClick="scnBtnTaxonomy_Click" />
+    In C#
+     scnLoading.Style["display"] = "none";
+
+ Javascript show
+    
+    <script>
+        function FncWaitShow () {
+          
+            document.getElementById('scnLoading').style.display = "block"
+           
+        }
+    function FncWaitHide() {
+          
+            document.getElementById('scnLoading').style.display = "none"
+           
+        }
+    </script>
+    
+*/
+.loading {
+    position: fixed;
+    z-index: 999;
+    height: 2em;
+    width: 2em;
+    overflow: show;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+
+/* :not(:required) hides these rules from IE9 and below */
+.loading:not(:required) {
+    /* hide "loading..." text */
+    font: 0/0 a;
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+    .loading:not(:required):after {
+        content: '';
+        display: block;
+        font-size: 10px;
+        width: 1em;
+        height: 1em;
+        margin-top: -0.5em;
+        -webkit-animation: spinner 1500ms infinite linear;
+        -moz-animation: spinner 1500ms infinite linear;
+        -ms-animation: spinner 1500ms infinite linear;
+        -o-animation: spinner 1500ms infinite linear;
+        animation: spinner 1500ms infinite linear;
+        border-radius: 0.5em;
+        -webkit-box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.5) -1.5em 0 0 0, rgba(0, 0, 0, 0.5) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+        box-shadow: rgba(0, 0, 0, 0.75) 1.5em 0 0 0, rgba(0, 0, 0, 0.75) 1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) 0 1.5em 0 0, rgba(0, 0, 0, 0.75) -1.1em 1.1em 0 0, rgba(0, 0, 0, 0.75) -1.5em 0 0 0, rgba(0, 0, 0, 0.75) -1.1em -1.1em 0 0, rgba(0, 0, 0, 0.75) 0 -1.5em 0 0, rgba(0, 0, 0, 0.75) 1.1em -1.1em 0 0;
+    }
+
+/* Animation */
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@-o-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+

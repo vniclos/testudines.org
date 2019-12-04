@@ -1,0 +1,16 @@
+d:\__Desarrollo\Net2011\testudinesImages1k10\ClassLibrary1\obj\Debug\ResolveAssemblyReference.cache
+d:\__Desarrollo\Net2011\testudinesImages1k10\ClassLibrary1\obj\Debug\GenerateResource.read.1.tlog
+d:\__Desarrollo\Net2011\testudinesImages1k10\ClassLibrary1\obj\Debug\GenerateResource.write.1.tlog
+d:\__Desarrollo\Net2011\testudinesImages1k10\ClassLibrary1\bin\Debug\clsTestudinesImages2k13Lib.dll
+d:\__Desarrollo\Net2011\testudinesImages1k10\ClassLibrary1\bin\Debug\clsTestudinesImages2k13Lib.pdb
+d:\__Desarrollo\Net2011\testudinesImages1k10\ClassLibrary1\obj\Debug\testudines.cls.Properties.Resources.resources
+d:\__Desarrollo\Net2011\testudinesImages1k10\ClassLibrary1\obj\Debug\clsTestudinesImages2k13Lib.dll
+d:\__Desarrollo\Net2011\testudinesImages1k10\ClassLibrary1\obj\Debug\clsTestudinesImages2k13Lib.pdb
+C:\Documents and Settings\Administrador\Escritorio\testudinesImages1k13\testudinesImages2k13Lib\bin\Debug\clsTestudinesImages2k13Lib.dll
+C:\Documents and Settings\Administrador\Escritorio\testudinesImages1k13\testudinesImages2k13Lib\bin\Debug\clsTestudinesImages2k13Lib.pdb
+C:\Documents and Settings\Administrador\Escritorio\testudinesImages1k13\testudinesImages2k13Lib\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Escritorio\testudinesImages1k13\testudinesImages2k13Lib\obj\Debug\testudines.cls.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Escritorio\testudinesImages1k13\testudinesImages2k13Lib\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrador\Escritorio\testudinesImages1k13\testudinesImages2k13Lib\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrador\Escritorio\testudinesImages1k13\testudinesImages2k13Lib\obj\Debug\clsTestudinesImages2k13Lib.dll
+C:\Documents and Settings\Administrador\Escritorio\testudinesImages1k13\testudinesImages2k13Lib\obj\Debug\clsTestudinesImages2k13Lib.pdb

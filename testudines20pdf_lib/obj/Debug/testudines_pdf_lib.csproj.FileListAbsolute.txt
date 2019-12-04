@@ -1,0 +1,772 @@
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7\testudines.pdf\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test1\testudines.pdf\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test2\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test3\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test3b\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test4\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test5\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test6\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test7\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test8\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test9\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test10\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test11\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\itext7-C# test12\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CoreCompileInputs.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test12\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test13\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test20\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test21\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test22\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\obj\Debug\testudines.pdf.Resource1.resources
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test23\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.GenerateResource.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\obj\Debug\testudines.pdf.Resource1.resources
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.GenerateResource.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test24\testudines.pdf_lib\obj\Debug\testudines.pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Itex7 AGPL LICENCE.txt
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\BouncyCastle.Crypto.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Common.Logging.Core.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Common.Logging.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.barcodes.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.forms.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.io.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.kernel.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.layout.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.pdfa.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.sign.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.svg.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Common.Logging.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Common.Logging.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Common.Logging.Core.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Common.Logging.Core.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.barcodes.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.forms.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.io.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.kernel.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.layout.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.pdfa.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.sign.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.styledxmlparser.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\itext.svg.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csprojAssemblyReference.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\obj\Debug\testudines.pdf.Resource1.resources
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.GenerateResource.cache
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.csproj.CopyComplete
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Google.Protobuf.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\MySql.Data.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\MySql.Web.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Renci.SshNet.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\System.Web.Helpers.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\System.Web.Razor.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\System.Web.WebPages.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\System.Web.WebPages.Razor.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\WebMatrix.Data.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\WebMatrix.WebData.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Google.Protobuf.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\MySql.Data.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\MySql.Web.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\Renci.SshNet.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\System.Web.Helpers.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\System.Web.Razor.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\System.Web.WebPages.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\System.Web.WebPages.Razor.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\WebMatrix.Data.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\WebMatrix.WebData.xml
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\testudines_pdf_lib.dll.config
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\testudines_pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\testudines_pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\obj\Debug\testudines_pdf_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\testudines_bbdd_lib.dll
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\testudines_bbdd_lib.pdb
+C:\datos\___testudinesC\ITEXT 7\itext7-C# test25\testudines.pdf_lib\bin\Debug\testudines_bbdd_lib.dll.config

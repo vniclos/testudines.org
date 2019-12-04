@@ -1,0 +1,259 @@
+﻿<%@ master language="C#" autoeventwireup="true" codebehind="Mpg_Site_Edit.master.cs" inherits="testudines.Mpg_Site_Edit" EnableViewState="True" ViewStateMode="Enabled" %>
+
+<!DOCTYPE html>
+
+<html style="max-width:100%; width:100%;">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+
+    <link href="/Content/jquery.fancybox-thumbs.css" rel="stylesheet" />
+    <link href="/Content/jquery.fancybox-buttons.css" rel="stylesheet" />
+    <link href="/Content/jquery.fancybox.css" rel="stylesheet" />
+    <link href="/Content/glyphicon.css" rel="stylesheet" />
+    <link href="/Content/fields.css" rel="stylesheet" />
+
+
+
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+
+    <asp:ContentPlaceHolder ID="MainContentHead" runat="server"></asp:ContentPlaceHolder>
+    <style>
+        html,body {max-width:100%; width:100%}
+    </style>
+</head>
+<body style="max-width=1600px; width:1600px;">
+    <form id="form1" runat="server">
+          <asp:ScriptManager runat="server" EnablePartialRendering="True">
+            <Scripts>
+                <%--Para obtener más información sobre la unión de scripts en ScriptManager, consulte https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Scripts de marco--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+
+
+                <asp:ScriptReference Name="jquery" />
+                         <asp:ScriptReference  Path="~/Scripts/popper.js" />
+                        <asp:ScriptReference   Path="~/Scripts/tether.js" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                  <asp:ScriptReference  Path="~/Scripts/testudines.js" />
+           
+                  <asp:ScriptReference  Path="~/Scripts/jquery.fancybox.js" />
+          
+
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Scripts del sitio--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <!-- ------------- NAVBAR            -->
+
+        <asp:Literal ID="scnNavBar" Text="navbar" runat="server"></asp:Literal>
+
+        <!-- ------------- NAVBAR            -->
+
+      
+        <div class="container-fluid">
+             
+            <header>
+                <div id="loading" style="display: none;">Loading</div>
+                <div class="row">
+
+
+                    <asp:Literal ID="scnMpgBreadCrumb" runat="server" Text="here breadcrumb"></asp:Literal>
+
+
+                </div>
+                <div class="row">
+                    <hr />
+                    <asp:ContentPlaceHolder ID="MainContent_Top" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+            </header>
+            <div class="row">
+
+                <div class="col-10">
+               
+                    <div class="row col-12">
+                            <asp:ContentPlaceHolder ID="MainContentBtns" runat ="server">
+
+                               
+                             
+
+                            </asp:ContentPlaceHolder>
+                        </div>
+                        <div class="row col-12" >
+                    
+                           
+                   
+                                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                                </asp:ContentPlaceHolder>
+                          
+                        </div>
+                       
+                  </div>
+             
+
+                <div class="col-md-2" style="overflow: hidden;">
+                      <asp:Literal ID="scnMenuAdmin" runat="server" Text=""></asp:Literal>
+                    <asp:ContentPlaceHolder ID="MainContentAdmin" runat="server">
+                      
+                    </asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder ID="MainContentRight" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <div class ="panel">
+         <h2 class="h2_reverse"> Biblio.</h2>
+        
+    <asp:UpdatePanel ID="UpdatePanel2" runat="server" ClientIDMode="Static" UpdateMode="Conditional">
+    <ContentTemplate>
+      
+         <asp:Button runat="server" ID="scnBtnFilBiblio"  ClientIDMode="Static" Text ="ABC" OnClick= "scnBtnFilBiblio_Click" CausesValidation="False" />
+        <asp:Button runat ="server" ID="scnBtnvBibLIFO"  ClientIDMode="Static" Text ="LIFO" OnClick ="scnBtnvBibLIFO_Click" CausesValidation="False" />
+
+        <asp:Button ID="scnBtnBibliography" runat="server" Text="EDIT"  OnClientClick="jsOpenDlgBiblio();" ClientIDMode="Static" CausesValidation="False" />
+        <br /> <asp:Label ID="scnBiblio" runat="server" Text="FillOnLoad"></asp:Label>
+
+    </ContentTemplate>
+          </asp:UpdatePanel>
+    </div>
+         <div id="divtree" style="float: none; display: inline; padding: 3px; width: 100%;">
+   <!-- <asp:Label ID="scnclsFilULTaxaSpecies" runat="server" Text="FillOnLoad"></asp:Label> -->
+    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <footer>
+                    <p>&copy; <%: DateTime.Now.Year %> 	- testudines.org</p>
+                </footer>
+            </div>
+
+
+            <!--     ----------------------------------- -->
+            <!--     ------------- DIALOGO LOGIN-------- -->
+            <!--     ----------------------------------- -->
+
+
+            <div class="modal fade" id="DlgLoginModal" tabindex="-1" role="dialog" aria-labelledby="ModalTitle"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                &times;</button>
+                            <h4 class="modal-title" id="ModalTitle">Login</h4>
+                        </div>
+                        <div class="modal-body">
+                            <label for="txtUsername">Mail</label>
+                            <asp:TextBox ID="txtMailFrom1" runat="server" CssClass="form-control" placeholder="Mail" />
+                            <br />
+                            <label for="
+                                 ">
+                                Mail</label>
+                            <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="Mail" />
+                            <label for="txtSubject">Mail</label>
+                            <asp:TextBox ID="TextBox3" runat="server" CssClass="form-control" placeholder="Mail" />
+                            <label for="txtPassword">
+                                Password</label>
+                            <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="form-control"
+                                placeholder="Enter Password" />
+                            <div class="checkbox">
+                                <asp:CheckBox ID="chkRememberMe" Text="Remember Me" runat="server" />
+                            </div>
+                            <div id="dvMessage" runat="server" visible="false" class="alert alert-danger">
+                                <strong>Error!</strong>
+                                <asp:Label ID="lblMessage" runat="server" />
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <asp:Button ID="scnBtnLogin" class="btn btn-default" runat="server" Text="Login" OnClick="scnBtnLogin_Click" />
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--     ----------------------------------- -->
+            <!--     ---------------DIALOG MAIL ------- -->
+            <!--     ----------------------------------- -->
+
+            <div class="modal fade" id="DlgModal" tabindex="-5" role="dialog" aria-labelledby="ModalTitle"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                &times;</button>
+                            <h4 class="modal-title" id="ModalTitle">Mail</h4>
+                        </div>
+                        <div id="DlgModalBody" class="modal-body2 modal-body">
+                            <label for="txtUsername">
+                                Loading...</label>
+
+
+
+
+                        </div>
+                        <div class="modal-footer">
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--     ----------------------------------- -->
+            <!--     --------------DIALOG SEARCH ------- -->
+            <!--     ----------------------------------- -->
+
+            <div class="modal fade" id="DlgSearchModal" tabindex="-3" role="dialog" aria-labelledby="ModalTitle"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                &times;</button>
+                            <h4 class="modal-title" id="ModalTitle"> <%Resources.Strings.Search.ToString(); %>Search</h4>
+                        </div>
+                        <div class="modal-body">
+                            <gcse:searchbox-only resultsurl="/searchresults.aspx"></gcse:searchbox-only>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--     ----------------------------------- -->
+            <!--     --------- end DIALOG SEARCH ------- -->
+            <!--     ----------------------------------- -->
+        </div>
+        <asp:Literal ID="scnDocId" runat ="server" Text="0"></asp:Literal>
+        <asp:Literal ID="scnDocLngId" runat ="server" Text="ES"></asp:Literal>
+              
+    </form>
+    <script src="/Scripts/jquery.fancybox.js"></script>
+    <script src="/Scripts/testudines.js"></script>
+    <script src="/Scripts/ckeditor/config.js"></script>
+    	<div class="row">
+            "
+<IFRAME ID="KeepAliveFrame" src="KeepSessionAlive.aspx" frameBorder="0" width="1000" height="25" runat="server"></IFRAME>
+            </div>
+</body>
+</html>

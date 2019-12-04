@@ -1,0 +1,787 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.IO;
+using MySql.Data.MySqlClient;
+using MySql.Data;
+using System.Data;
+using System.Text.RegularExpressions;
+using System.Threading;
+using System.Reflection;
+using System.Resources;
+using System.Globalization;
+using System.Collections;
+using System.Collections.Specialized;
+
+namespace testudines.cls.cache
+{
+    public class ClsCache_Reg_tdoclng_taxon_BldHtml_new
+    {
+        public ClsCache_Reg_tdoclng_taxon_BldHtml_new()
+        {
+            //   m_DivRow_EndStart = m_DivRow_End + m_DivRow_Start;
+
+
+        }
+        private cls.tools.ClsGalleryFBox oFB = new cls.tools.ClsGalleryFBox();
+        cls.bbdd.ClsReg_tdoclng_media oReg_Media = new cls.bbdd.ClsReg_tdoclng_media();
+        //private ResourceManager m_RManagerTaxon = new ResourceManager("page_taxon",System.Reflection.Assembly.Load("App_LocalResources"));
+//        System.Reflection.Assembly.Load("App_LocalResources")
+        
+
+        private string m_especiename = "";
+
+        //private string m_HtmlBoxResumen = "";
+       // private string m_HtmlBoxResumenShort = "";
+        private string m_LastUpdate = "";
+        private UInt64 m_IdDoc = 0;
+        private string m_IdLng = "";
+      //  string szHtmlIucnImg = "";
+       // enum eTortoisesCapitules { Abstract, Description, Natural_History, Distribution, Care,  KeysIdentification, Taxonomy, identification, Bibliography,  Gallery,  NearSpecies }
+        private cls.cache.ClsCache_Reg_tdoclng_taxon oRegCache = new cls.cache.ClsCache_Reg_tdoclng_taxon();
+        private cls.bbdd.ClsReg_tdoclng_taxon_ful oRegFul = new cls.bbdd.ClsReg_tdoclng_taxon_ful();
+        private cls.bbdd.ClsReg_tdoc oRegDoc = new testudines.cls.bbdd.ClsReg_tdoc();
+        private cls.bbdd.ClsReg_tdoclng oRegDocLng = new testudines.cls.bbdd.ClsReg_tdoclng();
+      //  private string m_VulgarName = "";
+        private cls.bbdd.ClsReg_tdoclng_taxon_all oRegTxAll = new cls.bbdd.ClsReg_tdoclng_taxon_all();
+        private cls.bbdd.ClsReg_tdoclng_taxon_lngabst oRegTxLngAbs = new cls.bbdd.ClsReg_tdoclng_taxon_lngabst();
+        private cls.bbdd.ClsReg_tdoclng_ecozones oRegEco = new testudines.cls.bbdd.ClsReg_tdoclng_ecozones();
+        private cls.bbdd.ClsReg_tdoclng_taxon_groups oRegGrp = new cls.bbdd.ClsReg_tdoclng_taxon_groups();
+        private cls.bbdd.ClsReg_tdoclng_taxon_keys_lng oRegKeyNode = new cls.bbdd.ClsReg_tdoclng_taxon_keys_lng();
+      
+
+
+        private const string m_DivImgRight200_start = "\n<div style=\"float:right;  width:200px ; min-width:200px; margin-left:1em; display:inline-block; \">\n ";
+        private const string m_DivImgRight200_end = "\n</div>";
+
+        private const string m_DivRow5_Start = "\n<div class=\"large-5 column\">\n";
+        private const string m_DivRow7_Start = "\n<div class=\"large-7 column\">\n";
+        private const string m_DivRow7_End = "\n</div>";
+        private const string m_DivRow5_End = "\n</div>";
+
+        private const string m_DivRow_Start = "\n\n\n<div class=\"row\">\n <div class=\"col-12\">\n";
+        private const string m_DivRow_End = "\n</div>\n</div>\n";
+        private const string m_DivRow_EndStart = m_DivRow_End + m_DivRow_Start;
+        private const string m_gotop = "<a href=\"#ind_gotop\" class=\"gotop\" alt=\"go top\" title=\"Go top\"><img src=\"/a_img/a_site/ico16/gotop.gif\" title=\"go top\" alt=\"gotop\"></a>";
+        // private string m_DivRow_EndStart = "";
+      
+        private string m_NameSpecieWithVulgar="";
+      
+        public void fncRebuildCache()
+        {
+           
+            fnc_calc_m_LastUpdate();
+
+            fncHtmlGallery(true, 1);
+            fncHtmlAbstracHead(true);
+            fnchtmlAbstracIndex(true);
+            fncHtmlAbstractBody(true);
+            fncHtmlbibliography(true);
+            fncHtmlCare(true);
+            fncHtmlRngHabitatEcologyClimate(true);
+            fncHtmlDescription(true);
+            //fncHtmlGallery(true, 1);
+            fncHtmlRngHabitatRange(true);
+            fncHtmlNatural_History(true);
+            fncHtmlNearSpecies(true);
+            fncHtmlNotes(true);
+            fncHtmlTaxonony(true);
+            fncHtmlIdentificationKeys(true);
+       
+
+        }
+        
+        public bool fncSqlFindTaxon_ful_html(UInt64 IdDoc, string IdLng)
+        {
+            m_IdDoc = IdDoc;
+            m_IdLng = IdLng;
+            bool b = true;
+            b = oRegDoc.fncSqlFind(IdDoc);
+            b = oRegDocLng.fncSqlFind(IdDoc, IdLng);
+            b = oRegFul.fncSqlFind(IdDoc, IdLng);
+            m_especiename = oRegFul.oRegAll.ATaxGrpL2270Genus + " " + oRegFul.oRegAll.ATaxGrpL2280Specie + ": ";
+            m_NameSpecieWithVulgar = oRegFul.oRegAbs.LTaxNameVulgar + " (" + oRegFul.oRegAll.ATaxGrpL2270Genus + " " + oRegFul.oRegAll.ATaxGrpL2280Specie + ")";
+
+            return b;
+        }
+        private  string fncBldHtmlBoxIUCN()
+        {
+            string  szHtmlImgIucn ="";
+            cls.bbdd.ClsReg_tmst_iucn_redlist oRegIucn = new testudines.cls.bbdd.ClsReg_tmst_iucn_redlist();
+            try
+            {
+                if (oRegFul.oRegAll.ADngLevelRedList != "")
+                {
+                    oRegIucn.fncSqlFind(Convert.ToUInt64(oRegFul.oRegAll.ADngLevelRedList), oRegFul.DocLngId);
+                    string szUrl = "/" + oRegFul.DocLngId + "/dlg_iucn_redlist/" + oRegFul.oRegAll.ADngLevelRedList;
+                   // szHtmlImgIucn = "\n" + fncBldHtmlPretyPhotoIframeAlone("iframeIucn", szUrl, oRegIucn.UrlImg, "Help", "IUN Red List");
+                    szHtmlImgIucn = "\n" + fncBldHtmlFancyBoxIframeAlone(szUrl, oRegIucn.UrlImg, "Help", "IUN Red List");
+                    //string szHtmlImgIucn =   fncBldHtmlPretyPhotoIframeAloneInline(szUrl, oRegIucn.UrlImg, "Help", "Climate") ;
+                }
+            }
+            catch(Exception)
+            {;}
+             return szHtmlImgIucn;
+         
+        }
+
+        public String fncCache_summary(bool bCacheRebuild)
+        {
+            String szHtml = "";
+            String szFileCache = cls.cache.ClsCache.fncCacheFilePath(m_IdDoc, m_IdLng, cls.ClsGlobal.eTortoiseCapitules.summary.ToString());
+            if (bCacheRebuild) { cls.cache.ClsCache.fncCacheFileDelete(szFileCache); }
+            if (cls.cache.ClsCache.fncCacheFilePathExist(szFileCache))
+            {
+                szHtml = cls.cache.ClsCache.fncCacheFileRead(szFileCache);
+            }
+            if (szHtml != "") { return szHtml; }
+            fncCache_summaryBld(ref szHtml);
+            return szHtml;
+        }
+        private void fncCache_summaryBld(ref String szHtml)
+        {
+            // cabezera
+            szHtml = fncTool_BldHtmlCapitule_title(Resources.Strings.Abstract, oRegFul.oRegAllFile.ADesImg_DesType01);
+            // indice
+            szHtml += fncTool_BldHtmlIndex(ClsGlobal.eTortoiseCapitules.summary);
+            // documento
+        }
+        public string fncHtmlAbstractBody(bool bCacheRebuild)
+        {
+         
+            
+            
+
+
+
+            string szUrlIni = "<a href=\"/" + oRegDocLng.DocLngId + "/taxons/taxon/" + oRegDocLng.DocId.ToString() + "/";
+            string szUrlMed = "";
+            string szUrl = "";
+            string szSecctionTit = "";
+            string szSecction = "";
+            // absabsDes -----------------------------
+            /*
+             scnAAbsImg_Specie.ImageUrl = oRegFull.oRegAllFile.AAbsImg_Specie;
+            scnAAbsImg_HNatural.ImageUrl = oRegFull.oRegAllFile.AAbsImg_HNatural;
+            scnAAbsImg_Range.ImageUrl = oRegFull.oRegAllFile.AAbsImg_Range;
+             * 
+             * oFB.fncHtmlAloneRowPhotoFB( pImgThun, pTitTop,  pSecction);
+             */
+            szUrlMed = szUrlIni +cls.ClsGlobal.eTortoiseCapitules.summary.ToString() + "\"" + "title=\"" + Resources.Strings.Go + " " + Resources.Strings.ind_Capitule01_00Abs + "\">";
+            szSecctionTit +=  Resources.Strings.ind_Capitule01_01AbsDes ;
+           // szSecction += oFB.fncHtmlAloneRowPhotoFB_med(oRegFul.oRegAllFile.AAbsImg_Specie, m_especiename, "ind_Capitule01_01AbsDes");
+
+            string szImgIUCN = "<span class=\"imgright\">" + fncBldHtmlBoxIUCN() + "</span>";
+            szSecction +=szImgIUCN+ oRegFul.oRegAbs.LAbsDes;
+            szSecction += "<br/>" + Resources.Strings.ADesMeasureLenghtCm + "&#177;" + oRegFul.oRegAll.ADesMeasureLenghtCm.ToString();
+            szSecction += "<br/>" + Resources.Strings.ADesMeasureWeightGrm + "&#177;" + oRegFul.oRegAll.ADesMeasureWeightGrm.ToString();
+            
+            m_oAccordion.addSecction(szSecctionTit, szSecction true,true);
+            
+            
+            // absabsHis -----------------------------
+            szUrlMed = szUrlIni + cls.ClsGlobal.eTortoiseCapitules.natural_history.ToString() + "\"" + "title=\"" + Resources.Strings.Go + " " + Resources.Strings.ind_Capitule01_02AbsNat + "\">";
+            szSecctionTit =  Resources.Strings.ind_Capitule01_02AbsNat ;
+            szSecction = oFB.fncHtmlAloneRowPhotoFB_med(oRegFul.oRegAllFile.AAbsImg_HNatural, m_especiename + " Natural live", "ind_Capitule01_02AbsNat");
+            //szSecction = fncBldHtmlImgMedAlone(oRegFul.oRegAllFile.AAbsImg_HNatural,m_NameSpecieWithVulgar, "bot");
+            
+            szSecction += oRegFul.oRegAbs.LAbsHisNat;
+            m_oAccordion.addSecction(szSecctionTit, szSecction, false,true);
+
+          
+               // absabsRangHabitat -----------------------------
+               szUrlMed = szUrlIni + cls.ClsGlobal.eTortoiseCapitules.distribution.ToString() + "\"" + "title=\"" + Resources.Strings.Go + " " + Resources.Strings.ind_Capitule01_02AbsNat + "\">";
+               szSecctionTit =  Resources.Strings.ind_Capitule01_03AbsRng ;
+            //szSecction = fncBldHtmlImgMedAlone(oRegFul.oRegAllFile.AAbsImg_Range, m_NameSpecieWithVulgar, "bot");
+
+            szSecction = oFB.fncHtmlAloneRowPhotoFB_med(oRegFul.oRegAllFile.AAbsImg_Range, m_especiename + " Range distribution", "ind_Capitule01_03AbsRng");
+               //imagen de clima
+               oRegEco.fncSqlFindByEcozoneListCode(oRegFul.DocLngId, oRegFul.oRegHabiAll.AHabClimateEcozoneKey);
+               szUrl = "/" + oRegFul.DocLngId + "/dlg_ecozone_help/" + oRegFul.oRegHabiAll.AHabClimateEcozoneKey;
+               szSecction +="<div class=\"row\">"+ m_DivImgRight200_start;
+               szSecction += fncBldHtmlPretyPhotoIframeAlone("iframeClimate", szUrl, oRegEco.ImgRainTemp, "Help", "Climate rain temp");
+               szSecction += m_DivImgRight200_end;
+
+            
+            
+                szSecction += oRegFul.oRegAbs.LAbsRngHab+ "</div>";
+               m_oAccordion.addSecction(szSecctionTit, szSecction, false, true);
+          
+
+               // - AbsRngclimate -----------------------------------
+
+            
+            
+ 
+            //szUrlMed = szUrlIni + eTortoisesCapitules.Ecology.ToString().ToLower() + "\"" + "title=\"" + Resources.Strings.Go + " " + Resources.Strings.ind_Capitule05_00RngEco + "\">";
+            //   szSecctionTit = Resources.Strings.ind_Capitule01_05AbsClim  ;
+            //   szSecction += oRegFul.oRegAbs.LAbsClimateEcozone;
+            //  // szSecction += fncBldReadMore("ecology", Resources.Strings.ind_Capitule01_05AbsClim);
+            //   m_oAccordion.addSecction(szSecctionTit, szSecction, false, true);
+              
+           // taxonomia -----------------------------------
+          /*
+            szUrlMed = szUrlIni + eTortoisesCapitules.Taxonomy.ToString().ToLower() + "\"" + "title=\"" + Resources.Strings.Go + " " + Resources.Strings.ind_Capitule07_00Tax + "\">";
+           szSecctionTit = Resources.Strings.ind_Capitule01_04AbsTax  ;
+           szSecction = "\n<ul class=\"no-bullet\">";
+           if ( oRegFul.HtmlToolTipSubOrder.Trim ().Length >5) szSecction += "\n<li>" + oRegFul.HtmlToolTipSubOrder + "</li>\n";
+           if (oRegFul.HtmlToolTipFamily.Trim().Length > 5) szSecction += "\n<li>" + oRegFul.HtmlToolTipFamily + "</li>\n";
+           if (oRegFul.HtmlToolTipGenus.Trim().Length > 5) szSecction += "\n<li>" + oRegFul.HtmlToolTipGenus + "</li>\n";
+           szSecction += "\n<li>" + Resources.Strings.scnATaxNameRecomendedTit + ": " + oRegFul.oRegAll.ATaxGrpL2270Genus + " " + oRegFul.oRegAll.ATaxGrpL2280Specie + " " + oRegFul.oRegAll.ATaxGrpL2282Authority + " " + oRegFul.oRegAll.ATaxGrpL2283Year + "</li>\n";
+           szSecction += "\n</ul>\n";
+           if (oRegFul.oRegAbs.LTaxEtimology != "")
+           {
+               szSecction += oRegFul.oRegAbs.LTaxEtimology;
+           }
+           if (oRegFul.oRegAll.ATaxGrpL2281SpecieSub != "")
+           {
+               szSecction += "<h3>" + Resources.Strings.ind_Capitule01_04AbsTax_subspecies + "</h3>" + oRegFul.oRegAll.ATaxGrpL2281SpecieSub;
+           }
+           szSecction += fncBldReadMore("taxonony", Resources.Strings.ind_Capitule01_04AbsTax);
+           m_oAccordion.addSecction(szSecctionTit, szSecction, false, true);
+            */
+
+          
+
+
+               // Near species  ------------------------------------
+                     
+               szUrlMed = szUrlIni + cls.ClsGlobal.eTortoiseCapitules.gallery.ToString() + "\"" + "title=\"" + Resources.Strings.Go + " " + Resources.Strings.ind_Capitule09_00Near + "\">";
+               szSecctionTit = Resources.Strings.ind_Capitule01_05AbsNear   ;
+               //szHtmlszHtmlLeft += "<h2><a  class=\"anchor\" name=\"ind_absnear\">" + Resources.Strings.ind_Capitule01_09absNear + "</a>" + m_gotop + "</h2>";
+               szSecction = fncBldHtmlFamilyListGenus();
+               szSecction += fncBldReadMore("nearspecies", Resources.Strings.ind_Capitule01_05AbsNear);
+               m_oAccordion.addSecction(szSecctionTit, szSecction, false, true);
+
+               // Gallery------------------------------------
+               szSecction = "";
+                
+              
+
+               try
+               {
+                   string szPathImgs = ClsGlobal.DirRoot + oRegFul.oRegAll.AGallery;
+              
+                   string[] ListFiles = System.IO.Directory.GetFiles(szPathImgs, "*minx.jpg");
+              
+                   long listFileCount = ListFiles.LongLength;
+                   long iMax = 6;
+                   if (listFileCount < 6) iMax = listFileCount;
+                   string imgUrl = "";
+                   StringCollection pImgCollection = new StringCollection();
+
+                   // numeros al azar para seleccionar las imagenes
+                   Random oRandon = new Random(DateTime.Now.Millisecond);
+                   int iRandon = 0;
+                   int[] iItem = { -1, -1, -1, -1, -1, -1 };
+                   bool bRepite = true;
+                   int iLoopMaxCount = 9;
+                   int IloopCount = 0;
+                   if (iMax >= 0)
+                   {
+                       for (long i = 0; i < iMax; i++)
+                       {
+                           // calcular entero no repetido en array iItem
+                           bRepite = true;
+                           while (bRepite)
+                           {
+                               IloopCount++;
+                               iRandon = oRandon.Next(0, (int)listFileCount - 1);
+                               for (int iRep = 0; iRep < i; iRep++)
+                               {
+                                   if (iItem[iRep] == iRandon)
+                                   {
+                                       bRepite = true;
+                                   }
+                                   else
+                                   {
+                                       iItem[i] = iRandon;
+                                       iRep = (int)iMax + 1;
+                                   }
+                                   if (iLoopMaxCount < IloopCount) bRepite = false;
+                               }
+                               bRepite = false;
+                           }
+                           imgUrl = ListFiles[iRandon].Replace(ClsGlobal.DirRoot, "").Replace("\\", "/");
+                           pImgCollection.Add(imgUrl);
+                       }
+                   }
+                   string szText = Resources.Strings.ind_Capitule01_10absGalIntro.Replace("#999#", listFileCount.ToString());
+                   szText = szText.Replace("#specie#", m_especiename);
+                   string szgallerylink = szUrlIni + cls.ClsGlobal.eTortoiseCapitules.gallery.ToString() + "\"" + "title=\"" + Resources.Strings.Go + " " + Resources.Strings.ind_Capitule09_00Near + "\">" + Resources.Strings.gallery + " " + m_especiename + "</a>";
+                   szText = szText.Replace("#gallerylink#", szgallerylink);
+
+
+
+
+
+                   szUrlMed = szUrlIni + cls.ClsGlobal.eTortoiseCapitules.summary.ToString() + "\"" + "title=\"" + Resources.Strings.Go + " " + Resources.Strings.ind_Capitule10_00Gal + "\">";
+
+                   string pGallId = "IdGallAbst";
+                   string pGallTit = oRegFul.oRegAll.ATaxGrpL2270Genus + " " + oRegFul.oRegAll.ATaxGrpL2280Specie;
+                   string pTitBot = pGallTit;
+                   string pTitTop = pGallTit + "," + oRegFul.oRegAll.ATaxGrpL2282Authority + " " + oRegFul.oRegAll.ATaxGrpL2283Year;
+
+                   szSecctionTit = Resources.Strings.ind_Capitule01_06AbsGal;
+                   szSecction = szText;
+                   szSecction += fncBldPhotoList(pGallId, pGallTit, pTitTop, pTitBot, ref pImgCollection, "Capitule01_10absGalIntro");
+                   //szSecction += "</div>";
+                   szUrl = oRegFul.oRegAll.AGallery;
+
+
+                   szSecction += fncBldReadMore(cls.ClsGlobal.eTortoiseCapitules.gallery.ToString(), Resources.Strings.ind_Capitule01_06AbsGal);
+                   m_oAccordion.addSecction(szSecctionTit, szSecction, false, true);
+
+               }
+               catch { }
+                  //---------------------------------------
+
+                  
+
+            //-- write cache and return -------------------
+                 
+            szHtml = m_oAccordion.html + m_LastUpdate;
+            
+            oRegCache.fncWriteCache(m_IdDoc, m_IdLng, szSectionFile, szHtml, true);
+            return  szHtml;
+        }
+        //--------------------------------------------------------------------------------------------
+
+
+
+
+
+        //######################################################################
+        //######################################################################
+        #region regTools
+       
+        private String fncTool_BldHtmlCapitule_title(String szResource_CaptituleTitle, String szUrmImgMed="")
+        {
+            string szImg = "";
+            String szName = "<h1 class=\"taxTitleFullName\"><i>" + oRegFul.oRegAll.ATaxGrpL2270Genus + " " + oRegFul.oRegAll.ATaxGrpL2280Specie + "</i> " + oRegFul.oRegAll.ATaxGrpL2282Authority + ", " + oRegFul.oRegAll.ATaxGrpL2283Year + "</h1>";
+            String szCapitule = "<h2 class=\"taxTitleFullName\">" + Resources.Strings.ind_Capitule + " " + szResource_CaptituleTitle + "</h2>";
+            if (szUrmImgMed != "")
+            {
+                 szImg = oFB.fncHtmlAloneRowPhotoFB_med(szUrmImgMed, oRegFul.oRegAll.ATaxNameRecomended, "ind_Capitule01_01AbsDes");
+            }
+            String szVulgar = "<span class=\"taxTitlevulgar\"> EN:" + oRegFul.oRegAll.ATaxNameLngVulgarEN + ",  ES:" + oRegFul.oRegAll.ATaxNameLngVulgarES + "</span>";
+            String szTaxa = " <span class =\"taxTitleTax\">Subord. " + oRegFul.oRegAll.ATaxGrpL2220SubOrder + ", Supfam." + oRegFul.oRegAll.ATaxGrpL2230SupFamily + ", Fam." + oRegFul.oRegAll.ATaxGrpL2240Family + "</span>";
+            String szAutors = oRegDoc.DocAuthors = "";
+            if (szAutors == "") szAutors = "V.Niclos";
+            szAutors = " <span class =\"taxTitleTax\"> " + szAutors + "</span>";
+            String szHtml = szName + szTaxa + szVulgar + szAutors + szCapitule + szImg;
+
+            return szHtml
+
+        }
+        /// <summary>
+        /// 2018 devuelve el menu con el tab seleccionado.
+        /// </summary>
+        /// <param name="TabSelect"></param>
+        /// <param name="szTitle"></param>
+        /// <returns></returns>
+        private string fncTool_BldHtmlIndex(cls.ClsGlobal.eTortoiseCapitules TabSelect)
+        {
+
+
+            string szSelect = TabSelect.ToString();
+            //Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("es-ES");
+            //Thread.CurrentThread.CurrentUICulture = new CultureInfo("es-ES");
+
+            //szTitle = "<h4>" +"titulo" +"</h4>";
+            string szSumary = "</hr><h4>" + m_especiename + Resources.Strings.Summary + "</h4>" + oRegFul.oRegAbs.LAbsDes;
+          
+            string szTit = "";
+            string szUrl = "/" + oRegFul.DocLngId + "/tortoises/tortoise/" + oRegFul.DocId.ToString() + "/";
+            string szClass = "";
+            //<nav class="contents">
+
+
+          
+
+            string szMenu = "";
+            // szMenu += "\n<h4>" + m_especiename + Resources.Strings.chapters + ":</h4></hr>\n<contents>\n<ul class=\"contents\">";
+            szMenu += "\n<div class=\"index\">\n<h2 class=\"index\">" + Resources.Strings.chapters + "</h2>\n<ul>";
+            szTit = Resources.Strings.ind_Capitule01_00Abs;
+            if (szSelect == cls.ClsGlobal.eTortoiseCapitules.summary.ToString())
+            { szClass = " class=\"selected\" "; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "abstract\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+
+            szTit = Resources.Strings.ind_Capitule02_00Des;
+            if (szSelect == ClsGlobal.eTortoiseCapitules.description.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "description\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+
+            szTit = Resources.Strings.ind_Capitule03_00Nat;
+            if (szSelect == cls.ClsGlobal.eTortoiseCapitules.natural_history.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "natural_history\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+
+            szTit = Resources.Strings.ind_Capitule04_00Rng;
+            if (szSelect == cls.ClsGlobal.eTortoiseCapitules.distribution.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "distribution\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+
+            szTit = Resources.Strings.ind_Capitule05_00RngEco;
+            if (szSelect == cls.ClsGlobal.eTortoiseCapitules.ecology.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "ecology\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+
+            szTit = Resources.Strings.ind_Capitule06_00Car;
+            if (szSelect == cls.ClsGlobal.eTortoiseCapitules.care.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "care\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+            szMenu += "\n</ul>\n<ul>";
+            szTit = Resources.Strings.ind_Capitule07_00Tax;
+            if (szSelect == cls.ClsGlobal.eTortoiseCapitules.taxonomy.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "taxonony\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+
+            //------
+            // ind_Capitule08Key
+
+            szTit = Resources.Strings.ind_Capitule08_00IdeKey;
+            if (szSelect == cls.ClsGlobal.eTortoiseCapitules.identificationkeys.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "IdentificationKeys\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+
+
+            //--------------
+            szTit = Resources.Strings.ind_Capitule09_00Near;
+            if (szSelect == cls.ClsGlobal.eTortoiseCapitules.nearspecies.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "nearspecies\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+
+            szTit = Resources.Strings.ind_Capitule10_00Gal;
+            if (szSelect == cls.ClsGlobal.eTortoiseCapitules.gallery.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "gallery\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+
+
+            szTit = Resources.Strings.ind_Capitule11_00Bib;
+            // szUrl = "#";
+            if(szSelect == cls.ClsGlobal.eTortoiseCapitules.bibliography.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "bibliography\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+
+            szTit = Resources.Strings.ind_Capitule12_00Notes;
+            // szUrl = "#";
+            if (szSelect == cls.ClsGlobal.eTortoiseCapitules.notes.ToString())
+            { szClass = " class=\"selected\""; }
+            else { szClass = ""; }
+            szMenu += "\n<li" + szClass + "><a href=\"" + szUrl + "notes\" title=\"" + Resources.Strings.Go + " " + szTit + " " + m_especiename + "\">" + szTit + "</a>\n</li>";
+            //-------fin
+            szMenu += "\n</ul>\n</div>\n\n";
+          
+            //szHtmlTab += m_HtmlBoxResumen;
+
+           
+            return szMenu;
+
+        }
+
+        private String fncTool_BldHtml_ImgMed_only(String szImgUrl, string szImgTitle)
+        {
+           
+
+            String szhtml = "\n<div class=\"row\"><img src=\""+ fncTool_ImgUrlGetMed(szImgUrl) + "\" title=\""+ szImgTitle+   "\"></div>";
+            return szhtml;
+        }
+        private String fncTool_ImgUrlGetMed(String szUrl)
+        {
+           
+            if (szUrl == "")
+            {
+                szUrl = szUrl.Replace("min.jpg", "med.jpg");
+                szUrl = szUrl.Replace("_minx.jpg", "_med.jpg");
+                szUrl = szUrl.Replace("min.jpg", "med.jpg");
+                szUrl = szUrl.Replace("minx.jpg", "med.jpg");
+
+            }
+            String szPath = ClsUtils.fncPathCombine(cls.ClsGlobal.DirRoot, szUrl);
+            if (!cls.ClsUtils.fncPathFileExist(szPath)) { szUrl = "/a_img/noimage600px.png"; }
+            return szUrl;
+        }
+
+
+        private void fncTool_SectionStart(String szTitle)
+        { }
+        private void fncTool_SectionAddImg_3(String ImgGrouId, String Template_Title, String UrlImg_1, String UrlImg_2,String UrlImg_3)
+        {
+            oFB.fncGallery_New(ImgGrouId, Template_Title);
+            oFB.
+
+        }
+        private void fncTool_Section_AddHtml(String szHtml)
+        { }
+
+
+
+
+        /// <summary>
+        /// 2008 return htm index of taxon sheets
+        /// </summary>
+        /// <param name="TabSelect"></param>
+        /// <param name="szTitle"></param>
+        /// <param name="szSectionFilePanel"></param>
+        /// <returns></returns>
+
+        // dltabs2 crea uno del estilo de la cabecera
+        private string fncBldHtmlPretyPhoto3(string szGalleryId, string pImgThun01, string pImgThun02, string pImgThun03, string pTitTop, string pTitBot, string  pSectionFile)
+        {
+            oFB.fncGallery_New(szGalleryId, "gallerylist");
+            
+            String pUrlThumbDefault = "";
+            //--------------------------------------------------------
+            string xpUrlThumb01 = pImgThun01;
+            string xpUrlThumb02 = pImgThun02;
+            string xpUrlThumb03 = pImgThun03;
+            string xUrlTarget01 = "";
+            string xUrlTarget02 = "";
+            string xUrlTarget03 = "";
+            fncBldUrlTest(ref  xUrlTarget01, ref  xpUrlThumb01, pUrlThumbDefault);
+            oFB.fncGallery_AddPictureFB(xUrlTarget01, xpUrlThumb01, pTitTop, pTitBot, pSectionFile);
+
+            fncBldUrlTest(ref  xUrlTarget02, ref  xpUrlThumb02, pUrlThumbDefault);
+            oFB.fncGallery_AddPictureFB(xUrlTarget02, xpUrlThumb02, pTitTop, pTitBot, pSectionFile);
+
+            fncBldUrlTest(ref  xUrlTarget03, ref  xpUrlThumb03, pUrlThumbDefault);
+            oFB.fncGallery_AddPictureFB(xUrlTarget03, xpUrlThumb03, pTitTop, pTitBot, pSectionFile);
+
+            return oFB.HtmGalleryFB;
+        }
+        private string fncBldPhotoList(String szGalleryId, String pGalleryTit, String pTitTop, String pTitBot, ref  StringCollection pImgListPath, string pSectionFile)
+        {
+            string szHtml = "";
+            string szUrlTarget = "";
+            string szpUrlThumbDefault = "";
+            string szImg = "";
+             oFB.fncGallery_New(szGalleryId, pGalleryTit);
+            int n = 0;
+            foreach (string imgpath in pImgListPath)
+            {
+                n++;
+                szImg = imgpath.ToLower ().Trim ();
+                szUrlTarget = "";
+               
+                fncBldUrlTest(ref szUrlTarget, ref  szImg, szpUrlThumbDefault);
+                
+                oFB.fncGallery_AddPictureFB(szUrlTarget, szImg, pTitTop, pTitBot, pSectionFile );
+            }
+            szHtml = oFB.HtmGalleryFB;
+
+            return szHtml;
+        }
+        private void fncBldUrlTest(ref String pUrlTarget, ref String pUrlThumb, String pUrlThumbDefault)
+        {
+            pUrlThumb = pUrlThumb.Trim().ToLower();
+            pUrlTarget = pUrlTarget.Trim().ToLower();
+            pUrlThumbDefault = pUrlThumbDefault.Trim().ToLower();
+            String szUrlTargetDefault = "/a_img/noimage600px.png";
+            // Por si las fly miniatura por defecto
+            if (pUrlThumbDefault == "") { pUrlThumbDefault = "/a_img/noimage200px.png"; }
+
+            // si no existe el fichero thumb poner miniatura por defecto
+            String szUrlTumbPath = ((ClsGlobal.DirRoot + pUrlThumb).Replace("\\", "/")).Replace("//", "/");
+           
+            if (!System.IO.File.Exists(szUrlTumbPath) || pUrlThumb.Contains("noimage"))
+            {
+                pUrlThumb = pUrlThumbDefault;
+            }
+            else
+            {
+                pUrlThumb = pUrlThumb.Trim().ToLower();
+            }
+            // buscar la imagen ligada al thumbnail
+            string szUrlTargetMed = "";
+            string szUrlTargetBig = "";
+
+            if (pUrlTarget == "")
+            {
+                szUrlTargetMed = pUrlThumb.Replace("min.jpg", "med.jpg");
+                szUrlTargetMed = pUrlThumb.Replace("_minx.jpg", "_med.jpg");
+                szUrlTargetBig = pUrlThumb.Replace("min.jpg", "big.jpg");
+                szUrlTargetBig = pUrlThumb.Replace("_minx.jpg", "_big.jpg");
+
+            }
+            else
+            {
+                szUrlTargetMed = pUrlThumb.Replace("min.jpg", "med.jpg");
+                szUrlTargetMed = pUrlThumb.Replace("_minx.jpg", "_med.jpg");
+                szUrlTargetBig = pUrlThumb.Replace("min.jpg", "big.jpg");
+                szUrlTargetBig = pUrlThumb.Replace("_minx.jpg", "_big.jpg");
+
+            }
+
+            
+            // comprobar la existencia del la imagen target,si no exsite poner la de defecto
+            String szUrlTargetPathMed = ((ClsGlobal.DirRoot + szUrlTargetMed).Replace("\\", "/")).Replace("//", "/");
+            String szUrlTargetPathBig = ((ClsGlobal.DirRoot + szUrlTargetBig).Replace("\\", "/")).Replace("//", "/");
+            
+            // si la imagen destino de link no existe devolver  imagen por defercto
+            
+            pUrlTarget = szUrlTargetDefault;
+            
+            if (System.IO.File.Exists(szUrlTargetPathMed))
+            {
+                 pUrlTarget = szUrlTargetMed;
+            }
+            if (System.IO.File.Exists(szUrlTargetPathBig))
+            {
+                pUrlTarget = szUrlTargetBig;
+            }
+
+        }
+      
+        private string fncBldHtmlPretyPhotoAlone(string pImgThun, string pTitTop, string pTitBot, string pSecction)
+        {
+            string szImgTarget = "";
+            string szFileTargetPath = "";
+            string szHtml = "";
+            //prevenir que no hay foto
+            string szPath = ((ClsGlobal.UrlMMedia + pImgThun).Replace("\\", "/")).Replace("//", "/");
+            if (!System.IO.File.Exists(szPath) || pImgThun.Contains("noimage1024px.png"))
+            {
+                pImgThun = "/a_img/noimage200px.png";
+                szImgTarget = pImgThun;
+            }
+            else
+            {
+                pImgThun = pImgThun.Trim().ToLower();
+
+                // buscar la imagen ligada al thumbnail
+                szImgTarget = pImgThun.Replace("min.jpg", "med.jpg");
+                szImgTarget = szImgTarget.Replace("minx.jpg", "med.jpg");
+                szFileTargetPath = (ClsGlobal.DirMMedia + szImgTarget).Replace("\\", "/").Replace("//", "/");
+            }
+
+            szHtml = oFB.fncHtmlAloneRowPhotoFB_med( pImgThun, pTitTop,  pSecction);
+            return szHtml;
+        }
+        ///// <summary>
+        ///// Agrega una imagen de tamaño medio y la enlaza a tamaño grande.
+        ///// si no existe hace lo que puede
+        ///// </summary>
+        ///// <param name="pImgThb">Imagen a enlazar</param>
+        ///// <param name="pTitle">Titulo y alt para la imagen</param>
+        ///// <param name="pSectionDoc">Identificador de la secion donde esta</param>
+        ///// <returns>Htm para agregar la imagen a la pagina </returns>
+        //private string fncBldHtmlImgMedAlone(string pImgThb, string pTitle, string pSectionDoc)
+        //{
+            
+        //    string szImgMed = "";
+        //    string szImgBig = "";
+        //    string szImgFul = "";
+        //    string szHtml = "";
+        //    string szImgNoExist = "/a_img/noimage1024px.png";
+        //    //prevenir que no hay foto de los tamaños adecuados,
+        //    //o que no se haya pasado el tamaño adecuado
+        //    pImgThb = pImgThb.Trim().ToLower();
+        //    szImgMed = pImgThb.Replace("ful.jpg", "med.jpg");
+        //    szImgMed = pImgThb.Replace("big.jpg", "med.jpg");
+        //    szImgMed = szImgMed.Replace("min.jpg", "med.jpg");
+        //    szImgMed = szImgMed.Replace("minx.jpg", "med.jpg");
+        //    szImgBig = szImgMed.Replace("med.jpg", "big.jpg");
+        //    szImgFul = szImgMed.Replace("med.jpg", "ful.jpg");
+
+        //    string szPathImg = ((ClsGlobal.DirMultimediaUrlRootPath + pImgThb).Replace("\\", "/")).Replace("//", "/");
+        //    string szPathMed = ((ClsGlobal.DirMultimediaUrlRootPath + szImgMed).Replace("\\", "/")).Replace("//", "/");
+        //    string szPathbig = ((ClsGlobal.DirMultimediaUrlRootPath + szImgBig).Replace("\\", "/")).Replace("//", "/");
+        //    string szPathFul = ((ClsGlobal.DirMultimediaUrlRootPath + szImgFul).Replace("\\", "/")).Replace("//", "/");
+        //    if (!System.IO.File.Exists(szPathMed) )
+        //    {   
+        //        szHtml = "<img  class=\"th\" src=\"" + szImgNoExist + "\" alt=\"" + pTitle + "\"  title=\"" + pTitle + "\" />";
+        //        return szHtml;
+        //    }
+
+        //    if (System.IO.File.Exists(szPathFul))
+        //    {
+        //        szHtml = oFB.fncHtmlAloneRowPhotoFB(szImgFul, szImgMed, pTitle, pTitle, pSectionDoc);
+        //        return szHtml;
+        //    }
+        //    if (System.IO.File.Exists(szPathbig))
+        //    {
+        //        szHtml = oFB.fncHtmlAloneRowPhotoFB(szPathbig, szImgMed, pTitle, pTitle, pSectionDoc);
+        //        return szHtml;
+        //    }
+
+        //    // si no existe ful ni big devuelve la imagen sin enlace
+          
+        //    szHtml = "<img  class=\"th\" src=\"" + szImgMed + "\" alt=\"" + pTitle + "\"  title=\"" + pTitle + "\" />";
+          
+        //    return szHtml;
+        //}
+
+
+        private string fncBldHtmlPretyPhotoAloneInLine(string pImgThun, string pTitTop, string pTitBot)
+        {
+            string szImgTarget = "";
+            string szFileTargetPath = "";
+            string szHtml = "";
+            //prevenir que no hay foto
+            string szPath = ((ClsGlobal.UrlMMedia + pImgThun).Replace("\\", "/")).Replace("//", "/");
+            if (!System.IO.File.Exists(szPath) || pImgThun.Contains("noimage1024px.png"))
+            {
+                pImgThun = "/a_img/noimage200px.png";
+                szImgTarget = pImgThun;
+            }
+            else
+            {
+                pImgThun = pImgThun.Trim().ToLower();
+
+                // buscar la imagen ligada al thumbnail
+                szImgTarget = pImgThun.Replace("min.jpg", "med.jpg");
+                szImgTarget = szImgTarget.Replace("minx.jpg", "med.jpg");
+                szFileTargetPath = (ClsGlobal.DirMMedia + szImgTarget).Replace("\\", "/").Replace("//", "/");
+            }
+             oFB.fncGallery_New ("galleryId", "GalleryTit");
+            szHtml = oFB.fncHtmlAloneIframeInlineImageFB(szImgTarget, pImgThun, pTitTop, pTitBot);
+            return szHtml;
+        }
+        /// <summary>
+        /// Nuevo 2018
+        /// Fancybox iframe con imagen y titulo
+        /// </summary>
+        /// <param name="pUrlIframe">Url a abrir en ifrmae</param>
+        /// <param name="pImgThun">Imagen sobre la que hacer click para abrir iframe</param>
+        /// <param name="pTitle">Titulo</param>
+        /// <param name="pCaption">Caption adicional</param>
+        /// <returns></returns>
+        private string fncBldHtmlFancyBoxIframeAlone(String pUrlIframe, String pImgThun, String pTitle, String pCaption)
+
+        {
+
+            // documentation
+            //http://fancyapps.com/fancybox/3/docs/#iframe
+            string szPath = cls.ClsUtils.fncPathCombine(ClsGlobal.DirRoot, pImgThun);
+            //string szPath = ((ClsGlobal.DirRoot + pImgThun).Replace("\\", "/")).Replace("//", "/");
+            if (!System.IO.File.Exists(szPath) || pImgThun.Contains("noimage1024px.png"))
+            {
+                pImgThun = "/a_img/noimage200px.png";
+            }
+           
+            String szHtml= oFB.fncHtmlAloneIframeInlineImageFB(pUrlIframe, pImgThun, pTitle, pCaption);
+
+           
+            return szHtml;
+        }
+        
+
+     
+        #endregion regtools
+        //######################################################################
+        //######################################################################
+    }
+}

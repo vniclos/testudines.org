@@ -1,0 +1,48 @@
+﻿.accordionHeader
+{
+    background-position: 10px;
+    padding-left: 34px;
+ /*   margin-left: 10px;
+    margin-right: 10px;*/
+    background-color: #eee;
+    border: thin solid #aaa;
+    background-repeat: no-repeat;
+    background-image: url('/a_img/a_site/ico16/arrowd16-s.gif');
+    font-weight: bold;
+   cursor:pointer  ;
+}
+.accordionHeaderSelected
+{ font-weight: bold;
+  /*  margin-left:10px; 
+margin-right:10px;*/ 
+    background-color: #efefef;
+    border: thin solid #FFFFFF;
+     background-position: 10px;
+   padding-left: 34px;
+    background-color: #eee;
+    border: thin solid #aaa;
+    background-repeat: no-repeat;
+    background-image: url('/a_img/a_site/ico16/arrowd16-n.gif');
+}
+		
+.accordionContent
+{
+ /*  padding:1em;
+    margin-left: 10px;
+    margin-right: 10px;*/
+    background-color: #fafafa;
+    border: thin solid #808080;
+    padding:1em;
+    font-size:3.5mm !important; 
+}
+	.chkBoxV2
+{
+	margin-top:0px;
+	padding:1px;
+	float:left;
+	width:18%;
+	overflow :auto; 
+
+	    
+	}
+	

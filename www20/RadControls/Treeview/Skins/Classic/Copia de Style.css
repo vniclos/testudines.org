@@ -1,0 +1,65 @@
+.TreeNode 
+{ 
+	font-family: Tahoma;
+	font-size: 9pt; 
+	color: black;	
+	padding-left: 3px;
+	text-decoration: none;	
+}
+
+.TreeNodeOver 
+{
+	font-family: Tahoma;
+	font-size: 9pt;
+	color: black;
+	text-decoration: underline; 
+	cursor: pointer;
+	cursor: hand;
+	padding-left: 3px;	
+}
+
+.TreeNodeSelect 
+{     
+	font-family: Tahoma; 
+	font-size: 9pt; 
+	color: white; 
+	background: #316AC5; 	
+    cursor: pointer;
+	cursor: hand;
+	margin-left: 3px;
+}
+
+.TreeNodeDisabled
+{ 
+	font-family: Tahoma;
+	font-size: 9pt; 
+	color: gray;	
+	padding-left: 3px;
+	text-decoration: none;
+	cursor: default;
+}
+
+.TreeNodeEdit 
+{
+  border:1px gray solid;
+  font-family: tahoma; 
+  font-size: 9pt;
+  margin-left: 4px;  
+}
+
+.LoadingMessage
+{
+	font-family: Tahoma; 
+	font-size: 9pt; 
+	background:LemonChiffon; 
+	border: solid 1px;
+	padding: 2px;
+}
+
+.LoadingMessageBlue
+{
+	font-family: Tahoma; 
+	font-size: 9pt; 
+	color: Blue;
+	padding: 2px;
+}
