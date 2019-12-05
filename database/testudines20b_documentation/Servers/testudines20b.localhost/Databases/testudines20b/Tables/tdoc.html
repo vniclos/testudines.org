@@ -1,0 +1,584 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>tdoc</title>
+<script src="../../../../../scripts/jquery-1.12.0.min.js" type="text/javascript"></script>
+<script src="../../../../../scripts/bootstrap.min.js" type="text/javascript"></script>
+<script src="../../../../../scripts/clipboard.min.js" type="text/javascript"></script>
+<script src="../../../../../scripts/main.js" type="text/javascript"></script>
+<link rel="stylesheet" href="../../../../../styles/bootstrap/Default.css" type="text/css">
+<link rel="stylesheet" href="../../../../../styles/main.css" type="text/css">
+</head>
+<body>
+  <div class="page-wrap">
+    <div class="watermark">
+    dbForge Documenter Trial</div>
+    <div class="header">
+      <div class="row">
+        <div class="col-xs-12">
+          <ol class="breadcrumb">
+            <li><a href="../../../../../startpage.html" data-mapping-enabled="true">Project</a></li>
+            <li><a href="../../../../../Servers\Servers.html" data-mapping-enabled="true">Servers</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\testudines20b.localhost.html" data-mapping-enabled="true">testudines20b.localhost</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\Databases\Databases.html" data-mapping-enabled="true">Databases</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\Databases\testudines20b\testudines20b.html" data-mapping-enabled="true">testudines20b</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\Databases\testudines20b\Tables\Tables.html" data-mapping-enabled="true">Tables</a></li>
+            <li class="active">tdoc</li>
+          </ol>
+        </div>
+      </div>
+      <div class="row">
+        <div class="title col-xs-12">
+          <div><img class="inline-middle image-large" src="../../../../../images/table.svg" title="tdoc" />
+            <h1 class="inline-middle">tdoc</h1>
+            <div class="dropdown actions-btn-wrap">
+              <button type="button" class="btn btn-default actions-btn" data-toggle="dropdown"><span class="icon-actions icon-small actions-btn-span"></span></button>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li><a id="CollapseAll" href="#">Collapse All</a></li>
+                <li><a id="ExpandAll" href="#">Expand All</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+
+      <div id="Columns" class="panel panel-default">
+        <div class="panel-heading">
+          <span class="icon-bottom inline-middle expanded icon-small"></span>
+          <span class="icon-right inline-middle collapsed icon-small" style="display:none"></span>
+          <h2 class="inline-middle">Columns</h2>
+        </div>
+        <div class="panel-collapse collapse in">
+          <div class="panel-body">
+            <table class="table table-hover table-bordered table-100">
+              <tbody>
+                <tr>
+                  <th>Key</th>
+                  <th>Name</th>
+                  <th>Data Type</th>
+                  <th>Length</th>
+                  <th>Precision</th>
+                  <th>Scale</th>
+                  <th>Not Null</th>
+                  <th>Auto Increment</th>
+                  <th>Default</th>
+                  <th>Virtual</th>
+                  <th>Unsigned</th>
+                  <th>Zerofill</th>
+                  <th>Binary</th>
+                  <th class="column-description-35">Description</th>
+                </tr>
+                <tr>
+                  <td><div><a class="anchor-link" href="#Indexes"><img class="image-small vertical-align-top" src="../../../../../images/primarykey.svg" data-toggle="tooltip" title="Primary Key PRIMARY" />
+                    </a></div><div><a class="anchor-link" href="#Indexes"><img class="image-small vertical-align-top" src="../../../../../images/index.svg" data-toggle="tooltip" title="Indexes PRIMARY" />
+                    </a></div></td>
+                  <td>DocId</td>
+                  <td>BIGINT</td>
+                  <td></td>
+                  <td>20</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-true">True</p></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>ID Root, for document of database</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocLngId_Main</td>
+                  <td>CHAR</td>
+                  <td>2</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>'en'</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>ID Root Language, for al database</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocTypeId</td>
+                  <td>CHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Type document, Article, Taxon, Notice.....</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocTypeGroup</td>
+                  <td>VARCHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Group of documents</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DoctypeGroupSub</td>
+                  <td>CHAR</td>
+                  <td>255</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Sub type of document</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocIsTraslatable</td>
+                  <td>TINYINT</td>
+                  <td></td>
+                  <td>1</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>1</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>true=is traslatable</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocImgThumbnail</td>
+                  <td>VARCHAR</td>
+                  <td>250</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Url thumbnail image</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocDocUploaded</td>
+                  <td>VARCHAR</td>
+                  <td>250</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>If is updaded show source url</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocIsEditable</td>
+                  <td>TINYINT</td>
+                  <td></td>
+                  <td>1</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>1</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>true = Is Edictable</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocIsActive</td>
+                  <td>TINYINT</td>
+                  <td></td>
+                  <td>1</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>1</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>true=visible on web site</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocUserId_Creator</td>
+                  <td>MEDIUMINT</td>
+                  <td></td>
+                  <td>45</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>0</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Id Number creator</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocAuthor</td>
+                  <td>VARCHAR</td>
+                  <td>80</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Cite Author</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocAuthors</td>
+                  <td>VARCHAR</td>
+                  <td>150</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Cite Autors et All</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocBibliography</td>
+                  <td>LONGTEXT</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Bibliography</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocAcknowledgements</td>
+                  <td>LONGTEXT</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>List acknowlegmts</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocAuthorizations</td>
+                  <td>LONGTEXT</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>List of especial authoriztion (Images, media, ...)</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocNotes</td>
+                  <td>LONGTEXT</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Notes for other thins</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocDateCreation</td>
+                  <td>DATETIME</td>
+                  <td></td>
+                  <td></td>
+                  <td>7</td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Date creation of document</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocDateUpdate</td>
+                  <td>TIMESTAMP</td>
+                  <td></td>
+                  <td></td>
+                  <td>7</td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>current_timestamp()</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Date Update</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocStdVisitLast</td>
+                  <td>DATETIME</td>
+                  <td></td>
+                  <td></td>
+                  <td>7</td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Date of las visit on web site</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocStdVisitCount</td>
+                  <td>MEDIUMINT</td>
+                  <td></td>
+                  <td>9</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>0</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Counter of visit of web site</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocStdValLow</td>
+                  <td>MEDIUMINT</td>
+                  <td></td>
+                  <td>9</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>0</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Valoration Low</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocStdValMed</td>
+                  <td>MEDIUMINT</td>
+                  <td></td>
+                  <td>9</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>0</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Valoration med</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocStdValHig</td>
+                  <td>MEDIUMINT</td>
+                  <td></td>
+                  <td>9</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>0</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Valoration high</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocCountriesCode</td>
+                  <td>CHAR</td>
+                  <td>150</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Countries code where is present</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocSiteMapPriority</td>
+                  <td>CHAR</td>
+                  <td>4</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>'0.6'</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Site map Crawler use</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocSiteMapChangefreq</td>
+                  <td>VARCHAR</td>
+                  <td>10</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>'month'</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Site map Crawler use</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocPdfUrl</td>
+                  <td>VARCHAR</td>
+                  <td>250</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''''''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Pdf url for download (If exist)</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocPdfVersion</td>
+                  <td>BIGINT</td>
+                  <td></td>
+                  <td>20</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>0</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Pdf Counter of changes</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>DocPdfTitle</td>
+                  <td>VARCHAR</td>
+                  <td>250</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''''''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Pdf title</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div id="SqlScript" class="panel panel-default">
+        <div class="panel-heading">
+          <span class="icon-bottom inline-middle expanded icon-small"></span>
+          <span class="icon-right inline-middle collapsed icon-small" style="display:none"></span>
+          <h2 class="inline-middle">SQL Script</h2>
+        </div>
+        <div class="panel-collapse collapse in">
+          <div class="panel-body">
+            <div class="zero-clipboard">
+              <span class="btn-clipboard btn-default panel-default" data-clipboard-action="copy" data-clipboard-target=".sqlscript" data-toggle="tooltip" title="Copy to clipboard">Copy</span></div><div class="sqlscript panel-default">
+              <font color="Blue">CREATE</font>&nbsp;<font color="Blue">TABLE</font>&nbsp;<font color="buttontext">tdoc</font>&nbsp;<font color="buttontext">(</font><br>&nbsp;&nbsp;<font color="buttontext">DocId</font>&nbsp;<font color="Blue">BIGINT</font><font color="buttontext">(</font><font color="Green">20</font><font color="buttontext">)</font>&nbsp;<font color="Blue">UNSIGNED</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">AUTO_INCREMENT</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'ID Root, for document of database'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocLngId_Main</font>&nbsp;<font color="Blue">CHAR</font><font color="buttontext">(</font><font color="Green">2</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">'en'</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'ID Root Language, for al database'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocTypeId</font>&nbsp;<font color="Blue">CHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Type document, Article, Taxon, Notice.....'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocTypeGroup</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Group of documents'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DoctypeGroupSub</font>&nbsp;<font color="Blue">CHAR</font><font color="buttontext">(</font><font color="Green">255</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Sub type of document'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocIsTraslatable</font>&nbsp;<font color="Blue">TINYINT</font><font color="buttontext">(</font><font color="Green">1</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">1</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'true=is traslatable'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocImgThumbnail</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">250</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Url thumbnail image'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocDocUploaded</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">250</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'If is updaded show source url'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocIsEditable</font>&nbsp;<font color="Blue">TINYINT</font><font color="buttontext">(</font><font color="Green">1</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">1</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'true = Is Edictable'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocIsActive</font>&nbsp;<font color="Blue">TINYINT</font><font color="buttontext">(</font><font color="Green">1</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">1</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'true=visible on web site'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocUserId_Creator</font>&nbsp;<font color="Blue">MEDIUMINT</font><font color="buttontext">(</font><font color="Green">45</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">0</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Id Number creator'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocAuthor</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">80</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Cite Author'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocAuthors</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">150</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Cite Autors et All'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocBibliography</font>&nbsp;<font color="Blue">LONGTEXT</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Bibliography'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocAcknowledgements</font>&nbsp;<font color="Blue">LONGTEXT</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'List acknowlegmts'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocAuthorizations</font>&nbsp;<font color="Blue">LONGTEXT</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'List of especial authoriztion (Images, media, ...)'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocNotes</font>&nbsp;<font color="Blue">LONGTEXT</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Notes for other thins'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocDateCreation</font>&nbsp;<font color="Blue">DATETIME</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Date creation of document'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocDateUpdate</font>&nbsp;<font color="Blue">TIMESTAMP</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Blue">current_timestamp</font><font color="buttontext">(</font><font color="buttontext">)</font>&nbsp;<font color="Blue">ON</font>&nbsp;<font color="Blue">UPDATE</font>&nbsp;<font color="Blue">CURRENT_TIMESTAMP</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Date Update'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocStdVisitLast</font>&nbsp;<font color="Blue">DATETIME</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Date of las visit on web site'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocStdVisitCount</font>&nbsp;<font color="Blue">MEDIUMINT</font><font color="buttontext">(</font><font color="Green">9</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">0</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Counter of visit of web site'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocStdValLow</font>&nbsp;<font color="Blue">MEDIUMINT</font><font color="buttontext">(</font><font color="Green">9</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">0</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Valoration Low'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocStdValMed</font>&nbsp;<font color="Blue">MEDIUMINT</font><font color="buttontext">(</font><font color="Green">9</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">0</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Valoration med'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocStdValHig</font>&nbsp;<font color="Blue">MEDIUMINT</font><font color="buttontext">(</font><font color="Green">9</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">0</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Valoration high'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocCountriesCode</font>&nbsp;<font color="Blue">CHAR</font><font color="buttontext">(</font><font color="Green">150</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Countries code where is present'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocSiteMapPriority</font>&nbsp;<font color="Blue">CHAR</font><font color="buttontext">(</font><font color="Green">4</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">'0.6'</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Site map Crawler use'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocSiteMapChangefreq</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">10</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">'month'</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Site map Crawler use'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocPdfUrl</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">250</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''''''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Pdf url for download (If exist)'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocPdfVersion</font>&nbsp;<font color="Blue">BIGINT</font><font color="buttontext">(</font><font color="Green">20</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">0</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Pdf Counter of changes'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">DocPdfTitle</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">250</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''''''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Pdf title'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="Blue">PRIMARY</font>&nbsp;<font color="Blue">KEY</font>&nbsp;<font color="buttontext">(</font><font color="buttontext">DocId</font><font color="buttontext">)</font><br><font color="buttontext">)</font><br><font color="Blue">ENGINE</font>&nbsp;<font color="buttontext">=</font>&nbsp;<font color="Blue">INNODB</font><font color="buttontext">,</font><br><font color="Blue">CHARACTER</font>&nbsp;<font color="Blue">SET</font>&nbsp;<font color="buttontext">utf8</font><font color="buttontext">,</font><br><font color="Blue">COLLATE</font>&nbsp;<font color="buttontext">utf8_general_ci</font><font color="buttontext">,</font><br><font color="Blue">COMMENT</font>&nbsp;<font color="buttontext">=</font>&nbsp;<br><font color="Teal">'Main table of databse root for all documents, is same for all laguajes and documents like
+Taxa, articles, media, .....'</font><font color="buttontext">,</font><br><font color="Blue">ROW_FORMAT</font>&nbsp;<font color="buttontext">=</font>&nbsp;<font color="Blue">Dynamic</font><font color="buttontext">,</font><br><font color="Blue">TRANSACTIONAL</font>&nbsp;<font color="buttontext">=</font>&nbsp;<font color="Green">0</font><font color="buttontext">;</font></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="col-xs-4">Author:&nbsp;</div>
+    <div class="col-xs-4 align-center">Copyright &#169; All Rights Reserved</div>
+    <div class="col-xs-4 align-right">Created:&nbsp;05/12/2019</div>
+  </div>
+</body>
+</html>

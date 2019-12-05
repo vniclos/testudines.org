@@ -1,0 +1,505 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>tdoclng_testudines_taxa_all</title>
+<script src="../../../../../scripts/jquery-1.12.0.min.js" type="text/javascript"></script>
+<script src="../../../../../scripts/bootstrap.min.js" type="text/javascript"></script>
+<script src="../../../../../scripts/clipboard.min.js" type="text/javascript"></script>
+<script src="../../../../../scripts/main.js" type="text/javascript"></script>
+<link rel="stylesheet" href="../../../../../styles/bootstrap/Default.css" type="text/css">
+<link rel="stylesheet" href="../../../../../styles/main.css" type="text/css">
+</head>
+<body>
+  <div class="page-wrap">
+    <div class="watermark">
+    dbForge Documenter Trial</div>
+    <div class="header">
+      <div class="row">
+        <div class="col-xs-12">
+          <ol class="breadcrumb">
+            <li><a href="../../../../../startpage.html" data-mapping-enabled="true">Project</a></li>
+            <li><a href="../../../../../Servers\Servers.html" data-mapping-enabled="true">Servers</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\testudines20b.localhost.html" data-mapping-enabled="true">testudines20b.localhost</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\Databases\Databases.html" data-mapping-enabled="true">Databases</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\Databases\testudines20b\testudines20b.html" data-mapping-enabled="true">testudines20b</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\Databases\testudines20b\Tables\Tables.html" data-mapping-enabled="true">Tables</a></li>
+            <li class="active">tdoclng_testudines_taxa_all</li>
+          </ol>
+        </div>
+      </div>
+      <div class="row">
+        <div class="title col-xs-12">
+          <div><img class="inline-middle image-large" src="../../../../../images/table.svg" title="tdoclng_testudines_taxa_all" />
+            <h1 class="inline-middle">tdoclng_testudines_taxa_all</h1>
+            <div class="dropdown actions-btn-wrap">
+              <button type="button" class="btn btn-default actions-btn" data-toggle="dropdown"><span class="icon-actions icon-small actions-btn-span"></span></button>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li><a id="CollapseAll" href="#">Collapse All</a></li>
+                <li><a id="ExpandAll" href="#">Expand All</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+
+      <div id="Columns" class="panel panel-default">
+        <div class="panel-heading">
+          <span class="icon-bottom inline-middle expanded icon-small"></span>
+          <span class="icon-right inline-middle collapsed icon-small" style="display:none"></span>
+          <h2 class="inline-middle">Columns</h2>
+        </div>
+        <div class="panel-collapse collapse in">
+          <div class="panel-body">
+            <table class="table table-hover table-bordered table-100">
+              <tbody>
+                <tr>
+                  <th>Key</th>
+                  <th>Name</th>
+                  <th>Data Type</th>
+                  <th>Length</th>
+                  <th>Precision</th>
+                  <th>Scale</th>
+                  <th>Not Null</th>
+                  <th>Auto Increment</th>
+                  <th>Default</th>
+                  <th>Virtual</th>
+                  <th>Unsigned</th>
+                  <th>Zerofill</th>
+                  <th>Binary</th>
+                  <th class="column-description-35">Description</th>
+                </tr>
+                <tr>
+                  <td><div><a class="anchor-link" href="#Indexes"><img class="image-small vertical-align-top" src="../../../../../images/primarykey.svg" data-toggle="tooltip" title="Primary Key PRIMARY" />
+                    </a></div><div><a class="anchor-link" href="#Indexes"><img class="image-small vertical-align-top" src="../../../../../images/index.svg" data-toggle="tooltip" title="Indexes PRIMARY" />
+                    </a></div></td>
+                  <td>DocId</td>
+                  <td>BIGINT</td>
+                  <td></td>
+                  <td>20</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Atax_DocId_validRedirect</td>
+                  <td>BIGINT</td>
+                  <td></td>
+                  <td>20</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>0</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>If this is invalidate id for go to new valid taxon</td>
+                </tr>
+                <tr>
+                  <td><div><a class="anchor-link" href="#Indexes"><img class="image-small vertical-align-top" src="../../../../../images/index.svg" data-toggle="tooltip" title="Indexes ATax_ItisTsn" />
+                    </a></div></td>
+                  <td>ATax_ItisTsn</td>
+                  <td>VARCHAR</td>
+                  <td>150</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>ITS taxonomic id Number</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Atax_ItisUdatedDate</td>
+                  <td>DATE</td>
+                  <td></td>
+                  <td></td>
+                  <td>7</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>'curdate()'</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>ITIS Last update from itis</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Atax_ItisIsValid</td>
+                  <td>TINYINT</td>
+                  <td></td>
+                  <td>4</td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>1</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>ITIS True is if is valid </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATax_ItisInvalidateNote</td>
+                  <td>VARCHAR</td>
+                  <td>100</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>ITIS invalid note</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Atax_ItisValidRedirect_Tsn</td>
+                  <td>BIGINT</td>
+                  <td></td>
+                  <td>20</td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>00000000000000000000</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>ITIS tns for valid </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxNameVulgarEN</td>
+                  <td>VARCHAR</td>
+                  <td>100</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Vulgar name for english</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxNameVulgarES</td>
+                  <td>VARCHAR</td>
+                  <td>100</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Vulgar names for spanish</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxNameVulgarOthers</td>
+                  <td>LONGTEXT</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Vulgar names for other languages</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL0000Level</td>
+                  <td>CHAR</td>
+                  <td>25</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-true">True</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>'specie'</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic level for this Suborder, family, genus....specie, subespecie</td>
+                </tr>
+                <tr>
+                  <td><div><a class="anchor-link" href="#Indexes"><img class="image-small vertical-align-top" src="../../../../../images/index.svg" data-toggle="tooltip" title="Indexes TaxNameRecomended" />
+                    </a></div></td>
+                  <td>ATaxGrpL0001lNameFullRecomeded</td>
+                  <td>VARCHAR</td>
+                  <td>150</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic Full Name recomended</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL0002NameSinonimous</td>
+                  <td>LONGTEXT</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic sinonimous, dont recomeded use but valid description</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2000Class</td>
+                  <td>VARCHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>'reptilia'</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic Class;	Reptilia Laurenti, 1768 – répteis, reptiles, Reptiles</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2210Order</td>
+                  <td>VARCHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>'testudines'</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic  Order 	Testudines Batsch, 1788 – tortues, Turtles, Terrapins, Tortoises</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2220SubOrder</td>
+                  <td>VARCHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic  Suborder Cryptodira Cope, 1868 or Pleurodira Cope, 1864 </td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2230SupFamily</td>
+                  <td>VARCHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic  superfamily</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2240Family</td>
+                  <td>VARCHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic  family</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2250SubFamily</td>
+                  <td>VARCHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic subfamily</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2260SupGenus</td>
+                  <td>VARCHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonoimic supergenus</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2270Genus</td>
+                  <td>VARCHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic genus</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2280Specie</td>
+                  <td>VARCHAR</td>
+                  <td>50</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic specie</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2281SubSpecie</td>
+                  <td>LONGTEXT</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic subespecie</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2282Authority</td>
+                  <td>VARCHAR</td>
+                  <td>150</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic authority</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>ATaxGrpL2283Year</td>
+                  <td>CHAR</td>
+                  <td>4</td>
+                  <td></td>
+                  <td></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>''</td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td><p class="value-false">False</p></td>
+                  <td>Taxonomic authority year</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div id="SqlScript" class="panel panel-default">
+        <div class="panel-heading">
+          <span class="icon-bottom inline-middle expanded icon-small"></span>
+          <span class="icon-right inline-middle collapsed icon-small" style="display:none"></span>
+          <h2 class="inline-middle">SQL Script</h2>
+        </div>
+        <div class="panel-collapse collapse in">
+          <div class="panel-body">
+            <div class="zero-clipboard">
+              <span class="btn-clipboard btn-default panel-default" data-clipboard-action="copy" data-clipboard-target=".sqlscript" data-toggle="tooltip" title="Copy to clipboard">Copy</span></div><div class="sqlscript panel-default">
+              <font color="Blue">CREATE</font>&nbsp;<font color="Blue">TABLE</font>&nbsp;<font color="buttontext">tdoclng_testudines_taxa_all</font>&nbsp;<font color="buttontext">(</font><br>&nbsp;&nbsp;<font color="buttontext">DocId</font>&nbsp;<font color="Blue">BIGINT</font><font color="buttontext">(</font><font color="Green">20</font><font color="buttontext">)</font>&nbsp;<font color="Blue">UNSIGNED</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">Atax_DocId_validRedirect</font>&nbsp;<font color="Blue">BIGINT</font><font color="buttontext">(</font><font color="Green">20</font><font color="buttontext">)</font>&nbsp;<font color="Blue">UNSIGNED</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">0</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'If this is invalidate id for go to new valid taxon'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATax_ItisTsn</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">150</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'ITS taxonomic id Number'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">Atax_ItisUdatedDate</font>&nbsp;<font color="Blue">DATE</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">'curdate()'</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'ITIS Last update from itis'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">Atax_ItisIsValid</font>&nbsp;<font color="Blue">TINYINT</font><font color="buttontext">(</font><font color="Green">4</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">1</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'ITIS True is if is valid '</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATax_ItisInvalidateNote</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">100</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'ITIS invalid note'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">Atax_ItisValidRedirect_Tsn</font>&nbsp;<font color="Blue">BIGINT</font><font color="buttontext">(</font><font color="Green">20</font><font color="buttontext">)</font>&nbsp;<font color="Blue">UNSIGNED</font>&nbsp;<font color="Blue">ZEROFILL</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Green">00000000000000000000</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'ITIS tns for valid '</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxNameVulgarEN</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">100</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Vulgar name for english'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxNameVulgarES</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">100</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Vulgar names for spanish'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxNameVulgarOthers</font>&nbsp;<font color="Blue">LONGTEXT</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Vulgar names for other languages'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL0000Level</font>&nbsp;<font color="Blue">CHAR</font><font color="buttontext">(</font><font color="Green">25</font><font color="buttontext">)</font>&nbsp;<font color="Blue">NOT</font>&nbsp;<font color="Blue">NULL</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">'specie'</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic level for this Suborder, family, genus....specie, subespecie'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL0001lNameFullRecomeded</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">150</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic Full Name recomended'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL0002NameSinonimous</font>&nbsp;<font color="Blue">LONGTEXT</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic sinonimous, dont recomeded use but valid description'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2000Class</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">'reptilia'</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic Class;	Reptilia Laurenti, 1768 – répteis, reptiles, Reptiles'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2210Order</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">'testudines'</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic  Order 	Testudines Batsch, 1788 – tortues, Turtles, Terrapins, Tortoises'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2220SubOrder</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic  Suborder Cryptodira Cope, 1868 or Pleurodira Cope, 1864 '</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2230SupFamily</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic  superfamily'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2240Family</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic  family'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2250SubFamily</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic subfamily'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2260SupGenus</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonoimic supergenus'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2270Genus</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic genus'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2280Specie</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">50</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic specie'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2281SubSpecie</font>&nbsp;<font color="Blue">LONGTEXT</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic subespecie'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2282Authority</font>&nbsp;<font color="Blue">VARCHAR</font><font color="buttontext">(</font><font color="Green">150</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic authority'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="buttontext">ATaxGrpL2283Year</font>&nbsp;<font color="Blue">CHAR</font><font color="buttontext">(</font><font color="Green">4</font><font color="buttontext">)</font>&nbsp;<font color="Blue">DEFAULT</font>&nbsp;<font color="Teal">''</font>&nbsp;<font color="Blue">COMMENT</font>&nbsp;<font color="Teal">'Taxonomic authority year'</font><font color="buttontext">,</font><br>&nbsp;&nbsp;<font color="Blue">PRIMARY</font>&nbsp;<font color="Blue">KEY</font>&nbsp;<font color="buttontext">(</font><font color="buttontext">DocId</font><font color="buttontext">)</font><br><font color="buttontext">)</font><br><font color="Blue">ENGINE</font>&nbsp;<font color="buttontext">=</font>&nbsp;<font color="Blue">INNODB</font><font color="buttontext">,</font><br><font color="Blue">CHARACTER</font>&nbsp;<font color="Blue">SET</font>&nbsp;<font color="buttontext">utf8</font><font color="buttontext">,</font><br><font color="Blue">COLLATE</font>&nbsp;<font color="buttontext">utf8_general_ci</font><font color="buttontext">,</font><br><font color="Blue">ROW_FORMAT</font>&nbsp;<font color="buttontext">=</font>&nbsp;<font color="Blue">Dynamic</font><font color="buttontext">,</font><br><font color="Blue">TRANSACTIONAL</font>&nbsp;<font color="buttontext">=</font>&nbsp;<font color="Green">0</font><font color="buttontext">;</font><br><font color="Blue">ALTER</font>&nbsp;<font color="Blue">TABLE</font>&nbsp;<font color="buttontext">tdoclng_testudines_taxa_all</font>&nbsp;<br>&nbsp;&nbsp;<font color="Blue">ADD</font>&nbsp;<font color="Blue">INDEX</font>&nbsp;<font color="buttontext">ATax_ItisTsn</font><font color="buttontext">(</font><font color="buttontext">ATax_ItisTsn</font><font color="buttontext">)</font><font color="buttontext">;</font><br><font color="Blue">ALTER</font>&nbsp;<font color="Blue">TABLE</font>&nbsp;<font color="buttontext">tdoclng_testudines_taxa_all</font>&nbsp;<br>&nbsp;&nbsp;<font color="Blue">ADD</font>&nbsp;<font color="Blue">INDEX</font>&nbsp;<font color="buttontext">TaxNameRecomended</font><font color="buttontext">(</font><font color="buttontext">ATaxGrpL0001lNameFullRecomeded</font><font color="buttontext">)</font><font color="buttontext">;</font></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="col-xs-4">Author:&nbsp;</div>
+    <div class="col-xs-4 align-center">Copyright &#169; All Rights Reserved</div>
+    <div class="col-xs-4 align-right">Created:&nbsp;05/12/2019</div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<title>sp_stdVisitAcuYYYYMM</title>
+<script src="../../../../../scripts/jquery-1.12.0.min.js" type="text/javascript"></script>
+<script src="../../../../../scripts/bootstrap.min.js" type="text/javascript"></script>
+<script src="../../../../../scripts/clipboard.min.js" type="text/javascript"></script>
+<script src="../../../../../scripts/main.js" type="text/javascript"></script>
+<link rel="stylesheet" href="../../../../../styles/bootstrap/Default.css" type="text/css">
+<link rel="stylesheet" href="../../../../../styles/main.css" type="text/css">
+</head>
+<body>
+  <div class="page-wrap">
+    <div class="watermark">
+    dbForge Documenter Trial</div>
+    <div class="header">
+      <div class="row">
+        <div class="col-xs-12">
+          <ol class="breadcrumb">
+            <li><a href="../../../../../startpage.html" data-mapping-enabled="true">Project</a></li>
+            <li><a href="../../../../../Servers\Servers.html" data-mapping-enabled="true">Servers</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\testudines20b.localhost.html" data-mapping-enabled="true">testudines20b.localhost</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\Databases\Databases.html" data-mapping-enabled="true">Databases</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\Databases\testudines20b\testudines20b.html" data-mapping-enabled="true">testudines20b</a></li>
+            <li><a href="../../../../../Servers\testudines20b.localhost\Databases\testudines20b\Procedures\Procedures.html" data-mapping-enabled="true">Procedures</a></li>
+            <li class="active">sp_stdVisitAcuYYYYMM</li>
+          </ol>
+        </div>
+      </div>
+      <div class="row">
+        <div class="title col-xs-12">
+          <div><img class="inline-middle image-large" src="../../../../../images/procedure.svg" title="sp_stdVisitAcuYYYYMM" />
+            <h1 class="inline-middle">sp_stdVisitAcuYYYYMM</h1>
+            <div class="dropdown actions-btn-wrap">
+              <button type="button" class="btn btn-default actions-btn" data-toggle="dropdown"><span class="icon-actions icon-small actions-btn-span"></span></button>
+              <ul class="dropdown-menu dropdown-menu-right">
+                <li><a id="CollapseAll" href="#">Collapse All</a></li>
+                <li><a id="ExpandAll" href="#">Expand All</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content">
+
+      <div id="SqlScript" class="panel panel-default">
+        <div class="panel-heading">
+          <span class="icon-bottom inline-middle expanded icon-small"></span>
+          <span class="icon-right inline-middle collapsed icon-small" style="display:none"></span>
+          <h2 class="inline-middle">SQL Script</h2>
+        </div>
+        <div class="panel-collapse collapse in">
+          <div class="panel-body">
+            <div class="zero-clipboard">
+              <span class="btn-clipboard btn-default panel-default" data-clipboard-action="copy" data-clipboard-target=".sqlscript" data-toggle="tooltip" title="Copy to clipboard">Copy</span></div><div class="sqlscript panel-default">
+              <font color="buttontext">DELIMITER $$</font><br><font color="Blue">CREATE</font>&nbsp;<font color="Blue">DEFINER</font>&nbsp;<font color="buttontext">=</font>&nbsp;<font color="Teal">'root'</font><font color="buttontext">@'localhost'</font><br><font color="Blue">PROCEDURE</font>&nbsp;<font color="buttontext">sp_stdVisitAcuYYYYMM</font><font color="buttontext">(</font><font color="buttontext">)</font><br><font color="Blue">BEGIN</font><br><font color="Blue">SELECT</font>&nbsp;<font color="buttontext">stdDay</font><font color="buttontext">,</font>&nbsp;<font color="Maroon">COUNT</font><font color="buttontext">(</font><font color="buttontext">*</font><font color="buttontext">)</font>&nbsp;<font color="Blue">FROM</font>&nbsp;<font color="buttontext">tstd_vistitlog</font>&nbsp;&nbsp;<br><font color="Blue">where</font>&nbsp;<font color="buttontext">stdYear</font>&nbsp;<font color="buttontext">=</font>&nbsp;<font color="buttontext">iYYYY</font><br><font color="Blue">and</font>&nbsp;<font color="buttontext">stdMonth</font>&nbsp;<font color="buttontext">=</font>&nbsp;<font color="buttontext">iMM</font>&nbsp;&nbsp;<br><font color="Blue">GROUP</font>&nbsp;<font color="Blue">BY</font>&nbsp;<font color="buttontext">stdDay</font><font color="buttontext">;</font><br><font color="Blue">END</font><br><font color="buttontext">$$</font><br><font color="buttontext">DELIMITER ;</font></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="col-xs-4">Author:&nbsp;</div>
+    <div class="col-xs-4 align-center">Copyright &#169; All Rights Reserved</div>
+    <div class="col-xs-4 align-right">Created:&nbsp;05/12/2019</div>
+  </div>
+</body>
+</html>
